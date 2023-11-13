@@ -8,21 +8,172 @@
 
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
-### Use the following login credentials as needed
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-To enter your username, place your cursor in the Sign in box and click on the username below.
-To enter your password, place your cursor in the Enter password box and click on the password below.
-Azure Username: [email protected]
-Azure Password: Ag1Bh9!#Bd
-The following information is for technical support purposes only:
-Lab Instance: 10598168
 
-![Question 1 part 1](images/question1_1.jpg)
-![Question 1 part 2](images/question1_2.jpg)
-![Question 1 part 3](images/question1_3.jpg)
-![Question 1 part 4](images/question1_4.jpg)
+![Question 166 part 1](images/question166_1.jpg)
+![Question 166 part 2](images/question166_2.jpg)
+![Question 166 part 3](images/question166_3.jpg)
+![Question 166 part 4](images/question166_4.jpg)
 
-- [ ] ...BRAK ODPOWIEDZI.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. The developers at your company plan to create a web app named App10598168 and to publish the app to <https://www.contoso.com>. The developers at your company plan to create a web app named App12345678 and to publish the app to <https://www.contoso.com>. You need to perform the following tasks: Ensure that App12345678 is registered to Azure Active Directory (Azure AD). Generate a password for App12345678. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 166 part 1](images/question166_1.jpg)
+![Question 166 part 2](images/question166_2.jpg)
+![Question 166 part 3](images/question166_3.jpg)
+![Question 166 part 4](images/question166_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to email an alert to a user named <admin1@contoso.com> if the average CPU usage of a virtual machine named VM1 is greater than 70 percent for a period of 15 minutes. To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 166 part 1](images/question166_1.jpg)
+![Question 166 part 2](images/question166_2.jpg)
+![Question 166 part 3](images/question166_3.jpg)
+![Question 166 part 4](images/question166_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to create a new Azure Active Directory (Azure AD) directory named 12345678.onmicrosoft.com. The new directory must contain a user named user12345678 who is configured to sign in by using Azure Multi-Factor Authentication (MFA). To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 166 part 1](images/question166_1.jpg)
+![Question 166 part 2](images/question166_2.jpg)
+![Question 166 part 3](images/question166_3.jpg)
+![Question 166 part 4](images/question166_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that only devices connected to a 131.107.0.0/16 subnet can access data in the rg1lod1234578 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 166 part 1](images/question166_1.jpg)
+![Question 166 part 2](images/question166_2.jpg)
+![Question 166 part 3](images/question166_3.jpg)
+![Question 166 part 4](images/question166_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to collect all the audit failure data from the security log of a virtual machine named VM1 to an Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to configure Azure to allow RDP connections from the Internet to a virtual machine named VM1. The solution must minimize the attack surface of VM1.To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to add the network interface of a virtual machine named VM1 to an application security group named ASG1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that a user named user2-12345678 can manage the properties of the virtual machines in the RG1lod12345678 resource group. The solution must use the principle of least privilege. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that the rg1lod1234578n1 Azure Storage account is encrypted by using a key stored in the KeyVault12345678 Azure Key Vault. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to perform a full malware scan every Sunday at 02:00 on a virtual machine named VM1 by using Microsoft Antimalware for Virtual Machines. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent HTTP connections to the rg1lod1234578n1 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+![Question 168 part 1](images/question168_1.jpg)
+![Question 168 part 2](images/question168_2.jpg)
+![Question 168 part 3](images/question168_3.jpg)
+![Question 168 part 4](images/question168_4.jpg)
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+
+### Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetWork1 in Sub2.– Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetwork1 in Sub2. – Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to ensure that User2 can implement PIM
+
+![Question 604 part 1](images/question604_1.jpg)
+![Question 604 part 2](images/question604_2.jpg)
+![Question 604 part 3](images/question604_3.jpg)
+![Question 604 part 4](images/question604_4.jpg)
+![Question 604 part 5](images/question604_5.jpg)
+![Question 604 part 6](images/question604_6.jpg)
+![Question 604 part 7](images/question604_7.jpg)
+![Question 604 part 8](images/question604_8.jpg)
+![Question 604 part 9](images/question604_9.jpg)
+![Question 604 part 10](images/question604_10.jpg)
+![Question 604 part 11](images/question604_11.jpg)
+![Question 604 part 12](images/question604_12.jpg)
+![Question 604 part 13](images/question604_13.jpg)
+
+- [ ] Assign User2 the Global administrator role.
+- [ ] Configure authentication methods for contoso.com.
+- [ ] Configure the identity secure score for contoso.com.
+- [x] Enable multi-factor authentication (MFA) for User2.
+
 
 ### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: Ensures that password policies and user logon restrictions apply to user accounts that are synced to the Tenant Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
 
@@ -63,15 +214,6 @@ Contoso.com contains the users shown in the following table.
 - [ ] Box 1: 2. Box 2: 0.
 - [x] Box 1: 0. Box 2: 1.
 
-### Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: [email protected] Azure Password: Ag1Bh9!#Bd The following information is for technical support purposes only: Lab Instance: 10598168
-
-![Question 6 part 1](images/question6_1.jpg)
-![Question 6 part 2](images/question6_2.jpg)
-![Question 6 part 3](images/question6_3.jpg)
-![Question 6 part 4](images/question6_4.jpg)
-
-- [ ] ...BRAK ODPOWIEDZI.
-
 ### You have an Azure subscription that contains a resource group named RG1 and a security group serverless RG1 contains 10 virtual machine, a virtual network VNET1, and a network security group (NSG) named NSG1. ServerAdmins can access the virtual machines by using RDP. You need to ensure that NSG1 only RDP connections to the virtual for a maximum of 60 minutes when a member of ServerAdmins requests access. What should you configure?
 
 - [ ] an Azure Active Directory (Azure AD) Privileged identity Management (PIM) role assignment.
@@ -85,15 +227,6 @@ Contoso.com contains the users shown in the following table.
 - [x] Add an app setting to the WebApp1 configuration..
 - [ ] Enable system-assigned managed identity for the WebApp1..
 - [ ] Configure the TLS/SSL binding for WebApp1.
-
-### Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: [email protected] Azure Password: Ag1Bh9!#Bd The following information is for technical support purposes only: Lab Instance: 10598168
-
-Question 9 part 1](images/question9_1.jpg)
-Question 9 part 2](images/question9_2.jpg)
-Question 9 part 3](images/question9_3.jpg)
-Question 9 part 4](images/question9_4.jpg)
-
-- [ ] ... BRAK ODPPOWIEDZI.
 
 ### Your company plans to create separate subscriptions for each department. Each subscription will be associated to the same Azure Active Directory (Azure AD) tenant. You need to configure each subscription to have the same role assignments. What should you use?
 
@@ -278,7 +411,7 @@ From VM3, you can upload a blob to storageacc1.
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure subscription named Sub1 that contains the Azure key vaults shown in the following table.In Sub1, you create a virtual machine that has the following configurations: • Name:VM1 • Size: DS2v2 • Resource group: RG1 • Region: West Europe • Operating system: Windows Server 2016 You plan to enable Azure Disk Encryption on VM1. In which key vaults can you store the encryption key for VM1?
+### You have an Azure subscription named Sub1 that contains the Azure Key Vaults shown in the following table.In Sub1, you create a virtual machine that has the following configurations: • Name:VM1 • Size: DS2v2 • Resource group: RG1 • Region: West Europe • Operating system: Windows Server 2016 You plan to enable Azure Disk Encryption on VM1. In which key vaults can you store the encryption key for VM1?
 
 ![Question 36](images/question36.jpg)
 
@@ -291,10 +424,10 @@ From VM3, you can upload a blob to storageacc1.
 
 ![Question 37](images/question37.jpg)
 
-- [ ] Configure secrets for the Azure key vault.
+- [ ] Configure secrets for the Azure Key Vault.
 - [x] Create an Azure key valut.
 - [ ] Run Set-AzureRmStorageAccount.
-- [x] Configure access policies for the Azure key vault.
+- [x] Configure access policies for the Azure Key Vault.
 - [x] Run Set-AzureRmVmDiskEncryptiomExtension.
 
 ### You are evaluating the security of VM1, VM2, and VM3 in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
@@ -370,7 +503,7 @@ On June 15,2019, User3 can activate the Contributor role.
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure subscription that contains a web app named App1 and an Azure key vault named Vault1. You need to configure App1 to store and access the secrets in Vault1. How should you configure App1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Configure App1 to authenticate by using a: Configure a Key Vault reference foe App1 from the
+### You have an Azure subscription that contains a web app named App1 and an Azure Key Vault named Vault1. You need to configure App1 to store and access the secrets in Vault1. How should you configure App1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Configure App1 to authenticate by using a: Configure a Key Vault reference foe App1 from the
 
 ![Question 46](images/question46.jpg)
 
@@ -458,7 +591,7 @@ VM4 can connect to storage1.
 - [ ] Yes.
 - [x] No
 
-### You need to create an Azure key vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You need to create an Azure Key Vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
 
 ![Question 60](images/question 60.jpg)
 
@@ -482,7 +615,7 @@ VM4 can connect to storage1.
 
 ### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. General Overview Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Existing Environment Network Environment Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the
 
-following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table.Subscription1 Resources Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure key vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Planned Changes and Requirements Planned Changes Fabrikam plans to implement the following changes: ✑ Create two application security groups as shown in the following table.✑ Associate the network interface of VM1 to ASG1. ✑ Deploy SecPol1 by using Azure Security Center. ✑ Deploy a third-party app named App1. A version of App1 exists for all available operating systems. ✑ Create a resource group named RG2. ✑ Sync OU2 to Azure AD. ✑ Add User1 to Group1. Technical Requirements Fabrikam identifies the following technical requirements: ✑ The finance department users must reauthenticate after three hours when they access SharePoint Online. ✑ Storage1 must be encrypted by using customer-managed keys and automatic key rotation. ✑ From Sentinel1, you must ensure that the following notebooks can be launched: ✑ VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. ✑ Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. ✑ App1 must use a secure connection string stored in KeyVault1. ✑ KeyVault1 traffic must NOT travel over the internet. You need to meet the technical requirements for the finance department users.
+following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table.Subscription1 Resources Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Planned Changes and Requirements Planned Changes Fabrikam plans to implement the following changes: ✑ Create two application security groups as shown in the following table.✑ Associate the network interface of VM1 to ASG1. ✑ Deploy SecPol1 by using Azure Security Center. ✑ Deploy a third-party app named App1. A version of App1 exists for all available operating systems. ✑ Create a resource group named RG2. ✑ Sync OU2 to Azure AD. ✑ Add User1 to Group1. Technical Requirements Fabrikam identifies the following technical requirements: ✑ The finance department users must reauthenticate after three hours when they access SharePoint Online. ✑ Storage1 must be encrypted by using customer-managed keys and automatic key rotation. ✑ From Sentinel1, you must ensure that the following notebooks can be launched: ✑ VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. ✑ Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. ✑ App1 must use a secure connection string stored in KeyVault1. ✑ KeyVault1 traffic must NOT travel over the internet. You need to meet the technical requirements for the finance department users.
 
 ![Question 62 part 1](images/question62_1.jpg)
 ![Question 62 part 2](images/question62_2.jpg)
@@ -592,7 +725,7 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 
 - [ ] ...
 
-### You have an Azure key vault. You need to delegate administrative access to the key vault to meet the following requirements: ✑ Provide a user named User1 with the ability to set advanced access policies for the key vault. ✑ Provide a user named User2 with the ability to add and delete certificates in the key vault. ✑ Use the principle of least privilege. What should you use to assign access to each user? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. User1: User2
+### You have an Azure Key Vault. You need to delegate administrative access to the key vault to meet the following requirements: ✑ Provide a user named User1 with the ability to set advanced access policies for the key vault. ✑ Provide a user named User2 with the ability to add and delete certificates in the key vault. ✑ Use the principle of least privilege. What should you use to assign access to each user? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. User1: User2
 
 ![Question 80](images/question80.jpg)
 
@@ -749,7 +882,7 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [ ] Modify the Directory properties.
 - [ ] Configure the Consent and permissions settings for enterprise applications.
 
-### You have an Azure subscription that contains an Azure key vault named ContosoKey1. You create users and assign them roles as shown in the following table
+### You have an Azure subscription that contains an Azure Key Vault named ContosoKey1. You create users and assign them roles as shown in the following table
 
 ![Question 108 part 1](images/question108_1.jpg)
 ![Question 108 part 2](images/question108_2.jpg)
@@ -860,10 +993,6 @@ From VM1, you can connect to the web server on VM4.
 - [ ] Add an extension to WebApp1.
 - [ ] Deploy Azure Firewall.
 
-.onmicrosoft.com. The new directory must contain a user named user10317806 who is configured to sign in by using Azure Multi-Factor Authentication (MFA).
-
-- [ ] BRAK ODPOWIEDZI
-
 ### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure SQL Database instance that is configured to support Azure AD authentication. Database developers must connect to the database instance and authenticate by using their on-premises Active Directory account. You need to ensure that developers can connect to the instance by using Microsoft SQL Server Management Studio. The solution must minimize authentication prompts.Which authentication method should you recommend?
 
 - [ ] Active Directory – Password.
@@ -927,7 +1056,7 @@ From VM1, you can connect to the web server on VM4.
 - [ ] Scale up the App Service plan of Contoso1812.
 - [x] Upload a PFX file to Contoso1812.
 
-### You have an Azure subscription that contains an Azure key vault named Vault1. On January 1, 2019, Vault1 stores the following secrets. Which can each secret be used by an application? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Password1: Password2
+### You have an Azure subscription that contains an Azure Key Vault named Vault1. On January 1, 2019, Vault1 stores the following secrets. Which can each secret be used by an application? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Password1: Password2
 
 ![Question 154 part 1](images/question154_1.jpg)
 ![Question 154 part 2](images/question154_2.jpg)
@@ -965,24 +1094,6 @@ From VM1, you can connect to the web server on VM4.
 - [ ] a managed identity
 - [ ] a user account.
 
-### Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: [email protected] Azure Password: Ag1Bh9!#Bd The following information is for technical support purposes only: Lab Instance: 10598168 You need to ensure that only devices connected to a 131.107.0.0/16 subnet can access data in the rg1lod10598168 Azure Storage account. To complete this task, sign in to the Azure portal
-
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
-
-- [ ] ... BRAK ODPOWIEDZI
-
-### Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: [email protected] Azure Password: Ag1Bh9!#Bd The following information is for technical support purposes only: Lab Instance: 10598168 You need to collect all the audit failure data from the security log of a virtual machine named VM1 to an Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete You can perform other tasks while the task completes
-
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
-
-- [ ] ... BRAK ODPOWEIDZI
-
 ### You have an Azure subscription. You plan to create a custom role-based access control (RBAC) role that will provide permission to read the Azure Storage account. Which property of the RBAC role definition should you configure?
 
 - [ ] NotActions [].
@@ -1014,7 +1125,7 @@ From VM1, you can connect to the web server on VM4.
 - [ ] Add a membership rule to Group1.
 - [ ] Delete Group1. Create a new group named Group1 that has a membership type of Office 365. Add users and devices to the group..
 - [ ] Modify the membership rule of Group1..
-- [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.onmicrosoft.com. The new directory must contain a user named user10317806 who is configured to sign in by using Azure Multi-Factor Authentication (MFA).
+- [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.onmicrosoft.com.
 
 ### You have an Azure subscription named Sub1. In Azure Security Center, you have a security playbook named Play1. Play1 is configured to send an email message to a user named User1. You need to modify Play1 to send email messages to a distribution group named Alerts. What should you use to modify Play1?
 
@@ -1032,7 +1143,7 @@ From VM1, you can connect to the web server on VM4.
 - [ ] Azure Active Directory (Azure AD) conditional access.
 - [x] Just in time (JIT) VM access
 
-### You have an Azure subscription named Sub1 that contains an Azure Storage account named Contosostorage1 and an Azure key vault named Contosokeyvault1. You plan to create an Azure Automation runbook that will rotate the keys of Contosostorage1 and store them in Contosokeyvault1. You need to implement prerequisites to ensure that you can implement the runbook. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### You have an Azure subscription named Sub1 that contains an Azure Storage account named Contosostorage1 and an Azure Key Vault named Contosokeyvault1. You plan to create an Azure Automation runbook that will rotate the keys of Contosostorage1 and store them in Contosokeyvault1. You need to implement prerequisites to ensure that you can implement the runbook. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
 
 ![Question193](images/question193.jpg)
 
@@ -1094,28 +1205,6 @@ From VM1, you can connect to the web server on VM4.
 - [x] Modify the role-based access control (RBAC) role assignments for the root management group..
 - [ ] Create a user-assigned identity..
 - [ ] Create a service principal.
-
-### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The multi-factor settings for contoso.com are configured as shown in the following exhibit. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 219 part 1](images/question219_1.jpg)
-![Question 219 part 2](images/question219_2.jpg)
-![Question 219 part 3](images/question219_3.jpg)
-![Question 219 part 4](images/question219_4.jpg)
-
-When User1 signs in to Device1 from the Seattle office on June 10, the user will be prompted for MFA.
-
-- [ ] Yes.
-- [x] No.
-
-When User2 signs in to Device2 from the Bostin office on June 5, the user will be prompted for MFA.
-
-- [x] Yes.
-- [ ] No.
-
-When User1 signs in to to a new device from the Seattle office on June 7, the user will be prompted for MFA.
-
-- [x] Yes.
-- [ ] No.
 
 ### You have 15 Azure virtual machines in a resource group named RG1. All virtual machines run identical applications. You need to prevent unauthorized applications and malware from running on the virtual machines. What should you do?
 
@@ -1192,7 +1281,7 @@ User4 can print File1.
 - [ ] Upload the container images by using AzCopy.
 - [ ] Push the container images to Registry1 by using Docker
 
-### You have the Azure key vaults shown in the following table. KV1 stores a secret named Secret1 and a key for a managed storage account named Key1. You back up Secret1 and Key1. To which key vaults can you restore each backup? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. You can restore the Secret1 backup to: You can restore the Key1 backup to
+### You have the Azure Key Vaults shown in the following table. KV1 stores a secret named Secret1 and a key for a managed storage account named Key1. You back up Secret1 and Key1. To which key vaults can you restore each backup? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. You can restore the Secret1 backup to: You can restore the Key1 backup to
 
 ![Question 249 part 1](images/question249_1.jpg)
 ![Question 249 part 2](images/question249_2.jpg)
@@ -1355,7 +1444,7 @@ From Vm1, you can connect to tje web server on VM4.
 - [ ] Box 1: Rule3 and Rule 4 only Box 2: Rule4 only.
 - [ ] Box 1: Rule1, Rule2, Rule3, and Rule 4 Box 2: Rule2 only.
 
-### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure key vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
+### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
 
 - [ ] a key vault access policy.
 - [x] a linked template.
@@ -1477,10 +1566,10 @@ Users external to the Contoso named location must use multi-factor authenticatio
 
 ![Question 342](images/question342.jpg)
 
-- [ ] Configure secrets for Azure key vault.
-- [x] Create an Azure key vault.
+- [ ] Configure secrets for Azure Key Vault.
+- [x] Create an Azure Key Vault.
 - [ ] Run Set-AzureRmStorageAccount.
-- [x] Configure access policies for the Azure key vault.
+- [x] Configure access policies for the Azure Key Vault.
 - [x] Run Set-AzureRmVmDiskEncryptionExtension.
 
 ### You have an Azure subscription that contains the resources shown in the following table. You need to ensure that ServerAdmins can perform the following tasks: Create virtual machine to the existing virtual network in RG2 only. The solution must use the principle of least privilege. Which two role-based access control (RBAC) roles should you assign to ServerAdmins? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
@@ -1709,7 +1798,7 @@ User1 can attach the network interface of VM1 to VNET1.
 - [ ] a delegated permission that requires admin consent.
 - [ ] an application permission that requires admin consent.
 
-### You need to create an Azure key vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You need to create an Azure Key Vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
 
 ![Question 442](images/question442.jpg)
 
@@ -1811,7 +1900,7 @@ From VM1, you can successfully ping the public IP address of VM5.
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure subscription that contains an Azure key vault named Vault1. In Vault1, you create a secret named Secret1. An application developer registers an application in Azure Active Directory (Azure AD). You need to ensure that the application can use Secret1. What should you do?
+### You have an Azure subscription that contains an Azure Key Vault named Vault1. In Vault1, you create a secret named Secret1. An application developer registers an application in Azure Active Directory (Azure AD). You need to ensure that the application can use Secret1. What should you do?
 
 - [ ] In Azure AD, create a role.
 - [ ] In Azure Key Vault, create a key.
@@ -1991,10 +2080,6 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Yes.
 - [x] No.
 
-### You need to create a new Azure Active Directory (Azure AD) directory named 11641655.onmicrosoft.com and a user named User1 in the new directory. The solution must ensure that User1 is enabled for Azure Multi-Factor Authentication (MFA). To complete this task, sign in to the Azure portal
-
-- [ ] BRAK ODPOWEIDZI
-
 ### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
 - [x] Turn on the system-assigned managed identity for Contoso1812.
@@ -2017,7 +2102,7 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Create an RBAC binding.
 - [x] Create a custom RBAC role.
 
-### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure key vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters.  What should you use to construct the resource ID?
+### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters.  What should you use to construct the resource ID?
 
 ![Question 572](images/question572.jpg)
 
@@ -2045,10 +2130,6 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Azure Policy.
 - [ ] Azure AD Privileged Identity Management (PIM).
 - [x] Azure Blueprints
-
-### The developers at your company plan to create a web app named App10598168 and to publish the app to <https://www.contoso.com>. You need to perform the following tasks: – Ensure that App10598168 is registered to Azure Active Directory (Azure AD). – Generate a password for App10598168. To complete this task, sign in to the Azure portal
-
-- [ ] ...BRAK ODPOWIEDZI
 
 ### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: – Users with leaked credentials – Impossible travel to atypical locations – Sign-ins from IP addresses with suspicious activity Which level should you identify for each risk event? To answer, drag the appropriate levels to the correct risk events. Each level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
 
@@ -2107,27 +2188,6 @@ Sign ins from IP addresses with suspicious activity:
 
 - [x] Yes
 - [ ] No.
-
-### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. When the Next button is available, click it to access the lab section. In this section, you will perform a set of tasks in a live environment. While most functionality will be available to you as it would be in a live environment some functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design. Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter how you accomplish the task, if you successfully perform it, you will earn credit for that task. Labs are not timed separately, and this exam may have more than one lab that you must complete. You can use as much time as you would like to complete each lab. But, you should manage your time appropriately to ensure that you are able to complete the lab{s) and all Please note that once you submit your work by clicking the Next button within a lab. Task 1: You need to configure Azure to allow RDP connections from the Internet to a virtual machine named VM1. The solution must minimize the attack surface of VM1. To complete this task, sign in to the Azure portal. Task 2: You need to add the network interface of a virtual machine named VM1 to an application security group named ASG1. To complete this task, sign in to the Azure portal. Task 3: You need to perform a full malware scan every Sunday at 02:00 on a virtual machine named VM1 by using Microsoft Antimalware for Virtual Machines. Task 4: The developers at your company plan to create a web app named App103178O6 and to publish the app to htlps://www.contoso.com. You need to perform the following tasks: • Ensure that App10317806 is registered lo Azure Active Directory (Azure AD). • Generate a password for App10317806. Task 5: You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. Task 6: You need to ensure that a user named user2103l7806 can manage the properties of the virtual machines in the RG1lod10317806 resource group. The solution must use the principle of least privilege. Task 7: You need to ensure that only devices connected to a 131.107.0.0/16 subnet can access data in the railod10317806 Azure Storage account, Task 8: You need to email an alert to a user named <admin1@contoso.com> if the average CPU usage of a virtual machine named VM1 is greater than 70 percent for a period of 15 minutes. Task 9: You need to collect all the audit failure data from the security log of a virtual machine named VM1 to an Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes. Task 10: You need to prevent HTTP connections to the rg1lodl03l7806n1 Azure Storage account. Task 11: You need to ensure that the rg1lod10317806n1 Azure Storage account is encrypted by using a key stored in the KeyVault10317806 Azure key vault. Task 12: You need to create a new Azure Active Directory (Azure AD) directory named 10317806.onmicrosoft.com. The new directory must contain a user named userl103l7806.onmicrosoft.com who is configured to sign in by using Azure Multi-Factor Authentication (MFA). This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetWork1 in Sub2.– Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetwork1 in Sub2. – Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to ensure that User2 can implement PIM
-
-![Question 604 part 1](images/question604_1.jpg)
-![Question 604 part 2](images/question604_2.jpg)
-![Question 604 part 3](images/question604_3.jpg)
-![Question 604 part 4](images/question604_4.jpg)
-![Question 604 part 5](images/question604_5.jpg)
-![Question 604 part 6](images/question604_6.jpg)
-![Question 604 part 7](images/question604_7.jpg)
-![Question 604 part 8](images/question604_8.jpg)
-![Question 604 part 9](images/question604_9.jpg)
-![Question 604 part 10](images/question604_10.jpg)
-![Question 604 part 11](images/question604_11.jpg)
-![Question 604 part 12](images/question604_12.jpg)
-![Question 604 part 13](images/question604_13.jpg)
-
-- [ ] Assign User2 the Global administrator role.
-- [ ] Configure authentication methods for contoso.com.
-- [ ] Configure the identity secure score for contoso.com.
-- [x] Enable multi-factor authentication (MFA) for User2.
 
 ### Your network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. You configure a multi-factor authentication (MFA) registration policy that has the following settings: – Assignments: – Include: Group1 – Exclude Group2 – Controls: Require Azure MFA registration – Enforce Policy: On For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
