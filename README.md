@@ -10,11 +10,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
+![Question 1 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 1 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 1 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 1 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -23,10 +22,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. The developers at your company plan to create a web app named App10598168 and to publish the app to <https://www.contoso.com>. The developers at your company plan to create a web app named App12345678 and to publish the app to <https://www.contoso.com>. You need to perform the following tasks: Ensure that App12345678 is registered to Azure Active Directory (Azure AD). Generate a password for App12345678. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
+![Question 2 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 2 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 2 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 2 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -35,10 +34,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to email an alert to a user named <admin1@contoso.com> if the average CPU usage of a virtual machine named VM1 is greater than 70 percent for a period of 15 minutes. To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
+![Question 3 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 3 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 3 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 3 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -47,10 +46,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to create a new Azure Active Directory (Azure AD) directory named 12345678.onmicrosoft.com. The new directory must contain a user named user12345678 who is configured to sign in by using Azure Multi-Factor Authentication (MFA). To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
+![Question 4 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 4 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 4 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 4 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -59,10 +58,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that only devices connected to a 131.107.0.0/16 subnet can access data in the rg1lod1234578 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 166 part 1](images/question166_1.jpg)
-![Question 166 part 2](images/question166_2.jpg)
-![Question 166 part 3](images/question166_3.jpg)
-![Question 166 part 4](images/question166_4.jpg)
+![Question 5 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 5 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 5 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 5 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -71,10 +70,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to collect all the audit failure data from the security log of a virtual machine named VM1 to an Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 6 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 6 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 6 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 6 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -83,10 +82,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to configure Azure to allow RDP connections from the Internet to a virtual machine named VM1. The solution must minimize the attack surface of VM1.To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 7 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 7 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 7 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 7 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -95,10 +94,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to add the network interface of a virtual machine named VM1 to an application security group named ASG1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 8 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 8 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 8 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 8 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -107,10 +106,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that a user named user2-12345678 can manage the properties of the virtual machines in the RG1lod12345678 resource group. The solution must use the principle of least privilege. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 9 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 9 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 9 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 9 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -119,10 +118,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that the rg1lod1234578n1 Azure Storage account is encrypted by using a key stored in the KeyVault12345678 Azure Key Vault. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 10 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 10 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 10 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 10 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -131,10 +130,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to perform a full malware scan every Sunday at 02:00 on a virtual machine named VM1 by using Microsoft Antimalware for Virtual Machines. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 11 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 11 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 11 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 11 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -143,10 +142,10 @@
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent HTTP connections to the rg1lod1234578n1 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
-![Question 168 part 1](images/question168_1.jpg)
-![Question 168 part 2](images/question168_2.jpg)
-![Question 168 part 3](images/question168_3.jpg)
-![Question 168 part 4](images/question168_4.jpg)
+![Question 12 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
+![Question 12 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
+![Question 12 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
+![Question 12 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
