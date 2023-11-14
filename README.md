@@ -152,27 +152,140 @@
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
 
-### Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetWork1 in Sub2.– Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetwork1 in Sub2. – Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to ensure that User2 can implement PIM
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM2.
 
-![Question 604 part 1](images/question604_1.jpg)
-![Question 604 part 2](images/question604_2.jpg)
-![Question 604 part 3](images/question604_3.jpg)
-![Question 604 part 4](images/question604_4.jpg)
-![Question 604 part 5](images/question604_5.jpg)
-![Question 604 part 6](images/question604_6.jpg)
-![Question 604 part 7](images/question604_7.jpg)
-![Question 604 part 8](images/question604_8.jpg)
-![Question 604 part 9](images/question604_9.jpg)
-![Question 604 part 10](images/question604_10.jpg)
-![Question 604 part 11](images/question604_11.jpg)
-![Question 604 part 12](images/question604_12.jpg)
-![Question 604 part 13](images/question604_13.jpg)
+![Question 13 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 13 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 13 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 13 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 13 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 13 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 13 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 13 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 13 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 13 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 13 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 13 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 13 part 13](images/question13_14_15_16_17_18_19_13.png)
 
-- [ ] Assign User2 the Global administrator role.
+- [ ] Yes.
+- [x] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM3.
+
+![Question 14 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 14 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 14 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 14 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 14 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 14 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 14 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 14 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 14 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 14 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 14 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 14 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 14 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [x] Yes.
+- [ ] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM5.
+
+![Question 15 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 15 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 15 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 15 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 15 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 15 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 15 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 15 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 15 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 15 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 15 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 15 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 15 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [ ] Yes.
+- [x] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM4.
+
+![Question 16 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 16 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 16 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 16 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 16 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 16 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 16 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 16 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 16 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 16 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 16 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 16 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 16 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [ ] Yes.
+- [x] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM2, you can successfully ping the private IP address of VM4.
+
+![Question 17 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 17 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 17 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 17 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 17 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 17 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 17 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 17 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 17 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 17 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 17 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 17 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 17 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [x] Yes.
+- [ ] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM1, you can connect to the web server on VM4.
+
+![Question 18 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 18 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 18 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 18 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 18 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 18 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 18 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 18 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 18 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 18 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 18 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 18 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 18 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [x] Yes.
+- [ ] No.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetWork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You need to ensure that User2 can implement PIM. What should you do first?
+
+![Question 19 part 1](images/question13_14_15_16_17_18_19_1.png)
+![Question 19 part 2](images/question13_14_15_16_17_18_19_2.png)
+![Question 19 part 3](images/question13_14_15_16_17_18_19_3.png)
+![Question 19 part 4](images/question13_14_15_16_17_18_19_4.png)
+![Question 19 part 5](images/question13_14_15_16_17_18_19_5.png)
+![Question 19 part 6](images/question13_14_15_16_17_18_19_6.png)
+![Question 19 part 7](images/question13_14_15_16_17_18_19_7.png)
+![Question 19 part 8](images/question13_14_15_16_17_18_19_8.png)
+![Question 19 part 9](images/question13_14_15_16_17_18_19_9.png)
+![Question 19 part 10](images/question13_14_15_16_17_18_19_10.png)
+![Question 19 part 11](images/question13_14_15_16_17_18_19_11.png)
+![Question 19 part 12](images/question13_14_15_16_17_18_19_12.png)
+![Question 19 part 13](images/question13_14_15_16_17_18_19_13.png)
+
+- [x] Assign User2 the Global administrator role.
 - [ ] Configure authentication methods for contoso.com.
 - [ ] Configure the identity secure score for contoso.com.
 - [x] Enable multi-factor authentication (MFA) for User2.
-
 
 ### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: Ensures that password policies and user logon restrictions apply to user accounts that are synced to the Tenant Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
 
@@ -555,13 +668,6 @@ On June 15,2019, User3 can activate the Contributor role.
 - [ ] VM3 and VM4 only.
 - [x] VM1, VM2, VM3, and VM4.
 
-### You need to ensure that User2 can implement PIM. What should you do first?
-
-- [ ] Assign User2 the Global administrator role.
-- [ ] Configure authentication methods for contoso.com.
-- [ ] Configure the identity secure score for contoso.com.
-- [x] Enable multi-factor authentication (MFA) for User2.
-
 ### You have an app that uses an Azure SQL database. You need to be notified if a SQL injection attack is launched against the database. What should you do?
 
 - [ ] Modify the Diagnostics settings for the database.
@@ -679,26 +785,6 @@ VM3 can be accessed by using Remote Deskopt from the internet.
 - [x] Yes.
 - [ ] No.
 
-### You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 73 part 1](images/question73_1.jpg)
-![Question 73 part 2](images/question73_2.jpg)
-
-From VM1, you can successfully ping the private IP address of VM4.
-
-- [x] Yes.
-- [ ] No.
-
-From VM2, you can successfully ping the private IP address of AM4.
-
-- [x] Yes.
-- [ ] No
-
-From VM1, you can connect to the web server on VM4.
-
-- [x] Yes.
-- [ ] No.
-
 ### You have an Azure subscription named Subcription1 that contains an Azure Active Directory (Azure AD) tenant named contosos.com and a resource group named RG1. You create a custom role named Role1 for contoso.com. You need to identify where you can use Role1 for permission delegation. What should you identify?
 
 - [ ] contoso.com only.
@@ -751,20 +837,6 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [x] Cloud application administrator.
 
 ### Topic 2, Contoso. This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttos in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetWork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.co Existing Environment Azure AD Contoso.com contains the users shown in the following table.Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetwork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to meet the technical requirements for VNetwork1
-
-![Question 84 part 1](images/question84_1.jpg)
-![Question 84 part 2](images/question84_2.jpg)
-![Question 84 part 3](images/question84_3.jpg)
-![Question 84 part 4](images/question84_4.jpg)
-![Question 84 part 5](images/question84_5.jpg)
-![Question 84 part 6](images/question84_6.jpg)
-![Question 84 part 7](images/question84_7.jpg)
-![Question 84 part 8](images/question84_8.jpg)
-![Question 84 part 9](images/question84_9.jpg)
-![Question 84 part 10](images/question84_10.jpg)
-![Question 84 part 11](images/question84_11.jpg)
-![Question 84 part 12](images/question84_12.jpg)
-![Question 84 part 13](images/question84_13.jpg)
 
 - [x] Create a new subnet on VNetwork1.
 - [ ] Remove the NSGs from Subnet11 and Subnet13.
@@ -921,25 +993,6 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [ ] Box 1: User1 and User3 only Box 2: User1, User2, User3, and User4.
 - [ ] Box 1: User1, User2 and User3 only Box 2: User1 and User2 only.
 - [ ] Box 1: User1, User2, User3, and User4 Box 2: User1 and User3 only.
-
-### You are evaluating the security of the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 114](images/question114.jpg)
-
-From VM1, you can successfully ping the private IP address of VM4.
-
-- [ ] Yes.
-- [x] No.
-
-From VM2, you can successfully ping the private IP address of VM4.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can connect to the web server on VM4.
-
-- [x] Yes.
-- [ ] No.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy the On-premises data gateway to the on-premises network. Does this meet the goal?
 
@@ -1326,37 +1379,6 @@ User3 will be promped to configure MFA registration during the user's next Azure
 - [x] From the Azure portal, select the virtual machine, select Connect, and then select Request access.
 - [ ] From the Azure portal, select the virtual machine and add the Network Watcher Agent machine extension.
 
-### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetWork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.com Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetwork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.com. HOTSPOT You are evaluating the security of the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 276 part 1](images/question276_1.jpg)
-![Question 276 part 2](images/question276_2.jpg)
-![Question 276 part 3](images/question276_3.jpg)
-![Question 276 part 4](images/question276_4.jpg)
-![Question 276 part 5](images/question276_5.jpg)
-![Question 276 part 6](images/question276_6.jpg)
-![Question 276 part 7](images/question276_7.jpg)
-![Question 276 part 8](images/question276_8.jpg)
-![Question 276 part 9](images/question276_9.jpg)
-![Question 276 part 10](images/question276_10.jpg)
-![Question 276 part 11](images/question276_11.jpg)
-![Question 276 part 12](images/question276_12.jpg)
-![Question 276 part 13](images/question276_13.jpg)
-
-From VM1, you can successfully ping the private IP address of MV4.
-
-- [ ] Yes.
-- [x] No.
-
-From VM2, you can successfully ping the private IP address of MV4.
-
-- [x] Yes.
-- [ ] No.
-
-From Vm1, you can connect to tje web server on VM4.
-
-- [x] Yes.
-- [ ] No.
-
 ### You have an azure active Directory (Azure AD) tenant that contains the resources shown in the following table. User2 is the owner of Group2. The user and group settings for App1 are configured as shown in the following exhibit. Groupe awanser: App1 users
 
 ![Question 278 part 1](images/question278_1.jpg)
@@ -1402,27 +1424,6 @@ From Vm1, you can connect to tje web server on VM4.
 ### You need to ensure that connections through an Azure Application Gateway named Homepage-AGW are inspected for malicious requests. To complete this task, sign in to the Azure portal. You do not need to wait for the task to complete
 
 - [ ] BRAK ODPOWIEDZI
-
-### Topic 2, Contoso This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: • Deploy Azure Firewall to VNetWork1 in Sub2. • Regiter an application named App2 in contoso.com. • Whenever possible, use the principle of least privilege. • Enable Azure AD Privileged Identity Management (PIM) for contoso.com Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table.  NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: • Deploy Azure Firewall to VNetwork1 in Sub2. • Register an application named App2 in contoso.com. • Whenever possible, use the principle of least privilege. • Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to ensure that User2 can implement PIM. What should you do first?
-
-![Question 292 part 1](images/question292_1.jpg)
-![Question 292 part 2](images/question292_2.jpg)
-![Question 292 part 3](images/question292_3.jpg)
-![Question 292 part 4](images/question292_4.jpg)
-![Question 292 part 5](images/question292_5.jpg)
-![Question 292 part 6](images/question292_6.jpg)
-![Question 292 part 7](images/question292_7.jpg)
-![Question 292 part 8](images/question292_8.jpg)
-![Question 292 part 9](images/question292_9.jpg)
-![Question 292 part 10](images/question292_10.jpg)
-![Question 292 part 11](images/question292_11.jpg)
-![Question 292 part 12](images/question292_12.jpg)
-![Question 292 part 13](images/question292_13.jpg)
-
-- [ ] Assign User2 the Global administrator role.
-- [ ] Configure authentication methods for contoso.com.
-- [ ] Configure the identity secure score for contoso.com.
-- [x] Enable multi-factor authentication (MFA) for User2.
 
 ### You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources
 
@@ -1678,26 +1679,6 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] Yes.
 - [x] No.
 
-### You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 394 part 1](images/question394_1.jpg)
-![Question 394 part 2](images/question394_2.jpg)
-
-From VM1, you can successfully ping the private IP address of VM4.
-
-- [ ] Yes.
-- [x] No.
-
-From VM2, you can successfully ping the private IP address of VM4.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can connect to the web server on VM4.
-
-- [x] Yes.
-- [ ] No.
-
 ### You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
@@ -1880,25 +1861,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [x] branch policies.
 - [ ] branch locking
 
-### You are evaluating the security of the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 475](images/question475.jpg)
-
-From VM1, you can successfully ping the public IP address of VM2.
-
-- [ ] Yes.
-- [x] No.
-
-From VM1, you can successfully ping the private IP address of VM3.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the public IP address of VM5.
-
-- [x] Yes.
-- [ ] No.
-
 ### You have an Azure subscription that contains an Azure Key Vault named Vault1. In Vault1, you create a secret named Secret1. An application developer registers an application in Azure Active Directory (Azure AD). You need to ensure that the application can use Secret1. What should you do?
 
 - [ ] In Azure AD, create a role.
@@ -2034,30 +1996,6 @@ You can create a virtual machine in RG2.
 - [ ] Yes.
 - [x] No.
 
-### You are evaluating the security of the network communication between the virtual machines in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 564 part 1](images/question564_1.jpg)
-![Question 564 part 2](images/question564_2.jpg)
-![Question 564 part 3](images/question564_3.jpg)
-![Question 564 part 4](images/question564_4.jpg)
-![Question 564 part 5](images/question564_5.jpg)
-![Question 564 part 6](images/question564_6.jpg)
-
-From VM1, you can successfully ping the public IP address of VM2.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the private IP address of VM3.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the public IP address of VM5.
-
-- [ ] Yes.
-- [x] No.
-
 ### You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: – Assignment: Include Group1, Exclude Group2 – Conditions: Sign-in risk of Medium and above – Access: Allow access, Require password change You have an Azure Active Directory (Azure AD) ten ant named contoso.com that contains the u sers shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: • Assignment: Include Group1, Exclude Group2 • Conditions: Sign-in risk of Medium and above • Access: Allow access, Require password change For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
 ![Question 565 part 1](images/question565_1.jpg)
@@ -2161,27 +2099,6 @@ Sign ins from IP addresses with suspicious activity:
 - [ ] From Security Center, modify the Security policy settings of the Azure subscription..
 - [ ] From Azure Active Directory (Azure AD), modify the members of the Security Reader role group..
 - [ ] From Security Center, modify the alert rule.
-
-### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: – Deploy Azure Firewall to VNetwork1 in Sub2. – Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to ensure that User2 can implement PIM
-
-![Question 597 part 1](images/question597_1.jpg)
-![Question 597 part 2](images/question597_2.jpg)
-![Question 597 part 3](images/question597_3.jpg)
-![Question 597 part 4](images/question597_4.jpg)
-![Question 597 part 5](images/question597_5.jpg)
-![Question 597 part 6](images/question597_6.jpg)
-![Question 597 part 7](images/question597_7.jpg)
-![Question 597 part 8](images/question597_8.jpg)
-![Question 597 part 9](images/question597_9.jpg)
-![Question 597 part 10](images/question597_10.jpg)
-![Question 597 part 11](images/question597_11.jpg)
-![Question 597 part 12](images/question597_12.jpg)
-![Question 597 part 13](images/question597_13.jpg)
-
-- [x] Assign User2 the Global administrator role.
-- [ ] Configure authentication methods for contoso.com.
-- [ ] Configure the identity secure score for contoso.com.
-- [ ] Enable multi-factor authentication (MFA) for User2.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You add an extension to each virtual machine. Does this meet the goal?
 
@@ -2324,24 +2241,9 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Yes.
 - [x] No.
 
-### Case Study This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Existing Environment Azure AD Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements bContoso identifies the following technical requirements: – Deploy Azure Firewall to VNetwork1 in Sub2. – Register an application named App2 in contoso.com. – Whenever possible, use the principle of least privilege. – Enable Azure AD Privileged Identity Management (PIM) for contoso.com. HOTSPOT What is the membership of Group1 and Group2? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Group 1: Gropu 2
+### What is the membership of Group1 and Group2? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Group 1: Gropu 2
 
-![Question 653 part 1](images/question635_1.jpg)
-![Question 653 part 2](images/question635_2.jpg)
-![Question 653 part 3](images/question635_3.jpg)
-![Question 653 part 4](images/question635_4.jpg)
-![Question 653 part 5](images/question635_5.jpg)
-![Question 653 part 6](images/question635_6.jpg)
-![Question 653 part 7](images/question635_7.jpg)
-![Question 653 part 8](images/question635_8.jpg)
-![Question 653 part 9](images/question635_9.jpg)
-![Question 653 part 10](images/question653_10.jpg)
-![Question 653 part 11](images/question653_11.jpg)
-![Question 653 part 12](images/question653_12.jpg)
-![Question 653 part 13](images/question653_13.jpg)
 ![Question 653 part 14](images/question653_14.jpg)
-![Question 653 part 15](images/question653_15.jpg)
-![Question 653 part 16](images/question653_16.jpg)
 
 - [x] Box 1: User1, User2, User3, and User4 Box 2: Only User3.
 - [ ] Box 1: Only User3 Box 2: User1, User2, User3, and User4.
@@ -2470,25 +2372,6 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 - [ ] Scale up the App Service plan of Contoso1812.
 - [x] Upload a PFX file to Contoso1812.
 
-### You are evaluating the security of VM1, VM2, and VM3 in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
-
-![Question 719](images/question719.jpg)
-
-From VM1, you can successfully ping the public IP address of VM2.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the private IP address of VM3.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the public IP address of VM5.
-
-- [ ] Yes.
-- [x] No.
-
 ### You have an Azure Container Registry named Registry1. You add role assignments for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Upload images: Download images
 
 ![Question 743 part 1](images/question743_1.jpg)
@@ -2542,30 +2425,3 @@ From VM1, you can successfully ping the public IP address of VM5.
 - [ ] Azure Logic Apps.
 - [ ] security policies in Azure Security Center.
 - [ ] Azure Advisor.
-
-### You are evaluating the security of the network communication between the virtual machines in Sub2
-
-For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
-![Question 783 part 1](images/question783_1.jpg)
-![Question 783 part 2](images/question783_2.jpg)
-![Question 783 part 3](images/question783_3.jpg)
-![Question 783 part 4](images/question783_4.jpg)
-![Question 783 part 5](images/question783_5.jpg)
-![Question 783 part 6](images/question783_1.jpg)
-![Question 783 part 7](images/question783_2.jpg)
-
-From VM1, you can successfully ping the public IP address of VM2.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the public IP address of VM3.
-
-- [x] Yes.
-- [ ] No.
-
-From VM1, you can successfully ping the public IP address of VM5.
-
-- [ ] Yes.
-- [x] No.
