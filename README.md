@@ -336,13 +336,6 @@ Contoso.com contains the users shown in the following table.
 - [ ] Box 1: 2. Box 2: 0.
 - [x] Box 1: 0. Box 2: 1.
 
-### You have an Azure subscription that contains a resource group named RG1 and a security group serverless RG1 contains 10 virtual machine, a virtual network VNET1, and a network security group (NSG) named NSG1. ServerAdmins can access the virtual machines by using RDP. You need to ensure that NSG1 only RDP connections to the virtual for a maximum of 60 minutes when a member of ServerAdmins requests access. What should you configure?
-
-- [ ] an Azure Active Directory (Azure AD) Privileged identity Management (PIM) role assignment.
-- [x] a just in time (JIT) VM access policy in Azure Security Center.
-- [ ] an azure policy assigned to RG1..
-- [ ] an Azure Bastion host on VNET1.
-
 ### You have an Azure web app named WebApp1. You upload a certificate to WebApp1. You need to make the certificate accessible to the app code of WebApp1. What should you do?
 
 - [ ] Add a user-assigned managed identity to WebApp1.
@@ -355,7 +348,7 @@ Contoso.com contains the users shown in the following table.
 - [ ] Azure Security Center.
 - [x] Azure Blueprints.
 - [ ] Azure AD Privileged Identity Management (PIM).
-- [ ] Azure Policy
+- [ ] Azure Policy.
 
 ### You have an Azure subscription that contains the resources shown in the following table. User1 is a member of Group1. Group1 and User2 are assigned the Key Vault Contributor role for Vault1. On January 1, 2019, you create a secret in Vault1. The secret is configured as shown in the exhibit. (Click the Exhibit tab.)User2 is assigned an access policy to Vault1. The policy has the following configurations: ✑ Key Management Operations: Get, List, and Restore ✑ Cryptographic Operations: Decrypt and Unwrap Key ✑ Secret Management Operations: Get, List, and Restore Group1 is assigned an access to Vault1. The policy has the following configurations: ✑ Key Management Operations: Get and Recover ✑ Secret Management Operations: List, Backup, and Recover For each of the following statements, select Yes if the statement is true. Otherwise, select No
 
@@ -379,6 +372,13 @@ On June 1, 2019, User1 can view the value of Prassword1.
 - [x] No.
 
 ### You have Azure Resource Manager templates that you use to deploy Azure virtual machines. You need to disable unused Windows features automatically as instances of the virtual machines are provisioned. What should you use?
+
+- [ ] device configuration policies in Microsoft Intune.
+- [x] an Azure Desired State Configuration (DSC) virtual machine extension.
+- [ ] application security groups.
+- [ ] Azure Logic Apps.
+- [ ] security policies in Azure Security Center.
+- [ ] Azure Advisor.
 
 - [ ] device compliance policies in Microsoft Intune.
 - [x] Azure Automation State Configuration.
@@ -456,15 +456,6 @@ A computer on the Internet that has an IP addres of 193.77.10.2 can access data 
 - [ ] Virtual machine disk snapshots are lost.
 - [ ] Existing Azure resources are deleted.
 
-### You need to meet the identity and access requirements for Group1. What should you do?
-
-![Question 27](images/question27.jpg)
-
-- [ ] Add a membership rule to Group1.
-- [ ] Delete Group1. Create a new group named Group1 that has a membership type of Office 365. Add users and devices to the group..
-- [ ] Modify the membership rule of Group1.
-- [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.
-
 ### You need to create a web app named Intranet11597200 and enable users to authenticate to the web app by using Azure Active Directory (Azure AD). To complete this task, sign in to the Azure portal
 
 - [ ] ... BRAK ODPOWIEDZI
@@ -479,13 +470,6 @@ A computer on the Internet that has an IP addres of 193.77.10.2 can access data 
 - [x] Box 1: Storage2 only. Box 2: Analytics1, Analytics2,and Analytics3.
 - [ ] Box 1: Storage1 and Storage2 only. Box 2: Analytics1 and Analytics3 only.
 - [ ] Box 1: Storage1, Storage2, and Storage3. Box 2: Analytics1 and Analytics3 only.
-
-### You need to ensure that users can access VM0. The solution must meet the platform protection requirements. What should you do?
-
-- [ ] Move VM0 to Subnet1.
-- [ ] On Firewall, configure a network traffic filtering rule..
-- [ ] Assign RT1 to AzureFirewallSubnet..
-- [x] On Firewall, configure a DNAT rule.
 
 ### You need to deploy Docker containers to VM1. The containers must be able to access Azure Storage resources and Azure SQL databases by using the service endpoint. References: <https://docs.microsoft.com/en-us/azure/virtual-network/container-networking-overview>
 
@@ -1062,14 +1046,6 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [ ] SQL Server Authentication.
 - [x] Active Directory – Integrated
 
-### You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
-
-- [ ]  BRAK ODPOWEIDZI
-
-### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that [email protected] is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal
-
-- [ ] BRAK ODPOWIEDZI
-
 ### You need to deploy AKS1 to meet the platform protection requirements. Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select
 
 ![Question 143](images/question143.jpg)
@@ -1096,18 +1072,6 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [x] Box 1: User 2 Box 2: Azure Account Center.
 - [ ] Box 1: User 3 Box 2: Azure PowerShell.
 - [ ] Box 1: User 4 Box 2: Azure Security Center.
-
-### You need to create a web app named Intranet11597200 and enable users to authenticate to the web app by using Azure Active Directory (Azure AD). To complete this task, sign in to the Azure portal
-
-- [ ] ... BRAK ODPOWIEDZI
-
-### Topic 3, Mix Questions You have an Azure SQL database. You implement Always Encrypted. You need to ensure that application developers can retrieve and decrypt data in the database. Which two pieces of information should you provide to the developers? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [ ] a stored access policy.
-- [ ] a shared access signature (SAS).
-- [x] the column encryption key.
-- [ ] user credentials.
-- [x] the column master key.
 
 ### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
@@ -1179,15 +1143,6 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [ ] VM2, VM3, VM4, and VM5.
 - [ ] VM2, VM3, and VM5 only.
 - [x] Vm2 and Vm3 only.
-
-### You need to meet the identity and access requirements for Group1. What should you do?
-
-![Question174](images/question174.jpg)
-
-- [ ] Add a membership rule to Group1.
-- [ ] Delete Group1. Create a new group named Group1 that has a membership type of Office 365. Add users and devices to the group..
-- [ ] Modify the membership rule of Group1..
-- [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.onmicrosoft.com.
 
 ### You have an Azure subscription named Sub1. In Azure Security Center, you have a security playbook named Play1. Play1 is configured to send an email message to a user named User1. You need to modify Play1 to send email messages to a distribution group named Alerts. What should you use to modify Play1?
 
@@ -1572,20 +1527,9 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] The Network Contributor role for RG1.
 - [x] The Virtual Machine Contributor role for RG1.
 
-### You need to meet the identity and access requirements for Group1. What should you do?
-
-- [ ] Add a membership rule to Group1.
-- [ ] Delete Group1. Create a new group named Group1 that has a membership type of Office 365. Add users and devices to the group..
-- [ ] Modify the membership rule of Group1..
-- [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.
-
 ### CORRECT TEXT You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
 
 - [ ] ... BRAK OPOWIEDZI
-
-### You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
-
-- [ ] ... BRAK ODPOWIEDZI
 
 ### Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
@@ -1602,17 +1546,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Create an application security group and a network security group (NSG).
 - [ ] Edit the docker-compose.yml file..
 - [x] Install the container network interface (CNI) plug-in.
-
-### You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
-
-- [ ] ... BRAK ODPOWIEDZI
-
-### You have Azure Resource Manager templates that you use to deploy Azure virtual machines. You need to disable unused Windows features automatically as instances of the virtual machines are provisioned. What should you use?
-
-- [ ] security policies in Azure Security Center.
-- [ ] Azure Logic Apps.
-- [x] an Azure Desired State Configuration (DSC) virtual machine extension.
-- [ ] Azure Advisor.
 
 ### You have an Azure Container Registry named Registry1. You add role assignment for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Upload images: Download images
 
@@ -2002,15 +1935,6 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [x] Turn on the system-assigned managed identity for Contoso1812.
-- [x] Add a hostname to Contoso1812..
-- [ ] Scale out the App Service plan of Contoso1812..
-- [ ] Add a deployment slot to Contoso1812.
-- [ ] Scale up the App Service plan of Contoso1812.
-- [x] Upload a PFX file to Contoso1812.
-
 ### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Identity and Access Requirements Azure Security Center is set to the Standard tier. Requirements Planned Changes Litware plans to deploy the Azure resources shown in the following table. Litware identifies the following identity and access requirements: – All San Francisco users and their devices must be members of Group1. – The members of Group2 must be assigned the Contributor role to RG2 by using a permanent eligible assignment. – Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: – Microsoft Antimalware must be installed on the virtual machines in RG1. – The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. – Azure AD users must be able to authenticate to AKS1 by using their Azure AD credentials. – Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. – A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in RG1. Role1 must be available only for RG1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. Data and Application Requirements Litware identifies the following data and applications requirements: – The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. – WebApp1 must enforce mutual authentication. General Requirements Litware identifies the following general requirements: – Whenever possible, administrative effort must be minimized.– Whenever possible, use of automation must be maximized.DRAG DROP You need to deploy AKS1 to meet the platform protection requirements. Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select
 
 ![Question 571 part 1](images/question571_1.jpg)
@@ -2045,13 +1969,6 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Box 1: The tier Box 2: The type
 - [ ] Box 1: The type Box 2: Tier Box .
 - [ ] Box 1: The opperating sysem version Box 2: The tier.
-
-### Your company plans to create separate subscriptions for each department. Each subscription will be associated to the same Azure Active Directory (Azure AD) tenant. You need to configure each subscription to have the same role assignments. What should you use?
-
-- [ ] Azure Security Center.
-- [ ] Azure Policy.
-- [ ] Azure AD Privileged Identity Management (PIM).
-- [x] Azure Blueprints
 
 ### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: – Users with leaked credentials – Impossible travel to atypical locations – Sign-ins from IP addresses with suspicious activity Which level should you identify for each risk event? To answer, drag the appropriate levels to the correct risk events. Each level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
 
@@ -2146,11 +2063,6 @@ User3 will be prompted to configure MFA registration during the user's next Azur
 - [ ] VM1, VM2, and VM3 only.
 - [ ] VM1, VM2, VM3, and VM4.
 - [ ] VM1 and VM4 only.
-
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy Azure Active Directory Domain Services (Azure AD DS) to the Azure subscription. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table. Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: – Allow traffic to VM4 from VM3 only. – Allow traffic from the Internet to VM1 and VM2 only. – Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. NSGs: Network security rules
 
@@ -2369,21 +2281,6 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 - [ ] Box 1: User1, User2, User3 and User4 Box 2: User2 ad User4 only.
 - [ ] Box 1: User1, User2, User3 and User4 Box 2: User1 and User2 only.
 
-### Your company plans to create separate subscriptions for each department. Each subscription will be associated to the same Azure Active Directory (Azure AD) tenant. You need to configure each subscription to have the same role assignments. What should you use?
-
-- [ ] Azure Security Center.
-- [ ] Azure Blueprints.
-- [x] Azure AD Privileged Identity Management (PIM).
-- [ ] Azure Policy.Testlet 1.
-
-### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [ ] Turn on the system-assigned managed identity for Contoso1812.
-- [x] Add a hostname to Contoso1812..
-- [ ] Scale out the App Service plan of Contoso1812..
-- [ ] Add a deployment slot to Contoso1812.
-- [X] Scale up the App Service plan of Contoso1812.Testlet 1
-
 ### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc- 3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Identity and Access Requirements Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table. Litware identifies the following identity and access requirements: – All San Francisco users and their devices must be members of Group1. – The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. – Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: – Microsoft Antimalware must be installed on the virtual machines in Resource Group1. – The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. – Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. – Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. – A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. Data and Application Requirements Litware identifies the following data and applications requirements: – The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials – WebApp1 must enforce mutual authentication General Requirements Litware identifies the following general requirements: – Whenever possible, administrative effort must be minimized. – Whenever possible, use of automation must be minimized. You need to ensure that users can access VM0. The solution must meet the platform protection requirements. What should you do?
 
 ![Question 775 part 1](images/question775_1.jpg)
@@ -2401,12 +2298,3 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 
 - [x] Yes.
 - [ ] No.
-
-### You have Azure Resource Manager templates that you use to deploy Azure virtual machines. You need to disable unused Windows features automatically as instances of the virtual machines are provisioned. What should you use?
-
-- [ ] device configuration policies in Microsoft Intune.
-- [x] an Azure Desired State Configuration (DSC) virtual machine extension.
-- [ ] application security groups.
-- [ ] Azure Logic Apps.
-- [ ] security policies in Azure Security Center.
-- [ ] Azure Advisor.
