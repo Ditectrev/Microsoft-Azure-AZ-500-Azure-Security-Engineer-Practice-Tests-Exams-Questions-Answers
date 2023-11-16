@@ -6,7 +6,7 @@
 
 ✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-500 (Azure Security Engineer) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
-[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+[![Join our Discord](images/discord.png "Join our Discord")](https://discord.gg/RFjtXKfJy3)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -309,20 +309,20 @@
 - [ ] Virtual networks that User9 can modify: VNET4, VNET3, and VNET1 only. Virtual networks that User9 can delete: VNET4, VNET3,VNET 2 and VNET1.
 - [ ] Virtual networks that User9 can modify: VNET4, VNET3,VNET 2 and VNET1. Virtual networks that User9 can delete: VNET4 only.
 
-### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: Ensures that password policies and user logon restrictions apply to user accounts that are synced to the Tenant Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
+### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: Ensures that password policies and user logon restrictions apply to user accounts that are synced to the Tenant. Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
 
 - [ ] federated identity with Active Directory Federation Services (AD FS).
 - [ ] password hash synchronization with seamless single sign-on (SSO).
 - [x] pass-through authentication with seamless single sign-on (SSO)
 
-### You need to deploy Microsoft Antimalware to meet the platform protection requirements. What should you do? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point? Create a custom policy definition that has effect set to: Create a policy assignment and modify
+### You need to deploy Microsoft Antimalware to meet the platform protection requirements. What should you do?
 
-![Question 4 part 1](images/question4_1.jpg)
-![Question 4 part 2](images/question4_2.jpg)
+![Question 22](images/question22.jpg)
 
-- [ ] Box 1: Append. Box 2: The exclusion settings.
-- [ ] Box 1: Deny. Box2: The Create a Managed Identity setting.
-- [x] Box 1: DeployifNotExists. Box 2: The scope.
+- [ ] Create a custom policy definition that has effect set to: Append. Create a policy assignment and modify: The exclusion settings.
+- [ ] Create a custom policy definition that has effect set to: Deny. Create a policy assignment and modify: The Create a Managed Identity setting.
+- [x] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The scope.
+- [ ] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The exclusion settings.
 
 ### You need to configure support for Azure Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required? Container registres: Workspaces: Container registres: Workspaces
 
@@ -385,7 +385,7 @@ On June 1, 2019, User1 can view the value of Prassword1.
 - [ ] application security groups.
 - [ ] Azure Advisor.
 
-### You have a Azure subscription. You enable Azure Active Directory (Azure AD) Privileged identify (PIM). Your company’s security policy for administrator accounts has the following conditions: *The accounts must use multi-factor authentication (MFA).* The account must use 20-character complex passwords. *The passwords must be changed every 180 days.* The account must be managed by using PIM. You receive alerts about administrator who have not changed their password during the last 90 days. You need to minimize the number of generated alerts.Which PIM alert should you modify?
+### You have a Azure subscription. You enable Azure Active Directory (Azure AD) Privileged identify (PIM). Your company’s security policy for administrator accounts has the following conditions: _The accounts must use multi-factor authentication (MFA)._ The account must use 20-character complex passwords. _The passwords must be changed every 180 days._ The account must be managed by using PIM. You receive alerts about administrator who have not changed their password during the last 90 days. You need to minimize the number of generated alerts.Which PIM alert should you modify?
 
 - [ ] Roles don’t require multi-factor authentication for activation.
 - [ ] Administrator aren’t using their privileged roles.
@@ -486,7 +486,7 @@ A computer on the Internet that has an IP addres of 193.77.10.2 can access data 
 - [ ] an Azure event hub.
 - [ ] an Azure Automation account
 
-### You need to deploy AKS1 to meet the platform protection requirements. Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select. Explanation:Scenario: Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Litewire plans to deploy AKS1, which is a managed AKS (Azure Kubernetes Services) cluster. Step 1: Create a server application To provide Azure AD authentication for an AKS cluster, two Azure AD applications arecreated. The first application is a server component that provides user authentication. Step 2: Create a client application The second application is a client component that’s used when you’re prompted by the CLI for authentication. This client application uses the server application for the actual authentication of the credentials pr  vided by the client. Step 3: Deploy an AKS cluster. Use the az group create command to create a resource group for the AKS cluster. Use the az aks create command to deploy the AKS cluster. Step 4: Create an RBAC binding. Before you use an Azure Active Directory account with an AKS cluster, you must create role-binding or cluster role-binding. Roles define the permissions to grant, and bindings apply them to desired users. These assignments can be applied to a given namespace, or across the entire cluster
+### You need to deploy AKS1 to meet the platform protection requirements. Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select. Explanation:Scenario: Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Litewire plans to deploy AKS1, which is a managed AKS (Azure Kubernetes Services) cluster. Step 1: Create a server application To provide Azure AD authentication for an AKS cluster, two Azure AD applications arecreated. The first application is a server component that provides user authentication. Step 2: Create a client application The second application is a client component that’s used when you’re prompted by the CLI for authentication. This client application uses the server application for the actual authentication of the credentials pr vided by the client. Step 3: Deploy an AKS cluster. Use the az group create command to create a resource group for the AKS cluster. Use the az aks create command to deploy the AKS cluster. Step 4: Create an RBAC binding. Before you use an Azure Active Directory account with an AKS cluster, you must create role-binding or cluster role-binding. Roles define the permissions to grant, and bindings apply them to desired users. These assignments can be applied to a given namespace, or across the entire cluster
 
 ![Question 34](images/question34.jpg)
 
@@ -628,12 +628,6 @@ On June 15,2019, User3 can activate the Contributor role.
 - [ ] Select Grant admin consent.
 - [ ] Add a new Delegated API permission for Microsoft.Graph Calendars.ReadWrite.Shared.
 
-### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: ✑ Users with leaked credentials ✑ Impossible travel to atypical locations ✑ Sign ins from IP addresses with suspicious activity Which level should you identify for each risk event? To answer, drag the appropriate levels to the correct risk events. Each level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
-
-![Question 49](images/question49.jpg)
-
-- [ ] BRAK  ODPOWIEDZI
-
 ### You have an Azure subscription that contains the Azure virtual machines shown in the following table. You create an MDM Security Baseline profile named Profile1. You need to identify to which virtual machines Profile1 can be applied. Which virtual machines should you identify?
 
 ![Question 50](images/question50.jpg)
@@ -730,7 +724,7 @@ following exhibit. The Azure Active Directory (Azure AD) tenant contains the use
 - [ ] Grant.
 - [x] Session.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1.   Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -797,10 +791,11 @@ VM3 can be accessed by using Remote Deskopt from the internet.
 ### You are configuring network connectivity for two Azure virtual networks named VNET1 and VNET2
 
 You need to implement VPN gateways for the virtual networks to meet the following requirements:
+
 - VNET1 must have six site-to-site connections that use BGP.
 - VNET2 must have 12 site-to-site connections that use BGP.
 - Costs must be minimized.
-Which VPN gateway SKI) should you use for each virtual network? To answer, drag the appropriate SKUs to the correct networks. Each SKU may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
+  Which VPN gateway SKI) should you use for each virtual network? To answer, drag the appropriate SKUs to the correct networks. Each SKU may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
 
 - [ ] ...
 
@@ -957,7 +952,7 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [ ] Box 1: User1 and User2 only Box 2: User1 and User3 only.
 - [ ] Box 1: User1 and User4 only Box 2: User1, User2, User3, and User4.
 - [ ] Box 1: User1, User2, and User3 only Box 2: User1 and User4 only.
-- [ ] Box 1: Box 1:  User1, User2, User3, and User4. Box 2: User1, User2, and User3 only.
+- [ ] Box 1: Box 1: User1, User2, User3, and User4. Box 2: User1, User2, and User3 only.
 
 ### You assign User8 the Owner role for RG4, RG5, and RG6. In which resource groups can User8 create virtual networks and NSGs? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. User8 can create virtual networks in: User8 can create NSGs in
 
@@ -966,7 +961,7 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 - [x] Box 1: RG4 only Box 2: RG4, RG5, and RG6.
 - [ ] Box 1: RG6 only Box 2: RG4 and RG6 only Box
 - [ ] Box 1: RG4 and RG6 only Box 2: RG6 only Box 2:
-- [ ] Box 1: RG4, RG5, and RG6  Box 2: RG4 only Box 2:
+- [ ] Box 1: RG4, RG5, and RG6 Box 2: RG4 only Box 2:
 
 ### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant and a user named User1. The App registrations settings for the tenant are configured as shown in the following exhibit
 
@@ -997,16 +992,12 @@ Which VPN gateway SKI) should you use for each virtual network? To answer, drag 
 
 - [ ] BRAK ODPOWIEDZI
 
-### Topic 1, Litware, inc This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is  ssigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes bLitware plans to deploy the Azure resources shown in the following table.Identity and Access Requirements Litware identifies the following identity and access requirements:✑ All San Francisco users and their devices must be members of Group1. ✑ The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. ✑ Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: ✑ Microsoft Antimalware must be installed on the virtual machines in Resource Group1. ✑ The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. ✑ Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. ✑ Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. ✑ A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. HOTSPOT You need to deploy Microsoft Antimalware to meet the platform protection requirements. What should you do? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Create a custom policy definition that has effect set to: Create a policy assignment and modify
+### Topic 1, Litware, inc This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is ssigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes bLitware plans to deploy the Azure resources shown in the following table.Identity and Access Requirements Litware identifies the following identity and access requirements:✑ All San Francisco users and their devices must be members of Group1. ✑ The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. ✑ Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: ✑ Microsoft Antimalware must be installed on the virtual machines in Resource Group1. ✑ The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. ✑ Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. ✑ Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. ✑ A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. HOTSPOT You need to deploy Microsoft Antimalware to meet the platform protection requirements. What should you do? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
 ![Question 120 part 1](images/question120_1.jpg)
 ![Question 120 part 2](images/question120_2.jpg)
 ![Question 120 part 3](images/question120_3.jpg)
 ![Question 120 part 4](images/question120_4.jpg)
-
-- [x] Box 1: DeployIfNotExists Box 2: The Create a Managed Identity setting.
-- [ ] Box 1: Append Box 2: The scope.
-- [ ] Box 1: Deny Box 2: The exclusion settings.
 
 ### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that <debbie@contoso.com> is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal
 
@@ -1418,8 +1409,8 @@ User3 will be promped to configure MFA registration during the user's next Azure
 ![Question 304 part 1](images/question303.jpg)
 
 - [x] Box 1: "Microsoft.Compute/ Box 2: disks/". Box 3: "/subscription/4389a43-17c24a39-8cfc-3540c2653ef4/resourceGrups/RG1".
-- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/*", Box 4: /subscription/4389a43-17c24a39-8cfc-3540c2653ef4.
-- [ ] Box 1: "Microsoft.Storage/ Box 2: virtualMachines/disks/*"/, Box 3: "/" .
+- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*", Box 4: /subscription/4389a43-17c24a39-8cfc-3540c2653ef4.
+- [ ] Box 1: "Microsoft.Storage/ Box 2: virtualMachines/disks/\*"/, Box 3: "/" .
 
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources
 
@@ -1646,19 +1637,6 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] a key.
 - [ ] an application ID.
 
-### Topic 1, Litware, inc Litware, inc This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Requirements Planned changes Litware plans to deploy the Azure resources shown in the following table. Identity and Access Requirements Litware identifies the following identity and access requirements: • All San Francisco users and their devices must be members of Group1. • The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. • Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: • Microsoft Antimalware must be installed on the virtual machines in Resource Group1. • The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. • Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. • Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. • A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. You need to ensure that users can access VM0. The solution must meet theplatform protection requirements. What should you do?
-
-![Question 428 part 1](images/question428_1.jpg)
-![Question 428 part 2](images/question428_2.jpg)
-![Question 428 part 3](images/question428_3.jpg)
-![Question 428 part 4](images/question428_4.jpg)
-![Question 428 part 5](images/question428_5.jpg)
-
-- [x] Move VM0 to Subnet1.
-- [ ] On Firewall, configure a network traffic filtering rule.
-- [ ] Assign RT1 to AzureFirewallSubnet.
-- [ ] On Firewall, configure a DNAT rule.
-
 ### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You assign Role1 to User1 for RG1. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
 ![Question 436 part 1](images/question436_1.jpg)
@@ -1724,8 +1702,8 @@ User1 can attach the network interface of VM1 to VNET1.
 ![Question 450](images/question450.jpg)
 
 - [ ] Box 1: Append Box 2: existenceCondition.
-- [ ] Box 1: Deny  Box 2: resources.
-- [x] Box 1: DeployNotExists  Box 2: template.
+- [ ] Box 1: Deny Box 2: resources.
+- [x] Box 1: DeployNotExists Box 2: template.
 
 ### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You are assigned the Global administrator role for the tenant. You are responsible for managing Azure Security Center settings. You need to create a custom sensitivity label. What should you do first?
 
@@ -1768,7 +1746,7 @@ User1 can attach the network interface of VM1 to VNET1.
 ### You have an Azure SQL Database server named SQL1. You plan to turn on Advanced Threat Protection for SQL1 to detect all threat detection types. Which action will Advanced Threat Protection detect as a threat?
 
 - [ ] A user updates more than 50 percent of the records in a table.
-- [x] A user attempts to sign as select * from table1..
+- [x] A user attempts to sign as select \* from table1..
 - [ ] A user is added to the db_owner database role..
 - [ ] A user deletes more than 100 records from the same table.
 
@@ -1948,7 +1926,7 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Create an RBAC binding.
 - [x] Create a custom RBAC role.
 
-### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters.  What should you use to construct the resource ID?
+### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
 
 ![Question 572](images/question572.jpg)
 
@@ -1969,26 +1947,6 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] Box 1: The tier Box 2: The type
 - [ ] Box 1: The type Box 2: Tier Box .
 - [ ] Box 1: The opperating sysem version Box 2: The tier.
-
-### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: – Users with leaked credentials – Impossible travel to atypical locations – Sign-ins from IP addresses with suspicious activity Which level should you identify for each risk event? To answer, drag the appropriate levels to the correct risk events. Each level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
-
-![Question 585 part 1](images/question585_1.jpg)
-![Question 585 part 2](images/question585_2.jpg)
-
-Impossible travel to atypical location:
-
-- [ ] High.
-- [x] Medium.
-
-User with leaked credentials:
-
-- [ ] Low .
-- [x] High.
-
-Sign ins from IP addresses with suspicious activity:
-
-- [ ] Medium.
-- [x] Low.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
 
@@ -2173,18 +2131,6 @@ User3 can activate the Security Administrator role.
 - [ ] Yes.
 - [x] No.
 
-### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) is activated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Standard tier. Requirements Planned Changes Litware plans to deploy the Azure resources shown in the following table. Identity and Access Requirements Litware identifies the following identity and access requirements: – All San Francisco users and their devices must be members of Group1. – The members of Group2 must be assigned the Contributor role to RG2 by using a permanent eligible assignment. – Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users’ behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: – Microsoft Antimalware must be installed on the virtual machines in RG1. – The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. – Azure AD users must be able to authenticate to AKS1 by using their Azure AD credentials. – Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. – A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in RG1. Role1 must be available only for RG1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. Data and Application Requirements Litware identifies the following data and applications requirements: – The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. – WebApp1 must enforce mutual authentication. General Requirements Litware identifies the following general requirements: – Whenever possible, administrative effort must be minimized. – Whenever possible, use of automation must be maximized. You need to meet the identity and access requirements for Group1. What should you do?
-
-![Question 661 part 1](images/question661_1.jpg)
-![Question 661 part 2](images/question661_2.jpg)
-![Question 661 part 3](images/question661_3.jpg)
-![Question 661 part 1](images/question661_1.jpg)
-
-- [ ] Add a membership rule to Group1.
-- [x] Delete Group1. Create a new group named Group1 that has a group type of Office 365. Add users and devices to the group.
-- [ ] Modify the membership rule of Group1.
-- [ ] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.
-
 ### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. (Click the Conditions tab.) The Grant settings for Portal Policy are configured as shown in the Grant exhibit. (Click the Grant tab.) For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
 ![Question 662 part 1](images/question661_1.jpg)
@@ -2222,12 +2168,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Box 1: User1 and User2 only.Box 2: User1 and User3 only.
 - [ ] Box 1: User1, User2, and User3 only Box 2: User1, User2, User3 and User4 only.
 - [ ] Box 1: User1, User2, User3 and User4 only Box 2: User1, User2, and User3 only.
-
-### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: – Ensures that password policies and user logon restrictions apply to user accounts that are synced to the tenant – Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
-
-- [ ] federated identity with Active Directory Federation Services (AD FS).
-- [x] password hash synchronization with seamless single sign-on (SSO).
-- [ ] pass-through authentication with seamless single sign-on (SSO).
 
 ### You have an Azure Active Directory (Azure AD) te nant that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection sign-in risk policy that has the following settings: – Assignments: Include Group1, exclude Group2 – Conditions: Sign-in risk level: Medium and above – Access Allow access, Require multi-factor authentication You need to identify what occurs when the users sign in to Azure AD. What should you identify for each user? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. When User1 sings in from an anonymous IP address, the user will: When User2 signs in from an unfamiliar location, the user will: When User3 signs in from an infceted device, the user will
 
