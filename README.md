@@ -324,23 +324,20 @@
 - [x] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The scope.
 - [ ] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The exclusion settings.
 
-### You need to configure support for Azure Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required? Container registres: Workspaces: Container registres: Workspaces
+### You need to configure support for Microsoft Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required?
 
-Topic 2, Contoso
+![Question 23](images/question23.jpg)
 
-Contoso.com contains the users shown in the following table.
-![Question 5](images/question5.jpg)
-
-- [ ] Box 1: 0. Box 2: 2.
-- [ ] Box 1: 1. Box 2: 3.
-- [ ] Box 1: 2. Box 2: 0.
-- [x] Box 1: 0. Box 2: 1.
+- [ ] Container registries: 0. Workspaces: 2.
+- [ ] Container registries: 1. Workspaces: 3.
+- [ ] Container registries: 2. Workspaces: 0.
+- [x] Container registries: 0. Workspaces: 1.
 
 ### You have an Azure web app named WebApp1. You upload a certificate to WebApp1. You need to make the certificate accessible to the app code of WebApp1. What should you do?
 
 - [ ] Add a user-assigned managed identity to WebApp1.
-- [x] Add an app setting to the WebApp1 configuration..
-- [ ] Enable system-assigned managed identity for the WebApp1..
+- [x] Add an app setting to the WebApp1 configuration.
+- [ ] Enable system-assigned managed identity for the WebApp1.
 - [ ] Configure the TLS/SSL binding for WebApp1.
 
 ### Your company plans to create separate subscriptions for each department. Each subscription will be associated to the same Azure Active Directory (Azure AD) tenant. You need to configure each subscription to have the same role assignments. What should you use?
@@ -350,23 +347,26 @@ Contoso.com contains the users shown in the following table.
 - [ ] Azure AD Privileged Identity Management (PIM).
 - [ ] Azure Policy.
 
-### You have an Azure subscription that contains the resources shown in the following table. User1 is a member of Group1. Group1 and User2 are assigned the Key Vault Contributor role for Vault1. On January 1, 2019, you create a secret in Vault1. The secret is configured as shown in the exhibit. (Click the Exhibit tab.)User2 is assigned an access policy to Vault1. The policy has the following configurations: ✑ Key Management Operations: Get, List, and Restore ✑ Cryptographic Operations: Decrypt and Unwrap Key ✑ Secret Management Operations: Get, List, and Restore Group1 is assigned an access to Vault1. The policy has the following configurations: ✑ Key Management Operations: Get and Recover ✑ Secret Management Operations: List, Backup, and Recover For each of the following statements, select Yes if the statement is true. Otherwise, select No
+### You have an Azure subscription that contains the resources shown in the following table. User1 is a member of Group1. Group1 and User2 are assigned the Key Vault Contributor role for Vault1. On January 1, 2019, you create a secret in Vault1. The secret is configured as shown in the exhibit. User2 is assigned an access policy to Vault1. The policy has the following configurations: Key Management Operations: Get, List, and Restore. Cryptographic Operations: Decrypt and Unwrap Key. Secret Management Operations: Get, List, and Restore. Group1 is assigned an access to Vault1. The policy has the following configurations: Key Management Operations: Get and Recover. Secret Management Operations: List, Backup, and Recover. On January 1, 2019, User1 can view the value of Password1.
 
-![Question 11 part 1](images/question11_1.jpg)
-![Question 11 part 2](images/question11_2.jpg)
-![Question 11 part 3](images/question11_3.jpg)
-
-On January 1, 2019, User1 can view the value of Prassword1.
+![Question 26 part 1](images/question26_27_28_1.jpg)
+![Question 26 part 2](images/question26_27_28_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-On June 1, 2019, User2 can view the value of Prassword1.
+### You have an Azure subscription that contains the resources shown in the following table. User1 is a member of Group1. Group1 and User2 are assigned the Key Vault Contributor role for Vault1. On January 1, 2019, you create a secret in Vault1. The secret is configured as shown in the exhibit. User2 is assigned an access policy to Vault1. The policy has the following configurations: Key Management Operations: Get, List, and Restore. Cryptographic Operations: Decrypt and Unwrap Key. Secret Management Operations: Get, List, and Restore. Group1 is assigned an access to Vault1. The policy has the following configurations: Key Management Operations: Get and Recover. Secret Management Operations: List, Backup, and Recover. On June 1, 2019, User2 can view the value of Password1.
+
+![Question 27 part 1](images/question26_27_28_1.jpg)
+![Question 27 part 2](images/question26_27_28_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-On June 1, 2019, User1 can view the value of Prassword1.
+### You have an Azure subscription that contains the resources shown in the following table. User1 is a member of Group1. Group1 and User2 are assigned the Key Vault Contributor role for Vault1. On January 1, 2019, you create a secret in Vault1. The secret is configured as shown in the exhibit. User2 is assigned an access policy to Vault1. The policy has the following configurations: Key Management Operations: Get, List, and Restore. Cryptographic Operations: Decrypt and Unwrap Key. Secret Management Operations: Get, List, and Restore. Group1 is assigned an access to Vault1. The policy has the following configurations: Key Management Operations: Get and Recover. Secret Management Operations: List, Backup, and Recover. On June 1, 2019, User1 can view the value of Password1.
+
+![Question 28 part 1](images/question26_27_28_1.jpg)
+![Question 28 part 2](images/question26_27_28_2.jpg)
 
 - [ ] Yes.
 - [x] No.
