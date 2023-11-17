@@ -387,15 +387,23 @@
 - [ ] Roles are being assigned outside of Privileged identity Management.
 - [x] Potential stale accounts in a privileged role.
 
+### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant and a user named User1. The App registrations settings for the tenant are configured as shown in the following exhibit. You plan to deploy an app named App1. You need to ensure that User1 can register App1 in Azure AD. The solution must use the principle of least privilege. Which role should you assign to User1?
+
+![Question 31](images/question31.jpg)
+
+- [ ] App Configuration Data Owner for the subscription.
+- [ ] Managed Application Contributor for the subscription.
+- [ ] Cloud application administrator in Azure AD.
+- [x] Application developer in Azure AD.
+
 ### You have three Azure subscriptions and a user named User1. You need to provide User1 with the ability to manage and view costs for the resources across all three subscriptions. The solution must use the principle of least privilege. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select
 
-![Question 16](images/question16.jpg)
+![Question 32](images/question32.jpg)
 
-- [ ] Create a management group.
-- [x] Add the three subscriptions to the management group.
-- [x] Assign User1 the Global administrator role.
-- [ ] Assign User1 the Owner role for the management group.
-- [x] Assign User1 the Cost Management Contributor role for the management group.
+- [x] Box 1: Assign User1 the Cost Management Contributor role for the management group. Box 2: Assign User1 the Global administrator role. Box 3: Add the three subscriptions to the management group.
+- [ ] Box 1: Assign User1 the Global administrator role. Box 2: Assign User1 the Owner role for the management group. Box 3: Create a management group.
+- [ ] Box 1: Create a management group. Box 2: Assign User1 the Cost Management Contributor role for the management group. Box 3: Create a management group.
+- [ ] Box 1: Assign User1 the Cost Management Contributor role for the management group. Box 2: Assign User1 the Global administrator role. Box 3: Assign User1 the Owner role for the management group.
 
 ### You have an Azure web app named webapp1. You need to configure continuous deployment for webapp1 by using an Azure Repo. What should you create first?
 
@@ -958,15 +966,6 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Box 1: RG4 and RG6 only Box 2: RG6 only Box 2:
 - [ ] Box 1: RG4, RG5, and RG6 Box 2: RG4 only Box 2:
 
-### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant and a user named User1. The App registrations settings for the tenant are configured as shown in the following exhibit
-
-![Question 110](images/question110.jpg)
-
-- [ ] App Configuration Data Owner for the subscription.
-- [ ] Managed Application Contributor for the subscription.
-- [ ] Cloud application administrator in Azure AD.
-- [x] Application developer in Azure A.
-
 ### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You create a resource group named RG1. Which users can modify the permissions for RG1 and which users can create virtual networks in RG1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
 
 ![Question 113 part 1](images/question113_1.jpg)
@@ -1192,15 +1191,6 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 ### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal
 
 - [ ] ... BRAK ODPOWIEDZI
-
-### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant and a user named User1. The App registrations settings for the tenant are configured as shown in the following exhibit. You plan to deploy an app named App1. You need to ensure that User1 can register App1 in Azure AD. The solution must use the principle of least privilege. Which role should you assign to User1?
-
-![Question214](images/question214.jpg)
-
-- [ ] App Configuration Data Owner for the subscription.
-- [ ] Managed Application Contributor for the subscription.
-- [ ] Cloud application administrator in Azure AD.
-- [x] Application developer in Azure A.
 
 ### You have an Azure Active Directory (Azure AD) tenant and a root management group. You create 10 Azure subscriptions and add the subscriptions to the rout management group. You need to create an Azure Blueprints definition that will be stored in the root management group. What should you do first?
 
