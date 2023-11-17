@@ -407,29 +407,38 @@
 
 ### You have an Azure web app named webapp1. You need to configure continuous deployment for webapp1 by using an Azure Repo. What should you create first?
 
-- [ ] an Azure Application Insights service.
-- [x] an Azure DevOps organizations.
-- [ ] an Azure Storage account.
-- [ ] an Azure DevTest Labs lab.
+- [ ] Azure Application Insights service.
+- [x] Azure DevOps organizations.
+- [ ] Azure Storage account.
+- [ ] Azure DevTest Labs lab.
 
 ### You plan to connect several Windows servers to the WS11641655 Azure Log Analytics workspace. You need to ensure that the events in the System event logs are collected automatically to the workspace after you connect the Windows servers. To complete this task, sign in to the Azure portal and modify the Azure resources
 
-- [ ] ... BRAK ODPOWIEDZI
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
-### You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal
+### You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal.
 
-- [ ] ... BRAK ODPOWIEDZI
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
 ### You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com You need to ensure AKS1 can be accessed by using accounts from Contoso.com The solution must minimize administrative effort. What should you do first?
 
-- [x] From Azure recreate AKS1,.
-- [ ] From AKS1, upgrade the version of Kubermetes..
-- [ ] From Azure AD, implement Azure AD Premium P2..
-- [ ] From Azure AD, configure the User settings
+- [x] From Azure recreate AKS1.
+- [ ] From AKS1, upgrade the version of Kubermetes.
+- [ ] From Azure AD, implement Azure AD Premium P2.
+- [ ] From Azure AD, configure the User settings.
 
-### You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources
+### You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] ... BRAK ODPOWIEDZI
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
 ### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. (Click the Exhibit tab.) For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
