@@ -440,23 +440,26 @@
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
 
-### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. (Click the Exhibit tab.) For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
+### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. An Azure virtual machine on Subnet1 can access data on Contoso1901.
 
-![Question 23 part 1](images/question23_1.jpg)
-![Question 23 part 2](images/question23_2.jpg)
-![Question 23 part 3](images/question23_3.jpg)
-
-An Azure virtual machine on SUbnet1 can access data on Contoso1901.
+![Question 38 part 1](images/question38_39_40_1.jpg)
+![Question 38 part 2](images/question38_39_40_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-An Azure virtual machine on Subnet2 can access data in Cantoso1901.
+### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. An Azure virtual machine on Subnet2 can access data in Cantoso1901.
+
+![Question 39 part 1](images/question38_39_40_1.jpg)
+![Question 39 part 2](images/question38_39_40_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-A computer on the Internet that has an IP addres of 193.77.10.2 can access data in Contoso 1901.
+### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. A computer on the Internet that has an IP addres of 193.77.10.2 can access data in Contoso 1901.
+
+![Question 40 part 1](images/question38_39_40_1.jpg)
+![Question 40 part 2](images/question38_39_40_2.jpg)
 
 - [x] Yes.
 - [ ] No.
