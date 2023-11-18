@@ -464,27 +464,29 @@
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure subscription. You configure the subscription to use a different Azure Active Directory (Azure AD) tenant.What are two possible effects of the change? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
+### You have an Azure subscription. You configure the subscription to use a different Azure Active Directory (Azure AD) tenant. What are two possible effects of the change?
 
 - [x] Role assignments at the subscription level are lost.
 - [x] Virtual machine managed identities are lost.
 - [ ] Virtual machine disk snapshots are lost.
 - [ ] Existing Azure resources are deleted.
 
-### You need to create a web app named Intranet11597200 and enable users to authenticate to the web app by using Azure Active Directory (Azure AD). To complete this task, sign in to the Azure portal
+### You need to create a web app named Intranet11597200 and enable users to authenticate to the web app by using Azure Active Directory (Azure AD). To complete this task, sign in to the Azure portal.
 
-- [ ] ... BRAK ODPOWIEDZI
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
-### You have an Azure subscription that contains the resources shown in the following table. Storage accounts that can be used as the audit log destination: Log Analytits workspaces that can be used as the audio log destination
+### You have an Azure subscription that contains the resources shown in the following table. You create the Azure Storage accounts shown in the following table. You need to configure auditing for SQL1. Which storage accounts and Log Analytics workspaces can you use as the audit log destination?
 
-![Question 29 part 1](images/question29_1.jpg)
-![Question 29 part 2](images/question29_2.jpg)
-![Question 29 part 3](images/question29_3.jpg)
+![Question 43 part 1](images/question43_1.jpg)
+![Question 43 part 2](images/question43_2.jpg)
 
-- [ ] Box 1: Storage1 only. Box 2: Analytics1 only.
-- [x] Box 1: Storage2 only. Box 2: Analytics1, Analytics2,and Analytics3.
-- [ ] Box 1: Storage1 and Storage2 only. Box 2: Analytics1 and Analytics3 only.
-- [ ] Box 1: Storage1, Storage2, and Storage3. Box 2: Analytics1 and Analytics3 only.
+- [ ] Storage accounts that can be used as the audit log destination:: Storage1 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 only.
+- [x] Storage accounts that can be used as the audit log destination:: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1, Analytics2, and Analytics3.
+- [ ] Storage accounts that can be used as the audit log destination:: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
+- [ ] Storage accounts that can be used as the audit log destination:: Storage1, Storage2, and Storage3. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
 
 ### You need to deploy Docker containers to VM1. The containers must be able to access Azure Storage resources and Azure SQL databases by using the service endpoint. References: <https://docs.microsoft.com/en-us/azure/virtual-network/container-networking-overview>
 
