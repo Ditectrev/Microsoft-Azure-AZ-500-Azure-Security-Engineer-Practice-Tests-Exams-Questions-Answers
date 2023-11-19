@@ -503,13 +503,72 @@
 - [x] Yes.
 - [ ] No.
 
-### You need to deploy Docker containers to VM1. The containers must be able to access Azure Storage resources and Azure SQL databases by using the service endpoint. References: <https://docs.microsoft.com/en-us/azure/virtual-network/container-networking-overview>
-
-![Question 31](images/question31.jpg)
+### You have an Azure subscription named Sub1. Sub1 contains a virtual network named VNet1 that contains one subnet named Subnet1. You create a service endpoint for Subnet1. Subnet1 contains an Azure virtual machine named VM1 that runs Ubuntu Server 18.04. You create a service endpoint for MicrosoftStorage in Subnet1. You need to ensure that when you deploy Docker containers to VM1, the containers can access Azure Storage resources by using the service endpoint. What should you do on VM1 before you deploy the container?
 
 - [ ] Create an application security group and a network security group (NSG).
 - [ ] Edit the docker-compose.yml file.
 - [x] Install the container network interface (CNI) plug-in.
+
+### Your Company's Azure subscription includes a virtual network that has a single subnet configured. You have created a service endpoint for the subnet, which includes an Azure virtual machine that has Ubuntu Server 18.04 installed. You are preparing to deploy Docker containers to the virtual machine. You need to make sure that the containers can access Azure Storage resources and Azure SQL databases via the service endpoint. You need to perform a task on the virtual machine prior to deploying containers. Solution: You create an application security group. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your Company's Azure subscription includes a virtual network that has a single subnet configured. You have created a service endpoint for the subnet, which includes an Azure virtual machine that has Ubuntu Server 18.04 installed. You are preparing to deploy Docker containers to the virtual machine. You need to make sure that the containers can access Azure Storage resources and Azure SQL databases via the service endpoint. You need to perform a task on the virtual machine prior to deploying containers. Solution: You install the container network interface (CNI) plug-in. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your Company's Azure subscription includes a virtual network that has a single subnet configured. You have created a service endpoint for the subnet, which includes an Azure virtual machine that has Ubuntu Server 18.04 installed. You are preparing to deploy Docker containers to the virtual machine. You need to make sure that the containers can access Azure Storage resources and Azure SQL databases via the service endpoint. You need to perform a task on the virtual machine prior to deploying containers. Solution: You create an AKS Ingress controller. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an Azure Container Registry. You have been tasked with assigning a user a role that allows for the uploading of images to the Azure Container Registry. The role assigned should not require more privileges than necessary. Which of the following is the role you should assign?
+
+- [ ] Owner.
+- [ ] Contributor.
+- [x] AcrPush.
+- [ ] AcrPull.
+
+### Your company has an Azure Container Registry.You have been tasked with assigning a user a role that allows for the downloading of images from the Azure Container Registry. The role assigned should not require more privileges than necessary. Which of the following is the role you should assign?
+
+- [ ] Reader.
+- [ ] Contributor.
+- [ ] AcrDelete.
+- [x] AcrPull.
+
+### You make use of Azure Resource Manager templates to deploy Azure virtual machines. You have been tasked with making sure that Windows features that are not in use, are automatically inactivated when instances of the virtual machines are provisioned. Which of the following actions should you take?
+
+- [ ] You should make use of Azure DevOps.
+- [x] You should make use of Azure Automation State Configuration.
+- [ ] You should make use of network security groups (NSG).
+- [ ] You should make use of Azure Blueprints.
+
+### Your company's Azure subscription includes Windows Server 2016 Azure virtual machines.You are informed that every virtual machine must have a custom antimalware virtual machine extension installed. You are writing the necessary code for a policy that will help you achieve this. Which of the following is an effect that must be included in your code?
+
+- [ ] Disabled.
+- [ ] Modify.
+- [ ] AuditIfNotExists.
+- [x] DeployIfNotExists.
+
+### Your company makes use of Azure Active Directory (Azure AD) in a hybrid configuration. All users are making use of hybrid Azure AD joined Windows 10 computers. You manage an Azure SQL database that allows for Azure AD authentication. You need to make sure that database developers are able to connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following is the authentication method the developers should use?
+
+- [ ] Azure AD token.
+- [ ] Azure Multi-Factor authentication.
+- [x] Active Directory integrated authentication.
+
+### You have been tasked with enabling Advanced Threat Protection for an Azure SQL Database server. Advanced Threat Protection must be configured to identify all types of threat detection. Which of the following will happen if when a faulty SQL statement is generate in the database by an application?
+
+- [x] A Potential SQL injection alert is triggered.
+- [ ] A Vulnerability to SQL injection alert is triggered.
+- [ ] An Access from a potentially harmful application alert is triggered.
+- [ ] A Brute force SQL credentials alert is triggered.
+
+### You are in the process of creating an Azure Kubernetes Service (AKS) cluster. The Azure Kubernetes Service (AKS) cluster must be able to connect to an Azure Container Registry. You want to make sure that Azure Kubernetes Service (AKS) cluster authenticates to the Azure Container Registry by making use of the auto-generated service principal. Solution: You create an Azure Active Directory (Azure AD) role assignment. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
 
 ### You company has an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to create several security alerts by using Azure Monitor. You need to prepare the Azure subscription for the alerts. What should you create first?
 
@@ -1544,14 +1603,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Change the pricing tier of the App Service plan.
 - [x] Turn on the Incoming client certificates protocol setting.
 
-### You have an Azure subscription named Sub1. Sub1 contains a virtual network named VNet1 that contains one subnet named Subnet1. You create a service endpoint for Subnet1. Subnet1 contains an Azure virtual machine named VM1 that runs Ubuntu Server 18.04. You need to deploy Docker containers to VM1. The containers must be able to access Azure Storage resources and Azure SQL databases by using the service endpoint
-
-![Question 361](images/question361.jpg)
-
-- [ ] Create an application security group and a network security group (NSG).
-- [ ] Edit the docker-compose.yml file..
-- [x] Install the container network interface (CNI) plug-in.
-
 ### You have an Azure Container Registry named Registry1. You add role assignment for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Upload images: Download images
 
 ![Question 370 part 1](images/question370_1.jpg)
@@ -1872,12 +1923,6 @@ If User2 signs in to Azure from a device in the New York office, User1 must be a
 - [ ] Delete Group1. Create a new group named Group1 that has a membership type of Office 365. Add users and devices to the group.
 - [ ] Modify the membership rule of Group1.
 - [x] Change the membership type of Group1 to Assigned. Create two groups that have dynamic memberships. Add the new groups to Group1.
-
-### You have an Azure subscription named Sub1. Sub1 contains a virtual network named VNet1 that contains one subnet named Subnet1. You create a service endpoint for Subnet1. Subnet1 contains an Azure virtual machine named VM1 that runs Ubuntu Server 18.04. You create a service endpoint for MicrosoftStorage in Subnet1. You need to ensure that when you deploy Docker containers to VM1, the containers can access Azure Storage resources by using the service endpoint. What should you do on VM1 before you deploy the container?
-
-- [ ] Create an application security group and a network security group (NSG).
-- [ ] Edit the docker-compose.yml file.
-- [x] Install the container network interface (CNI) plug-in.
 
 ### You have an Azure subscription that contains the virtual machines shown in the following table. You create the Azure policies shown in the following table. You create the resource locks shown in the following table. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
