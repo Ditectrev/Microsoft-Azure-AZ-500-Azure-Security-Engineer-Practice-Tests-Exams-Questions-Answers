@@ -488,6 +488,21 @@
 - [ ] Storage accounts that can be used as the audit log destination:: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
 - [ ] Storage accounts that can be used as the audit log destination:: Storage1, Storage2, and Storage3. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
 
+### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Audit events for DB1 are written to storage1.
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Audit events for DB2 are written to storage1 and storage2.
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Storage3 can be used as an audit log destination for DB3.
+
+- [x] Yes.
+- [ ] No.
+
 ### You need to deploy Docker containers to VM1. The containers must be able to access Azure Storage resources and Azure SQL databases by using the service endpoint. References: <https://docs.microsoft.com/en-us/azure/virtual-network/container-networking-overview>
 
 ![Question 31](images/question31.jpg)
