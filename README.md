@@ -588,35 +588,38 @@
 
 ### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
 
-- [ ] a key vault access policy.
-- [x] a linked template.
-- [ ] a parameters file.
-- [ ] an automation account.
+- [ ] Key vault access policy.
+- [x] Linked template.
+- [ ] Parameters file.
+- [ ] Automation account.
 
-### You have an Azure subscription that contains the virtual machines shown in the following table. Subnet1 and Subnet2 have a Microsoft.Storage service endpoint configured. You have an Azure Storage account named storageacc1 that is configured as shown in the following exhibit. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Explanation: Box 1: Yes The public IP of VM1 is allowed through the firewall. Box 2: No The allowed virtual network list is empty so VM2 cannot access storageacc1 directly. The public IP address of VM2 is not in the allowed IP list so VM2 cannot access storageacc1 over the Internet. Box 3: No The allowed virtual network list is empty so VM3 cannot access storageacc1 directly. VM3 does not have a public IP address so it cannot access storageacc1 over the Internet
+### You have an Azure subscription that contains the virtual machines shown in the following table. Subnet1 and Subnet2 have a Microsoft.Storage service endpoint configured. You have an Azure Storage account named storageacc1 that is configured as shown in the following exhibit. From VM1, you can upload a blob to storageacc1.
 
-![Question 35 part 1](images/question35_1.jpg)
-![Question 35 part 2](images/question35_2.jpg)
-![Question 35 part 3](images/question35_3.jpg)
-
-From VVM1, you can upload a blob to storageacc1.
+![Question 61 part 1](images/question61_62_63_1.jpg)
+![Question 61 part 2](images/question61_62_63_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-From VM2, you can upload a blob to storageacc1.
+### You have an Azure subscription that contains the virtual machines shown in the following table. Subnet1 and Subnet2 have a Microsoft.Storage service endpoint configured. You have an Azure Storage account named storageacc1 that is configured as shown in the following exhibit. From VM2, you can upload a blob to storageacc1.
+
+![Question 62 part 1](images/question61_62_63_1.jpg)
+![Question 62 part 2](images/question61_62_63_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-From VM3, you can upload a blob to storageacc1.
+### You have an Azure subscription that contains the virtual machines shown in the following table. Subnet1 and Subnet2 have a Microsoft.Storage service endpoint configured. You have an Azure Storage account named storageacc1 that is configured as shown in the following exhibit. From VM3, you can upload a blob to storageacc1.
+
+![Question 63 part 1](images/question61_62_63_1.jpg)
+![Question 63 part 2](images/question61_62_63_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure subscription named Sub1 that contains the Azure Key Vaults shown in the following table.In Sub1, you create a virtual machine that has the following configurations: • Name:VM1 • Size: DS2v2 • Resource group: RG1 • Region: West Europe • Operating system: Windows Server 2016 You plan to enable Azure Disk Encryption on VM1. In which key vaults can you store the encryption key for VM1?
+### You have an Azure subscription named Sub1 that contains the Azure Key Vaults shown in the following table. In Sub1, you create a virtual machine that has the following configurations: Name: VM1. Size: DS2v2. Resource group: RG1. Region: West Europe. Operating system: Windows Server 2016. You plan to enable Azure Disk Encryption on VM1. In which key vaults can you store the encryption key for VM1?
 
-![Question 36](images/question36.jpg)
+![Question 64](images/question64.jpg)
 
 - [x] Vault1 or Vault3 only.
 - [ ] Vault1, Vault2, Vault3, or Vault4.
