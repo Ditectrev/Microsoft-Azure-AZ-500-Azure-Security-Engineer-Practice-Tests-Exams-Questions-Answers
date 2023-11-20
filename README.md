@@ -586,6 +586,13 @@
 - [ ] Box 1: Create a server application. Box 2: Create a client application. Box 3: Deploy an AKS cluster. Box 4: Create a custom RBAC role.
 - [ ] Box 1: Create a custom RBAC role. Box 2: Create an RBAC binding. Box 3: Create a client application. Box 4: Create a server application.
 
+### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
+
+- [ ] a key vault access policy.
+- [x] a linked template.
+- [ ] a parameters file.
+- [ ] an automation account.
+
 ### You have an Azure subscription that contains the virtual machines shown in the following table. Subnet1 and Subnet2 have a Microsoft.Storage service endpoint configured. You have an Azure Storage account named storageacc1 that is configured as shown in the following exhibit. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Explanation: Box 1: Yes The public IP of VM1 is allowed through the firewall. Box 2: No The allowed virtual network list is empty so VM2 cannot access storageacc1 directly. The public IP address of VM2 is not in the allowed IP list so VM2 cannot access storageacc1 over the Internet. Box 3: No The allowed virtual network list is empty so VM3 cannot access storageacc1 directly. VM3 does not have a public IP address so it cannot access storageacc1 over the Internet
 
 ![Question 35 part 1](images/question35_1.jpg)
@@ -1455,13 +1462,6 @@ User3 will be promped to configure MFA registration during the user's next Azure
 - [x] Box 1: Rule2 and Rule 4 only Box 2: Rule2 and Rule 4 only.
 - [ ] Box 1: Rule3 and Rule 4 only Box 2: Rule4 only.
 - [ ] Box 1: Rule1, Rule2, Rule3, and Rule 4 Box 2: Rule2 only.
-
-### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
-
-- [ ] a key vault access policy.
-- [x] a linked template.
-- [ ] a parameters file.
-- [ ] an automation account.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You create a site-to-site VPN between the virtual network and the on-premises network. Does this meet the goal?
 
