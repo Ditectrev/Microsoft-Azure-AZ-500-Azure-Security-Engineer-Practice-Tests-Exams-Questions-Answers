@@ -727,14 +727,16 @@ On June 15,2019, User3 can activate the Contributor role.
 - [ ] VM1 and VM3 only.
 - [ ] VM1, VM2, VM3, and VM4.
 
-### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttosin the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated.The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table.Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table.dentity and Access Requirements Litware identifies the following identity and access requirements: ✑ All San Francisco users and their devices must be members of Group1. ✑ The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. ✑ Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: ✑ Microsoft Antimalware must be installed on the virtual machines in Resource Group1. ✑ The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. ✑ Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. ✑ Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. ✑ A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. HOTSPOT You need to create Role1 to meet the platform protection requirements. How should you complete the role definition of Role1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### Overview Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table.Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table.dentity and Access Requirements Litware identifies the following identity and access requirements: All San Francisco users and their devices must be members of Group1. The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Platform Protection Requirements Litware identifies the following platform protection requirements: Microsoft Antimalware must be installed on the virtual machines in Resource Group1. The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Security Operations Requirements Litware must be able to customize the operating system security configurations in Azure Security Center. You need to create Role1 to meet the platform protection requirements. How should you complete the role definition of Role1?
 
 ![Question 51 part 1](images/question51_1.jpg)
 ![Question 51 part 2](images/question51_2.jpg)
 ![Question 51 part 3](images/question51_3.jpg)
 ![Question 51 part 4](images/question51_4.jpg)
 
-- [ ] BRAK ODPOWIEDZI
+- [x] Box 1: "Microsoft.Compute/ Box 2: disks/". Box 3: "/subscription/4389a43-17c24a39-8cfc-3540c2653ef4/resourceGrups/RG1".
+- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*", Box 4: /subscription/4389a43-17c24a39-8cfc-3540c2653ef4.
+- [ ] Box 1: "Microsoft.Storage/ Box 2: virtualMachines/disks/\*"/, Box 3: "/" .
 
 ### You have an Azure subscription that contains the virtual machines shown in the following table. From Azure Security Center, you turn on Auto Provisioning. You deploy the virtual machines shown in the following table. On which virtual machines is the Microsoft Monitoring agent installed?
 
@@ -1466,14 +1468,6 @@ User3 will be promped to configure MFA registration during the user's next Azure
 - [x] Yes.
 - [ ] No.
 
-### You need to create Role1 to meet the platform protection requirements. How should you complete the role definition of Role1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
-
-![Question 304 part 1](images/question303.jpg)
-
-- [x] Box 1: "Microsoft.Compute/ Box 2: disks/". Box 3: "/subscription/4389a43-17c24a39-8cfc-3540c2653ef4/resourceGrups/RG1".
-- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*", Box 4: /subscription/4389a43-17c24a39-8cfc-3540c2653ef4.
-- [ ] Box 1: "Microsoft.Storage/ Box 2: virtualMachines/disks/\*"/, Box 3: "/" .
-
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
@@ -1967,27 +1961,9 @@ If User3 sings in from a computer containing malware that is communicating with 
 ![Question 571 part 2](images/question571_2.jpg)
 ![Question 571 part 3](images/question571_3.jpg)
 
-### You plan to use Azure Resource Manager templates to perform multiple deployments of identically configured Azure virtual machines. The password for the administrator account of each deployment is stored as a secret in different Azure Key Vaults. You need to identify a method to dynamically construct a resource ID that will designate the key vault containing the appropriate secret during each deployment. The name of the key vault and the name of the secret will be provided as inline parameters. What should you use to construct the resource ID?
-
-![Question 572](images/question572.jpg)
-
-- [ ] a key vault access policy.
-- [ ] a linked template.
-- [x] a parameters file.
-- [ ] an automation account.
-
 ### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
-
-### You have two Azure virtual machines in the East US2 region as shown in the following table. You deploy and configure an Azure Key vault. You need to ensure that you can enable Azure Disk Encryption on VM1 and VM2. What should you modify on each virtual machine? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. VM1: VM2
-
-![Question 576 part 1](images/question576_1.jpg)
-![Question 576 part 2](images/question576_2.jpg)
-
-- [ ] Box 1: The tier Box 2: The type
-- [ ] Box 1: The type Box 2: Tier Box .
-- [ ] Box 1: The opperating sysem version Box 2: The tier.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
 
@@ -2034,34 +2010,6 @@ User3 will be prompted to configure MFA registration during the user's next Azur
 - [ ] Box 1: Append Box 2: The wxlusion settings.
 - [ ] Box 1: Deny Box 2: The scope.
 - [x] Box 1: DeployIfNotExists Box 2: The Create a Managed Identity setting.
-
-### You need to ensure that users can access VM0. The solution must meet the platform protection requirements. What should you do?
-
-![Question 611 part 1](images/question611_1.jpg)
-![Question 611 part 2](images/question611_2.jpg)
-
-- [x] Move VM0 to Subnet1.
-- [ ] On Firewall, configure a network traffic filtering rule..
-- [ ] Assign RT1 to AzureFirewallSubnet..
-- [ ] On Firewall, configure a DNAT rule.
-
-### You have two Azure virtual machines in the East US 2 region as shown in the following table. You deploy and configure an Azure Key vault. You need to ensure that you can enable Azure Disk Encryption on VM1 and VM2. What should you modify on each virtual machine? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. VM1: VM2
-
-![Question 615 part 1](images/question615_1.jpg)
-![Question 615 part 2](images/question615_2.jpg)
-
-- [ ] Box 1: The operating system version Box 2:
-- [x] Box 1: The tier Box 2: The type.
-- [ ] Box 1: The type Box 2:The operating system version.
-
-### You have the Azure virtual machines shown in the following table. You create an Azure Log Analytics workspace named Analytics1 in RG1 in the East US region. Which virtual machines can be enrolled in Analytics1?
-
-![Question 615](images/question615.jpg)
-
-- [x] VM1 only.
-- [ ] VM1, VM2, and VM3 only.
-- [ ] VM1, VM2, VM3, and VM4.
-- [ ] VM1 and VM4 only.
 
 ### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table. Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: – Allow traffic to VM4 from VM3 only. – Allow traffic from the Internet to VM1 and VM2 only. – Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. NSGs: Network security rules
 
