@@ -396,7 +396,7 @@
 - [ ] Cloud application administrator in Azure AD.
 - [x] Application developer in Azure AD.
 
-### You have three Azure subscriptions and a user named User1. You need to provide User1 with the ability to manage and view costs for the resources across all three subscriptions. The solution must use the principle of least privilege. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select
+### You have three Azure subscriptions and a user named User1. You need to provide User1 with the ability to manage and view costs for the resources across all three subscriptions. The solution must use the principle of least privilege. Which three actions should you perform in sequence? NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select
 
 ![Question 32](images/question32.jpg)
 
@@ -626,15 +626,14 @@
 - [ ] Vault1 only.
 - [ ] Vault1 or Vault2 only.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. Sub1 contains an Azure virtual machine named VM1 that runs Windows Server 2016. You need to encrypt VM1 disks by using Azure Disk Encryption. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Explanation: References: <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/encrypt-disks>
+### You have an Azure Subscription named Sub1. Sub1 contains an Azure virtual machine named VM1 that runs Windows Server 2016. You need to encrypt VM1 disks by using Azure Disk Encryption. Which three actions should you perform in sequence?
 
-![Question 37](images/question37.jpg)
+![Question 65](images/question65.png)
 
-- [ ] Configure secrets for the Azure Key Vault.
-- [x] Create an Azure key valut.
-- [ ] Run Set-AzureRmStorageAccount.
-- [x] Configure access policies for the Azure Key Vault.
-- [x] Run Set-AzureRmVmDiskEncryptiomExtension.
+- [x] Box 1: Create an Azure Key Vault. Box 2: Configure access policies for the Azure Key Vault. Box 3: Run Set-AzureRmVmDiskEncryptiomExtension.
+- [ ] Box 1: Configure secrets for the Azure Key Vault. Box 2: Configure access policies for the Azure Key Vault. Box 3: Run Set-AzureRmVmDiskEncryptiomExtension.
+- [ ] Box 1: Create an Azure Key Vault. Box 2: Configure secrets for the Azure Key Vault. Box 3: Run Set-AzureRmStorageAccount.
+- [ ] Box 1: Create an Azure Key Vault. Box 2: Run Set-AzureRmStorageAccount. Box 3: Configure secrets for the Azure Key Vault.
 
 ### You are evaluating the security of VM1, VM2, and VM3 in Sub2. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
@@ -655,7 +654,7 @@ From the Internet, you can connect to the server on VM3 by using HTTP.
 - [x] Yes.
 - [ ] No.
 
-### You need to configure SQLDB1 to meet the data and application requirements. Which three actions should you recommend be performed in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Explanation: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1 Connect to SQLDB1 by using SSMS In SQLDB1, create contained database users <https://www.youtube.com/watch?v=pEPyPsGEevw>
+### You need to configure SQLDB1 to meet the data and application requirements. Which three actions should you recommend be performed in sequence? Explanation: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1 Connect to SQLDB1 by using SSMS In SQLDB1, create contained database users <https://www.youtube.com/watch?v=pEPyPsGEevw>
 
 ![Question 40](images/question40.jpg)
 
@@ -1555,16 +1554,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 
 - [ ] Yes.
 - [x] No.
-
-### DRAG DROP Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. Sub1 contains an Azure virtual machine named VM1 that runs Windows Server 2016. You need to encrypt VM1 disks by using Azure Disk Encryption. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
-
-![Question 342](images/question342.jpg)
-
-- [ ] Configure secrets for Azure Key Vault.
-- [x] Create an Azure Key Vault.
-- [ ] Run Set-AzureRmStorageAccount.
-- [x] Configure access policies for the Azure Key Vault.
-- [x] Run Set-AzureRmVmDiskEncryptionExtension.
 
 ### You have an Azure subscription that contains the resources shown in the following table. You need to ensure that ServerAdmins can perform the following tasks: Create virtual machine to the existing virtual network in RG2 only. The solution must use the principle of least privilege. Which two role-based access control (RBAC) roles should you assign to ServerAdmins? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
