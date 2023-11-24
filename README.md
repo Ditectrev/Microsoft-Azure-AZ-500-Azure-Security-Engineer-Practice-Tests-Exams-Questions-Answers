@@ -701,17 +701,32 @@
 - [ ] Box 1: In Azure AD, enable authentication method policy. Box 2: From the Azure portal, create a managed identity. Box 3: Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS).
 - [x] Box 1: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1. Box 2: Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS). Box 3: In SQLDB1, create contained database users.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy Azure Active Directory Domain Services (Azure AD DS) to the Azure subscription. Does this meet the goal?
+### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy Azure Active Directory Domain Services (Azure AD DS) to the Azure subscription. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. An administrator named Admin1 has access to the following identities: ✑ An OpenID-enabled user account ✑ A Hotmail account ✑ An account in contoso.com ✑ An account in an Azure AD tenant named fabrikam.com You plan to use Azure Account Center to transfer the ownership of Sub1 to Admin1. To which accounts can you transfer the ownership of Sub1?
+### You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You create a site-to-site VPN between the virtual network and the on-premises network. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy the On-premises data gateway to the on-premises network. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy an Azure AD Application Proxy. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. An administrator named Admin1 has access to the following identities: An OpenID-enabled user account. A Hotmail account. An account in contoso.com. An account in an Azure AD tenant named fabrikam.com. You plan to use Azure Account Center to transfer the ownership of Sub1 to Admin1. To which accounts can you transfer the ownership of Sub1?
 
 - [ ] contoso.com only.
 - [ ] contoso.com, fabrikam.com, and Hotmail only.
 - [x] contoso.com and fabrikam.com only.
-- [ ] contoso.com, fabrikam.com, Hotmail, and OpenID-enabled user account
+- [ ] contoso.com, fabrikam.com, Hotmail, and OpenID-enabled user account.
 
 ### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table.Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: ✑ Allow traffic to VM4 from VM3 only. ✑ Allow traffic from the Internet to VM1 and VM2 only. ✑ Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.Explanation: NSGs: 1 Network security rules: 3 Not 2: You cannot specify multiple service tags or application groups) in a security rule. References: <https://docs.microsoft.com/en-us/azure/virtual-network/security-overview>. NSGs: Network security rules
 
@@ -862,7 +877,7 @@ following exhibit. The Azure Active Directory (Azure AD) tenant contains the use
 - [ ] Grant.
 - [x] Session.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Does this meet the goal?
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1112,11 +1127,6 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Box 1: User1, User2 and User3 only Box 2: User1 and User2 only.
 - [ ] Box 1: User1, User2, User3, and User4 Box 2: User1 and User3 only.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy the On-premises data gateway to the on-premises network. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
 ### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
@@ -1308,11 +1318,6 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Box 1: Admin1, Admin2, and Admin3 Box 2: Admin1.
 - [ ] Box 1: Admin1 and Admin2 only Box 2: Admin1, Admin2, and Admin3.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy an Azure AD Application Proxy. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
 ### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal
 
 - [ ] ... BRAK ODPOWIEDZI
@@ -1502,11 +1507,6 @@ User3 will be promped to configure MFA registration during the user's next Azure
 - [ ] Box 1: Rule3 and Rule 4 only Box 2: Rule4 only.
 - [ ] Box 1: Rule1, Rule2, Rule3, and Rule 4 Box 2: Rule2 only.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (AzureAD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You create a site-to-site VPN between the virtual network and the on-premises network. Does this meet the goal?
-
-- [x] Yes.
-- [ ] No.
-
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
@@ -1566,7 +1566,7 @@ Sing ins From IP addresses with supicious activity:
 - [ ] Discover resources.
 - [x] Verify your identity by using multi-factor authentication (MFA).
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create an initiative and an assignment that is scoped to a management group. Does this meet the goal?
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create an initiative and an assignment that is scoped to a management group. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1680,7 +1680,7 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] Deploy Azure Application Gateway.
 - [x] Deploy Azure Firewall.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a lock on Sa1. Does this meet the goal?
+### You have an Azure subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a lock on Sa1. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -1692,7 +1692,7 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] the Azure AD Connect wizard.
 - [ ] Active Directory Users and Computers
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a resource graph and an assignment that is scoped to a management group. Does this meet the goal?
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a resource graph and an assignment that is scoped to a management group. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -1958,7 +1958,7 @@ You can create a virtual machine in RG2.
 - [x] Yes.
 - [ ] No.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You connect to each virtual machine and add a Windows feature. Does this meet the goal?
+### You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You connect to each virtual machine and add a Windows feature. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -1994,7 +1994,7 @@ If User3 sings in from a computer containing malware that is communicating with 
 
 - [ ] BRAK ODPOWIEDZI
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -2006,7 +2006,7 @@ If User3 sings in from a computer containing malware that is communicating with 
 - [ ] From Azure Active Directory (Azure AD), modify the members of the Security Reader role group..
 - [ ] From Security Center, modify the alert rule.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You add an extension to each virtual machine. Does this meet the goal?
+### You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You add an extension to each virtual machine. Does this meet the goal?
 
 - [x] Yes
 - [ ] No.
@@ -2088,7 +2088,7 @@ User2 can access App1 from an IP address of 154.12.18.10.
 - [x] Create an Azure Log Analytics workspace.
 - [ ] Upgrade the pricing tier of Security Center to Standard.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You regenerate the access keys. Does this meet the goal?
+### You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You regenerate the access keys. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -2144,7 +2144,7 @@ User3 can activate the Security Administrator role.
 - [x] Yes.
 - [ ] No.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You generate new SASs. Does this meet the goal?
+### You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You generate new SASs. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -2252,7 +2252,7 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 - [ ] Assign RT1 to AzureFirewallSubnet.
 - [ ] On Firewall, configure a DNAT rule.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a new stored access policy. Does this meet the goal?
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a new stored access policy. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
