@@ -692,15 +692,14 @@
 - [x] Yes.
 - [ ] No.
 
-### You need to configure SQLDB1 to meet the data and application requirements. Which three actions should you recommend be performed in sequence? Explanation: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1 Connect to SQLDB1 by using SSMS In SQLDB1, create contained database users <https://www.youtube.com/watch?v=pEPyPsGEevw>
+### You need to configure SQLDB1 to meet the data and application requirements. Which three actions should you recommend be performed in sequence?
 
-![Question 40](images/question40.jpg)
+![Question 69](images/question69.png)
 
-- [x] From the Azure portal, create an Azure AD administrator for LitwareSQLServer1.
-- [x] In SQLDB1, create contained database users.
-- [x] Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS).
-- [ ] In Azure AD, create a system-assigned managed identity.
-- [ ] In Azure AD, Create a user-assigned managed identity.
+- [ ] Box 1: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1. Box 2: In SQLDB1, create contained database users. Box 3: Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS).
+- [ ] Box 1: From the Azure portal, create a managed identity. Box 2: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1. Box 3: In Azure AD, enable authentication method policy.
+- [ ] Box 1: In Azure AD, enable authentication method policy. Box 2: From the Azure portal, create a managed identity. Box 3: Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS).
+- [x] Box 1: From the Azure portal, create an Azure AD administrator for LitwareSQLServer1. Box 2: Connect to SQLDB1 by using Microsoft SQL Server Management Studio (SSMS). Box 3: In SQLDB1, create contained database users.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure HDInsight cluster on a virtual network. You plan to allow users to authenticate to the cluster by using their on-premises Active Directory credentials. You need to configure the environment to support the planned authentication. Solution: You deploy Azure Active Directory Domain Services (Azure AD DS) to the Azure subscription. Does this meet the goal?
 
