@@ -764,22 +764,21 @@
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure subscription that contains a web app named App1 and an Azure Key Vault named Vault1. You need to configure App1 to store and access the secrets in Vault1. How should you configure App1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Configure App1 to authenticate by using a: Configure a Key Vault reference foe App1 from the
+### You have an Azure subscription that contains a web app named App1 and an Azure key vault named Vault1. You need to configure App1 to store and access the secrets in Vault1. How should you configure App1?
 
-![Question 46](images/question46.jpg)
+![Question 79](images/question79.png)
 
-- [ ] Box 1: Key. Box 2: Extensions blade.
-- [ ] Box 1: Certificate. Box 2: General settings tab.
-- [ ] Box 1: Passphrase. Box 2: TLS/SSL settings blade.
-- [ ] User-assigned managed identity. Box 2: Extensions blade
-- [x] Box 1: System-assigned managed identity. Box 2: TLS/SSL settings blade.
+- [ ] Configure App1 to authenticate by using a: Key. Configure a Key Vault reference foe App1 from the: Extensions blade.
+- [ ] Configure App1 to authenticate by using a: Certificate. Configure a Key Vault reference foe App1 from the: General settings tab.
+- [ ] Configure App1 to authenticate by using a: Passphrase. Configure a Key Vault reference foe App1 from the: TLS/SSL settings blade.
+- [ ] Configure App1 to authenticate by using a: Managed identity. Configure a Key Vault reference foe App1 from the: Application settings tab.
 
 ### You have an Azure subscription that contains an app named App1. App1 has the app registration shown in the following table. You need to ensure that App1 can read all user calendars and create appointments. The solution must use the principle of least privilege. What should you do?
 
-![Question 47](images/question47.jpg)
+![Question 80](images/question80.png)
 
-- [x] Add a new Delegated API permission for Microsoft.Graph Calendars.ReadWrite.
-- [ ] Add a new Application API permission for Microsoft.Graph Calendars.ReadWrite.
+- [ ] Add a new Delegated API permission for Microsoft.Graph Calendars.ReadWrite.
+- [x] Add a new Application API permission for Microsoft.Graph Calendars.ReadWrite.
 - [ ] Select Grant admin consent.
 - [ ] Add a new Delegated API permission for Microsoft.Graph Calendars.ReadWrite.Shared.
 
