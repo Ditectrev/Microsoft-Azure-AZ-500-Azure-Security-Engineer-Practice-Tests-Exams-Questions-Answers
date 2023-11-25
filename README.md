@@ -737,27 +737,32 @@
 - [ ] NSGs: 3. Network security rules: 2.
 - [ ] NSGs: 4. Network security rules: 4.
 
-### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. In Azure AD Privileged Identity Management (PIM), the Role settings for the Contributor role are configured as shown in the exhibit. (Click the Exhibit tab.) You assign users the Contributor role on May 1, 2019 as shown in the following table.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. In Azure AD Privileged Identity Management (PIM), the Role settings for the Contributor role are configured as shown in the exhibit. You assign users the Contributor role on May 1, 2019 as shown in the following table. On May 15,2019, User1 can activare the Contributor role.
 
-![Question 45 part 1](images/question45_1.jpg)
-![Question 45 part 2](images/question45_2.jpg)
-![Question 45 part 3](images/question45_3.jpg)
-![Question 45 part 4](images/question45_4.jpg)
-
-On May 15,2019, User1 can activare the Contributor role.
+![Question 76 part 1](images/question76_77_78_1.jpg)
+![Question 76 part 2](images/question76_77_78_2.jpg)
+![Question 76 part 3](images/question76_77_78_3.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-On May 15,2019, User2 can use the Contributor role.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. In Azure AD Privileged Identity Management (PIM), the Role settings for the Contributor role are configured as shown in the exhibit. You assign users the Contributor role on May 1, 2019 as shown in the following table. On May 15,2019, User2 can use the Contributor role.
+
+![Question 77 part 1](images/question76_77_78_1.jpg)
+![Question 77 part 2](images/question76_77_78_2.jpg)
+![Question 77 part 3](images/question76_77_78_3.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-On June 15,2019, User3 can activate the Contributor role.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. In Azure AD Privileged Identity Management (PIM), the Role settings for the Contributor role are configured as shown in the exhibit. You assign users the Contributor role on May 1, 2019 as shown in the following table. On June 15,2019, User3 can activate the Contributor role.
 
-- [x] Yes.
-- [ ] No.
+![Question 78 part 1](images/question76_77_78_1.jpg)
+![Question 78 part 2](images/question76_77_78_2.jpg)
+![Question 78 part 3](images/question76_77_78_3.jpg)
+
+- [ ] Yes.
+- [x] No.
 
 ### You have an Azure subscription that contains a web app named App1 and an Azure Key Vault named Vault1. You need to configure App1 to store and access the secrets in Vault1. How should you configure App1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Configure App1 to authenticate by using a: Configure a Key Vault reference foe App1 from the
 
