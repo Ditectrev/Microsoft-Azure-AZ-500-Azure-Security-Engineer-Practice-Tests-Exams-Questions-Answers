@@ -728,15 +728,14 @@
 - [x] contoso.com and fabrikam.com only.
 - [ ] contoso.com, fabrikam.com, Hotmail, and OpenID-enabled user account.
 
-### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table.Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: ✑ Allow traffic to VM4 from VM3 only. ✑ Allow traffic from the Internet to VM1 and VM2 only. ✑ Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.Explanation: NSGs: 1 Network security rules: 3 Not 2: You cannot specify multiple service tags or application groups) in a security rule. References: <https://docs.microsoft.com/en-us/azure/virtual-network/security-overview>. NSGs: Network security rules
+### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table. Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: Allow traffic to VM4 from VM3 only. Allow traffic from the Internet to VM1 and VM2 only. Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create?
 
-![Question 43 part 1](images/question43_1.jpg)
-![Question 43 part 2](images/question43_2.jpg)
+![Question 75](images/question75.png)
 
-- [x] Box 1: 1. Box 2: 3.
-- [ ] Box 1: 2. Box 2: 4.
-- [ ] Box 1: 3. Box 2: 1.
-- [ ] Box 1: 4. Box 2: 2.
+- [ ] NSGs: 1. Network security rules: 1.
+- [x] NSGs: 2. Network security rules: 3.
+- [ ] NSGs: 3. Network security rules: 2.
+- [ ] NSGs: 4. Network security rules: 4.
 
 ### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. In Azure AD Privileged Identity Management (PIM), the Role settings for the Contributor role are configured as shown in the exhibit. (Click the Exhibit tab.) You assign users the Contributor role on May 1, 2019 as shown in the following table.
 
@@ -2039,16 +2038,6 @@ User3 will be prompted to configure MFA registration during the user's next Azur
 - [ ] Box 1: Append Box 2: The wxlusion settings.
 - [ ] Box 1: Deny Box 2: The scope.
 - [x] Box 1: DeployIfNotExists Box 2: The Create a Managed Identity setting.
-
-### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table. Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: – Allow traffic to VM4 from VM3 only. – Allow traffic from the Internet to VM1 and VM2 only. – Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. NSGs: Network security rules
-
-![Question 620 part 1](images/question620_1.jpg)
-![Question 620 part 2](images/question620_2.jpg)
-
-- [ ] Box 1: 1 Box 2: 1.
-- [x] Box 1: 2 Box 2: 3.
-- [ ] Box 1: 3 Box 2: 2.
-- [ ] Box 1: 4 Box 2: 4.
 
 ### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. The tenant contains the named locations shown in the following table. You create the conditional access policies for a cloud app named App1 as shown in the following table.
 
