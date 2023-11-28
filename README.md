@@ -868,13 +868,20 @@
 
 ### You have an Azure subscription that contains the virtual machines shown in the following table. From Azure Security Center, you turn on Auto Provisioning. You deploy the virtual machines shown in the following table. On which virtual machines is the Microsoft Monitoring agent installed?
 
-![Question 53 part 1](images/question53_1.jpg)
-![Question 53 part 2](images/question53_2.jpg)
+![Question 88 part 1](images/question88_1.jpg)
+![Question 88 part 2](images/question88_2.jpg)
 
 - [ ] VM3 only.
 - [ ] VM1 and VM3 only.
 - [ ] VM3 and VM4 only.
 - [x] VM1, VM2, VM3, and VM4.
+
+### You have an Azure subscription that contains four Azure SQL managed instances. You need to evaluate the vulnerability of the managed instances to SQL injection attacks. What should you do first?
+
+- [ ] Create an Azure Sentinel workspace.
+- [x] Enable Advanced Data Security.
+- [ ] Add the SQL Health Check solution to Azure Monitor.
+- [ ] Create an Azure Advanced Threat Protection (ATP) instance.
 
 ### You have an app that uses an Azure SQL database. You need to be notified if a SQL injection attack is launched against the database. What should you do?
 
@@ -883,39 +890,38 @@
 - [x] Enable Azure Defender for SQL for the database.
 - [ ] Enable server-level auditing for the database.
 
-### You have an Azure subscription that contains a storage account named storage1 and several virtual machines. The storage account and virtual machines are in the same Azure region. The network configurations of the virtual machines are shown in the following table. You configure the following Firewall and virtual networks settings for storage1: ✑ Allow access from: Selected networks ✑ Virtual networks: VNET3Subnet3 ✑ Firewall C Address range: 52.233.129.0/24
+### You have an Azure subscription that contains a storage account named storage1 and several virtual machines. The storage account and virtual machines are in the same Azure region. The network configurations of the virtual machines are shown in the following table. The virtual network subnets have service endpoints defined as shown in the following table. You configure the following Firewall and virtual networks settings for storage1: Allow access from: Selected networks. Virtual networks: VNET3\Subnet3. Firewall Address range: 52.233.129.0/24. VM1 can connect to storage1.
 
-![Question 58 part 1](images/question58_1.jpg)
-![Question 58 part 2](images/question58_2.jpg)
-![Question 58 part 3](images/question58_3.jpg)
-
-VM1 can connect to storage1.
+![Question 91 part 1](images/question91_92_93_1.png)
+![Question 91 part 2](images/question91_92_93_2.png)
 
 - [ ] Yes.
 - [x] No.
 
-VM2 can connect to storage1.
+### You have an Azure subscription that contains a storage account named storage1 and several virtual machines. The storage account and virtual machines are in the same Azure region. The network configurations of the virtual machines are shown in the following table. The virtual network subnets have service endpoints defined as shown in the following table. You configure the following Firewall and virtual networks settings for storage1: Allow access from: Selected networks. Virtual networks: VNET3\Subnet3. Firewall Address range: 52.233.129.0/24. VM2 can connect to storage1.
+
+![Question 92 part 1](images/question91_92_93_1.png)
+![Question 92 part 2](images/question91_92_93_2.png)
 
 - [x] Yes.
-- [ ]
+- [ ] No.
 
-VM4 can connect to storage1.
+### You have an Azure subscription that contains a storage account named storage1 and several virtual machines. The storage account and virtual machines are in the same Azure region. The network configurations of the virtual machines are shown in the following table. The virtual network subnets have service endpoints defined as shown in the following table. You configure the following Firewall and virtual networks settings for storage1: Allow access from: Selected networks. Virtual networks: VNET3\Subnet3. Firewall Address range: 52.233.129.0/24. VM3 can connect to storage1.
+
+![Question 93 part 1](images/question91_92_93_1.png)
+![Question 93 part 2](images/question91_92_93_2.png)
 
 - [ ] Yes.
-- [x] No
+- [x] No.
 
-### You need to create an Azure Key Vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You need to create an Azure Key Vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command?
 
-![Question 60](images/question 60.jpg)
+![Question 94](images/question94.png)
 
-- [ ] EnableForDeployment.
-- [x] EnablePurgeProtection.
-- [ ] Tag.
-
-- [ ] Confirm.
-- [ ] DefaultProfile.
-- [x] EnableSoftDeelete.
-- [ ] SKU.
+- [ ] Box 1: -EnableForDeployment. Box 2: -Confirm.
+- [x] Box 1: -EnablePurgeProtection. Box 2: -EnableSoftDelete.
+- [ ] Box 1: -Tag. Box 2: -DefaultProfile.
+- [ ] Box 1: -EnableForDeployment. Box 2: -SKU.
 
 ### You are troubleshooting a security issue for an Azure Storage account. You enable the diagnostic logs for the storage account. What should you use to retrieve the diagnostics logs?
 
@@ -1037,7 +1043,7 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Associate an NSG to Subnet12.
 - [ ] Configure DDoS protection for VNetwork1.
 
-### What is the membership of Group1 and Group2? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### What is the membership of Group1 and Group2?
 
 ![Question 85 part 1](images/question85_1.jpg)
 ![Question 85 part 2](images/question85_2.jpg)
@@ -1160,7 +1166,7 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Box 1: RG4 and RG6 only Box 2: RG6 only Box 2:
 - [ ] Box 1: RG4, RG5, and RG6 Box 2: RG4 only Box 2:
 
-### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You create a resource group named RG1. Which users can modify the permissions for RG1 and which users can create virtual networks in RG1? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You create a resource group named RG1. Which users can modify the permissions for RG1 and which users can create virtual networks in RG1?
 
 ![Question 113 part 1](images/question113_1.jpg)
 ![Question 113 part 2](images/question113_2.jpg)
@@ -1220,7 +1226,7 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] an azure policy assigned to RG1..
 - [ ] an Azure Bastion host on VNET1.
 
-### Your company has an Azure subscription named Subscription1 that contains the users shown in the following table. The company is sold to a new owner. The company needs to transfer ownership of Subscription1. Which user can transfer the ownership and which tool should the user use? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### Your company has an Azure subscription named Subscription1 that contains the users shown in the following table. The company is sold to a new owner. The company needs to transfer ownership of Subscription1. Which user can transfer the ownership and which tool should the user use?
 
 ![Question 145 part 1](images/question145_1.jpg)
 ![Question 145 part 2](images/question145_2.jpg)
@@ -1337,7 +1343,7 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [x] Add an application permission.
 - [x] Create an app registration.
 
-### You suspect that users are attempting to sign in to resources to which they have no access. You need to create an Azure Log Analytics query to identify failed user sign-in attempts from the last three days. The results must only show users who had more than five failed sign-in attempts. How should you configure the query? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You suspect that users are attempting to sign in to resources to which they have no access. You need to create an Azure Log Analytics query to identify failed user sign-in attempts from the last three days. The results must only show users who had more than five failed sign-in attempts. How should you configure the query?
 
 ![Question203](images/question203.jpg)
 
@@ -1418,7 +1424,7 @@ User4 can print File1.
 - [x] Install the Microsoft Agent on each server..
 - [ ] Install the Microsoft Agent on Server1 and Server2 install the on-premises data gateway on Server3.
 
-### You plan to use Azure Log Analytics to collect logs from 200 servers that run Windows Server 2016. You need to automate the deployment of the Microsoft Monitoring Agent to all the servers by using an Azure Resource Manager template. How should you complete the template? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You plan to use Azure Log Analytics to collect logs from 200 servers that run Windows Server 2016. You need to automate the deployment of the Microsoft Monitoring Agent to all the servers by using an Azure Resource Manager template. How should you complete the template?
 
 ![Question242](images/question242.jpg)
 
@@ -1788,15 +1794,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [ ] a delegated permission that requires admin consent.
 - [ ] an application permission that requires admin consent.
 
-### You need to create an Azure Key Vault. The solution must ensure that any object deleted from the key vault be retained for 90 days. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
-
-![Question 442](images/question442.jpg)
-
-- [ ] Box 1: EnableForDeployment Box 2: Confirm.
-- [x] Box 1: EnablePurgeProtection Box 2: EnableSoftDelete.
-- [ ] Box 1: Tag Box 2: DefaultProfile.
-- [ ] Box 1: EnableForDeployment Box 2 SKU.
-
 ### You have a hybrid configuration of Azure Active Directory (Azure AD). All users have computers that run Windows 10 and are hybrid Azure AD joined. You have an Azure SQL database that is configured to support Azure AD authentication. Database developers must connect to the SQL database by using Microsoft SQL Server Management Studio (SSMS) and authenticate by using their on-premises Active Directory account. You need to tell the developers which authentication method to use to connect to the SQL database from SSMS. The solution must minimize authentication prompts. Which authentication method should you instruct the developers to use?
 
 - [ ] SQL Login.
@@ -1811,7 +1808,7 @@ User1 can attach the network interface of VM1 to VNET1.
 - [ ] Associate an NSG to Subnet12..
 - [ ] Configure DDoS protection for VNetwork1.
 
-### You have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016. You need to implement a policy to ensure that each virtual machine has a custom antimalware virtual machine extension installed. How should you complete the policy? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point
+### You have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016. You need to implement a policy to ensure that each virtual machine has a custom antimalware virtual machine extension installed. How should you complete the policy?
 
 ![Question 450](images/question450.jpg)
 
