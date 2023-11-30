@@ -324,9 +324,17 @@
 - [x] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The scope.
 - [ ] Create a custom policy definition that has effect set to: DeployIfNotExists. Create a policy assignment and modify: The exclusion settings.
 
-### You need to configure support for Microsoft Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required?
+### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to configure support for Microsoft Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required?
 
-![Question 23](images/question23.jpg)
+![Question 23 part 1](images/question23_96_97_1.jpg)
+![Question 23 part 2](images/question23_96_97_2.jpg)
+![Question 23 part 3](images/question23_96_97_3.jpg)
+![Question 23 part 4](images/question23_96_97_4.jpg)
+![Question 23 part 5](images/question23_96_97_5.jpg)
+![Question 23 part 6](images/question23_96_97_6.jpg)
+![Question 23 part 7](images/question23_96_97_7.png)
+![Question 23 part 8](images/question23_96_97_8.jpg)
+![Question 23](images/question23_9.jpg)
 
 - [ ] Container registries: 0. Workspaces: 2.
 - [ ] Container registries: 1. Workspaces: 3.
@@ -930,23 +938,38 @@
 - [ ] File Explorer in Windows.
 - [ ] Azure Security Center.
 
-### This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. General Overview Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Existing Environment Network Environment Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the
+### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to meet the technical requirements for the finance department users. Which CAPolicy1 settings should you modify?
 
-following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table.Subscription1 Resources Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Planned Changes and Requirements Planned Changes Fabrikam plans to implement the following changes: ✑ Create two application security groups as shown in the following table.✑ Associate the network interface of VM1 to ASG1. ✑ Deploy SecPol1 by using Azure Security Center. ✑ Deploy a third-party app named App1. A version of App1 exists for all available operating systems. ✑ Create a resource group named RG2. ✑ Sync OU2 to Azure AD. ✑ Add User1 to Group1. Technical Requirements Fabrikam identifies the following technical requirements: ✑ The finance department users must reauthenticate after three hours when they access SharePoint Online. ✑ Storage1 must be encrypted by using customer-managed keys and automatic key rotation. ✑ From Sentinel1, you must ensure that the following notebooks can be launched: ✑ VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. ✑ Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. ✑ App1 must use a secure connection string stored in KeyVault1. ✑ KeyVault1 traffic must NOT travel over the internet. You need to meet the technical requirements for the finance department users.
-
-![Question 62 part 1](images/question62_1.jpg)
-![Question 62 part 2](images/question62_2.jpg)
-![Question 62 part 3](images/question62_3.jpg)
-![Question 62 part 4](images/question62_4.jpg)
-![Question 62 part 5](images/question62_5.jpg)
-![Question 62 part 6](images/question62_6.jpg)
-![Question 62 part 7](images/question62_7.jpg)
-![Question 62 part 8](images/question62_8.jpg)
+![Question 96 part 1](images/question23_96_97_1.jpg)
+![Question 96 part 2](images/question23_96_97_2.jpg)
+![Question 96 part 3](images/question23_96_97_3.jpg)
+![Question 96 part 4](images/question23_96_97_4.jpg)
+![Question 96 part 5](images/question23_96_97_5.jpg)
+![Question 96 part 6](images/question23_96_97_6.jpg)
+![Question 96 part 7](images/question23_96_97_7.png)
+![Question 96 part 8](images/question23_96_97_8.jpg)
 
 - [ ] Cloud apps or actions.
 - [ ] Conditions.
 - [ ] Grant.
 - [x] Session.
+
+### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to perform the planned changes for OU2 and User1. Which tools should you use?
+
+![Question 97 part 1](images/question23_96_97_1.jpg)
+![Question 97 part 2](images/question23_96_97_2.jpg)
+![Question 97 part 3](images/question23_96_97_3.jpg)
+![Question 97 part 4](images/question23_96_97_4.jpg)
+![Question 97 part 5](images/question23_96_97_5.jpg)
+![Question 97 part 6](images/question23_96_97_6.jpg)
+![Question 97 part 7](images/question23_96_97_7.png)
+![Question 97 part 8](images/question23_96_97_8.jpg)
+![Question 97 part 9](images/question97_9.jpg)
+
+- [ ] OU2: The Active Directory admin center. User1: Active Directory Users and Computers.
+- [ ] OU2: Active Directory Users and Computers. User1: Active Directory Sites and Services.
+- [ ] OU2: Active Directory Users and Computers. User1: The Azure portal.
+- [x] OU2: Azure AD Connect. User1: The Azure portal.
 
 ### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Does this meet the goal?
 
@@ -1051,16 +1074,6 @@ You need to implement VPN gateways for the virtual networks to meet the followin
 - [ ] Box 1: No members. Box 2: User1, User2, User3, and User4.
 - [ ] Box 1: Only User2. Box 2: Only User1 and User3.
 - [ ] Box 1: Only User1 and User3. Box 2: No members.
-
-### You need to perform the planned changes for OU2 and User1. Which tools should you use? To answer, drag the appropriate tools to the correct resources. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
-
-![Question 88](images/question88.jpg)
-
-- [x] The Azure portal.
-- [x] Azure AD Connect
-- [ ] The Active Directory admin center.
-- [ ] Active Directory Sites and Services.
-- [ ] Active Directory Users and Computers.
 
 ### You have an Azure Sentinel workspace that contains an Azure Active Directory (Azure AD) connector, an Azure Log Analytics query named Query1 and a playbook named Playbook1. Query1 returns a subset of security events generated by Azure AD. You plan to create an Azure Sentinel analytic rule based on Query1 that will trigger Playbook1. You need to ensure that you can add Playbook1 to the new rule. What should you do? Create the rule and set the type to: Configure the playbook to include
 
