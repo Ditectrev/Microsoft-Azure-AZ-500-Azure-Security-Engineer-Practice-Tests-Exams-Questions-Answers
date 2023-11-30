@@ -971,10 +971,25 @@
 - [ ] OU2: Active Directory Users and Computers. User1: The Azure portal.
 - [x] OU2: Azure AD Connect. User1: The Azure portal.
 
-### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Does this meet the goal?
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a lock on Sa1. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You generate new SASs. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You regenerate the access keys. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
+
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a new stored access policy. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
 
 ### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: ✑ Assignment: Include Group1, Exclude Group2 ✑ Conditions: Sign-in risk of Medium and above ✑ Access: Allow access, Require password change
 
@@ -1734,11 +1749,6 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] Deploy Azure Application Gateway.
 - [x] Deploy Azure Firewall.
 
-### You have an Azure subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a lock on Sa1. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
 ### Your network contains an on-premises Active Directory domain named corp.contoso.com. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You sync all on-premises identities to Azure AD. You need to prevent users who have a givenName attribute that starts with TEST from being synced to Azure AD. The solution must minimize administrative effort. What should you use?
 
 - [x] Synchronization Rules Editor.
@@ -1833,11 +1843,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [ ] Elevate access for global administrators in Azure A.
 - [ ] Upgrade the pricing tier of the Security Center to Standard.
 - [ ] Enable integration with Microsoft Cloud App Security.
-
-### Topic 3, Mix Questions Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You generate new SASs. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### You have an Azure subscription that contains 100 virtual machines. Azure Diagnostics is enabled on all the virtual machines. You are planning the monitoring of Azure services in the subscription. You need to retrieve the following details: Identify the user who deleted a virtual machine three weeks ago. Query the security events of a virtual machine that runs Windows Server 2016. What should you use in Azure Monitor? To answer, drag the appropriate configuration settings to the correct details. Each configuration setting may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Identify the user who deleted a virtual machine three weeks ago: Querty the security events of a vitual machine that runs Windows Server 2016
 
@@ -2097,11 +2102,6 @@ User2 can access App1 from an IP address of 154.12.18.10.
 - [x] Create an Azure Log Analytics workspace.
 - [ ] Upgrade the pricing tier of Security Center to Standard.
 
-### You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You regenerate the access keys. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
 ### You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: – Assignment: Include Group1, Exclude Group2 – Conditions: Sign-in risk of Medium and above– Access: Allow access, Require password change You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table.
 
 ![Question 649 part 1](images/question649_1.jpg)
@@ -2152,11 +2152,6 @@ User3 can activate the Security Administrator role.
 
 - [x] Yes.
 - [ ] No.
-
-### You have an Azure subscription named Sub1. You have an Azure Storage account named sa1 in a resource group named RG1. Users and applications access the blob service and the file service in sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to sa1. Solution: You generate new SASs. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. (Click the Conditions tab.) The Grant settings for Portal Policy are configured as shown in the Grant exhibit. (Click the Grant tab.)
 
@@ -2247,8 +2242,3 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 - [ ] Box 1: User2 only Box 2: User1, User3, and User4.
 - [ ] Box 1: User1, User2, User3 and User4 Box 2: User2 ad User4 only.
 - [ ] Box 1: User1, User2, User3 and User4 Box 2: User1 and User2 only.
-
-### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You create a new stored access policy. Does this meet the goal?
-
-- [x] Yes.
-- [ ] No.
