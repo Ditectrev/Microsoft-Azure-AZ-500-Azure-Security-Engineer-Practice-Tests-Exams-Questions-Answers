@@ -991,26 +991,50 @@
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: ✑ Assignment: Include Group1, Exclude Group2 ✑ Conditions: Sign-in risk of Medium and above ✑ Access: Allow access, Require password change
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: Assignment: Include Group1, Exclude Group2. Conditions: Sign-in risk of Medium and above. Access: Allow access, Require password change. If User1 signs in from an unfamiliar location, he must change his password.
 
-![Question 70 part 1](images/question70_1.jpg)
-![Question 70 part 2](images/question70_2.jpg)
-![Question 70 part 3](images/question70_3.jpg)
-
-If User1 signs in from an unfamiliar location, he must change his password.
+![Question 102](images/question102_103_104.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-If User2 sings in from an anonymous IP addres, she must change her password.
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: Assignment: Include Group1, Exclude Group2. Conditions: Sign-in risk of Medium and above. Access: Allow access, Require password change. If User2 sings in from an anonymous IP addres, she must change her password.
 
-- [x] Yes.
-- [ ] No.
-
-If User3 sings in from a computer containing malware that is communicating with know bot servers, he must change his password.
+![Question 103](images/question102_103_104.jpg)
 
 - [ ] Yes.
 - [x] No.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: Assignment: Include Group1, Exclude Group2. Conditions: Sign-in risk of Medium and above. Access: Allow access, Require password change. If User3 sings in from a computer containing malware that is communicating with know bot servers, he must change his password.
+
+![Question 104](images/question102_103_104.jpg)
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure Active Directory (Azure AD) te nant that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection sign-in risk policy that has the following settings: Assignments: Include Group1, exclude Group2. Conditions: Sign-in risk level: Medium and above. Access: Allow access, Require multi-factor authentication. You need to identify what occurs when the users sign in to Azure AD. What should you identify for each user? When User1 sings in from an anonymous IP address, the user will:
+
+![Question 105](images/question105_106_107.jpg)
+
+- [ ] Be blocked.
+- [x] Be prompted for MFA.
+- [ ] Sign in by using a username and password only.
+
+### You have an Azure Active Directory (Azure AD) te nant that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection sign-in risk policy that has the following settings: Assignments: Include Group1, exclude Group2. Conditions: Sign-in risk level: Medium and above. Access: Allow access, Require multi-factor authentication. You need to identify what occurs when the users sign in to Azure AD. What should you identify for each user? When User2 signs in from an unfamiliar location, the user will:
+
+![Question 106](images/question105_106_107.jpg)
+
+- [x] Be blocked.
+- [ ] Be prompted for MFA.
+- [ ] Sign in by using a username and password only.
+
+### You have an Azure Active Directory (Azure AD) te nant that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection sign-in risk policy that has the following settings: Assignments: Include Group1, exclude Group2. Conditions: Sign-in risk level: Medium and above. Access: Allow access, Require multi-factor authentication. You need to identify what occurs when the users sign in to Azure AD. What should you identify for each user? When User3 signs in from an infceted device, the user will:
+
+![Question 107](images/question105_106_107.jpg)
+
+- [x] Be blocked.
+- [ ] Be prompted for MFA.
+- [ ] Sign in by using a username and password only.
 
 ### You have the Azure virtual networks shown in the following table. You have the Azure virtual machines shown in the following table. The firewalls on all the virtual machines allow ping traffic. NSG1 is configured as shown in the following exhibit. Inbound security rules. Outbound security rules.For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
 
@@ -2001,27 +2025,6 @@ You can create a virtual machine in RG2.
 - [ ] Yes.
 - [x] No.
 
-### You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: – Assignment: Include Group1, Exclude Group2 – Conditions: Sign-in risk of Medium and above – Access: Allow access, Require password change You have an Azure Active Directory (Azure AD) ten ant named contoso.com that contains the u sers shown in the following table. You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: • Assignment: Include Group1, Exclude Group2 • Conditions: Sign-in risk of Medium and above • Access: Allow access, Require password change
-
-![Question 565 part 1](images/question565_1.jpg)
-![Question 565 part 2](images/question565_2.jpg)
-![Question 565 part 3](images/question565_3.jpg)
-
-If User1 sings in unfamiliar location, he must change his password.
-
-- [x] Yes.
-- [ ] No.
-
-If User2 sings in from an anonymous IP address, she must change her password.
-
-- [x] Yes.
-- [ ] No.
-
-If User3 sings in from a computer containing malware that is communicating with known bot servers, he must change his password.
-
-- [ ] Yes.
-- [x] No.
-
 ### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
@@ -2102,27 +2105,6 @@ User2 can access App1 from an IP address of 154.12.18.10.
 - [x] Create an Azure Log Analytics workspace.
 - [ ] Upgrade the pricing tier of Security Center to Standard.
 
-### You create and enforce an Azure AD Identity Protection user risk policy that has the following settings: – Assignment: Include Group1, Exclude Group2 – Conditions: Sign-in risk of Medium and above– Access: Allow access, Require password change You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table.
-
-![Question 649 part 1](images/question649_1.jpg)
-![Question 649 part 2](images/question649_2.jpg)
-![Question 649 part 3](images/question649_3.jpg)
-
-If User1 sings in from an unfamiliar location, he must change his password.
-
-- [x] Yes.
-- [ ] No.
-
-If User2 sings in from an anonymous IP address, she must change her password.
-
-- [x] Yes.
-- [ ] No.
-
-If User3 sings in from a computer containing malware that is communicating with known bot servers, he must change his password.
-
-- [ ] Yes.
-- [x] No.
-
 ### What is the membership of Group1 and Group2? Group 1: Gropu 2
 
 ![Question 653 part 14](images/question653_14.jpg)
@@ -2190,15 +2172,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Box 1: User1 and User2 only.Box 2: User1 and User3 only.
 - [ ] Box 1: User1, User2, and User3 only Box 2: User1, User2, User3 and User4 only.
 - [ ] Box 1: User1, User2, User3 and User4 only Box 2: User1, User2, and User3 only.
-
-### You have an Azure Active Directory (Azure AD) te nant that contains the users shown in the following table. You create and enforce an Azure AD Identity Protection sign-in risk policy that has the following settings: – Assignments: Include Group1, exclude Group2 – Conditions: Sign-in risk level: Medium and above – Access Allow access, Require multi-factor authentication You need to identify what occurs when the users sign in to Azure AD. What should you identify for each user? When User1 sings in from an anonymous IP address, the user will: When User2 signs in from an unfamiliar location, the user will: When User3 signs in from an infceted device, the user will
-
-![Question 674 part 1](images/question674_1.jpg)
-![Question 674 part 2](images/question674_2.jpg)
-
-- [x] Box 1: Be prompted for MFA Box 2: Be blocked Box 3: Be blocked.
-- [ ] Box 1: Be prompted for MFA Box 2: Sign in by using a username and password only Box 3: Be blocked.
-- [ ] Box 1: Be blocked Box 2: Be prompted for MFA Box 3: Sign in by using a username and password.
 
 ### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit.
 
