@@ -812,10 +812,10 @@
 ![Question 82 part 3](images/question59_69_82_83_84_85_86_87_3.jpg)
 ![Question 82 part 4](images/question82_4.jpg)
 
-- [ ] Box 1: "Microsoft.Compute/. Box 2: disks/*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
-- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/*",. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
-- [ ] Box 1: "Microsoft.Storage/. Box 2: virtualMachines/disks/*",. Box 3: "/" .
-- [x] Box 1: "Microsoft.Compute/. Box 2: disks/*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
+- [ ] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
+- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*",. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
+- [ ] Box 1: "Microsoft.Storage/. Box 2: virtualMachines/disks/\*",. Box 3: "/" .
+- [x] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
 
 ### Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table. All San Francisco users and their devices must be members of Group1. The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Microsoft Antimalware must be installed on the virtual machines in Resource Group1. The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Litware must be able to customize the operating system security configurations in Azure Security Center. The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. WebApp1 must enforce mutual authentication. Whenever possible, administrative effort must be minimized. Whenever possible, use of automation must be maximized. You need to meet the identity and access requirements for Group1. What should you use?
 
@@ -1068,39 +1068,35 @@
 
 ### You have an Azure subscription named Subcription1 that contains an Azure Active Directory (Azure AD) tenant named contosos.com and a resource group named RG1. You create a custom role named Role1 for contoso.com. You need to identify where you can use Role1 for permission delegation. What should you identify?
 
-- [ ] contoso.com only.
+- [x] contoso.com only.
 - [ ] contoso.com and RGT only.
 - [ ] contoso.com and Subscription1 only.
-- [x] contoso.com, RG1, and Subcription1
+- [ ] contoso.com, RG1, and Subcription1
 
-### You are configuring network connectivity for two Azure virtual networks named VNET1 and VNET2
+### You are configuring network connectivity for two Azure virtual networks named VNET1 and VNET2. You need to implement VPN gateways for the virtual networks to meet the following requirements: VNET1 must have six site-to-site connections that use BGP. VNET2 must have 12 site-to-site connections that use BGP. Costs must be minimized. Which VPN gateway SKI should you use for each virtual network?
 
-You need to implement VPN gateways for the virtual networks to meet the following requirements:
+![Question 112](images/question112.png)
 
-- VNET1 must have six site-to-site connections that use BGP.
-- VNET2 must have 12 site-to-site connections that use BGP.
-- Costs must be minimized.
-  Which VPN gateway SKI) should you use for each virtual network? To answer, drag the appropriate SKUs to the correct networks. Each SKU may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
+- [ ] VNET1: Basic. VNET2: VpnGw1.
+- [ ] VNET1: VpnGw1. VNET2: VpnGw2.
+- [ ] VNET1: VpnGw2. VNET2: VpnGw1.
+- [x] VNET1: VpnGw1. VNET2: VpnGw1.
 
-- [ ] ...
+### You have an Azure Key Vault. You need to delegate administrative access to the key vault to meet the following requirements: Provide a user named User1 with the ability to set advanced access policies for the key vault. Provide a user named User2 with the ability to add and delete certificates in the key vault. Use the principle of least privilege. What should you use to assign access to each user?
 
-### You have an Azure Key Vault. You need to delegate administrative access to the key vault to meet the following requirements: ✑ Provide a user named User1 with the ability to set advanced access policies for the key vault. ✑ Provide a user named User2 with the ability to add and delete certificates in the key vault. ✑ Use the principle of least privilege. What should you use to assign access to each user? User1: User2
+![Question 113](images/question113.jpg)
 
-![Question 80](images/question80.jpg)
+- [x] User1: RBAC. User2: A key vault access policy.
+- [ ] User1: A key vault access policy. User2: Azure Policy.
+- [ ] User1: Azure Policy. User2: Managed identities for Azure resources.
+- [ ] User1: Managed identities for Azure resources. User2: Azure Policy.
 
-- [x] Box 1: RBAC Box 2: A key vault access policy.
-- [ ] Box 1: A key vault access policy. Box 2: Azure Information Protection.
-- [ ] Box 1: Azure Policy. Box 2: Managed identities for Azure resources.
-- [ ] Box 1: Managed identities for Azure resources. Box 2: Azure Policy.
-- [ ] Box 1: Information Protection. Box 2: PBAC.
-
-### You have an Azure Active Din-dory (Azure AD) tenant named contoso.com that contains a user named User1. You plan to publish several apps in the tenant. You need to ensure that User1 can grant admin consent for the published apps. Which two possible user roles can you assign to User! to achieve this goal? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
+### You have an Azure Active Din-dory (Azure AD) tenant named contoso.com that contains a user named User1. You plan to publish several apps in the tenant. You need to ensure that User1 can grant admin consent for the published apps. Which two possible user roles can you assign to User! to achieve this goal?
 
 - [ ] Application developer.
 - [ ] Security administrator.
 - [x] Application administrator.
 - [ ] User administrator.
-- [ ] Cloud application administrator.
 - [x] Cloud application administrator.
 
 ### Topic 2, Contoso. This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided. To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other question on this case study. At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next sections of the exam. After you begin a new section, you cannot return to this section. To start the case study To display the first question on this case study, click the Next button. Use the buttos in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question. Overview Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetWork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.co Existing Environment Azure AD Contoso.com contains the users shown in the following table.Contoso.com contains the security groups shown in the following table. Sub1 Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User2 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Technical requirements Contoso identifies the following technical requirements: ✑ Deploy Azure Firewall to VNetwork1 in Sub2. ✑ Register an application named App2 in contoso.com. ✑ Whenever possible, use the principle of least privilege. ✑ Enable Azure AD Privileged Identity Management (PIM) for contoso.com. You need to meet the technical requirements for VNetwork1
@@ -1515,13 +1511,6 @@ User4 can print File1.
 - [ ] Box 1: KV1, KV2 and KV4 only Box 2: KV1 and KV2 only Box.
 - [ ] Box 1: KV1, KV2, KV3, KV4, and KV5 Box 2: KV1 only.
 
-### You need to meet the technical requirements for VNetwork1. What should you do first?
-
-- [x] Create a new subnet on VNetwork1.
-- [ ] Remove the NSGs from Subnet11 and Subnet13.
-- [ ] Associate an NSG to Subnet12.
-- [ ] Configure DDoS protection for VNetwork1.
-
 ### You network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. The tenant contains the groups shown in the following table. The tenant contains the groups shown in the following table. You configure a multi-factor authentication (MFA) registration policy that and the following settings: • Assignments: • Include: Group1 • Exclude Group2 • Controls: Require Azure MFA registration • Enforce Policy: On For each of the following statements, select Yes if the statement is true. Otherwise, select No
 
 ![Question 263 part 1](images/question263_1.jpg)
@@ -1853,13 +1842,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [x] Active Directory C Integrated.
 - [ ] Active Directory C Password
 
-### What should you do first?
-
-- [x] Create a new subnet on VNetwork1.
-- [ ] Remove the NSGs from Subnet11 and Subnet13..
-- [ ] Associate an NSG to Subnet12..
-- [ ] Configure DDoS protection for VNetwork1.
-
 ### You have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016. You need to implement a policy to ensure that each virtual machine has a custom antimalware virtual machine extension installed. How should you complete the policy?
 
 ![Question 450](images/question450.jpg)
@@ -2111,15 +2093,6 @@ User2 can access App1 from an IP address of 154.12.18.10.
 - [ ] Implement Azure Advisor recommendations.
 - [x] Create an Azure Log Analytics workspace.
 - [ ] Upgrade the pricing tier of Security Center to Standard.
-
-### What is the membership of Group1 and Group2? Group 1: Gropu 2
-
-![Question 653 part 14](images/question653_14.jpg)
-
-- [x] Box 1: User1, User2, User3, and User4 Box 2: Only User3.
-- [ ] Box 1: Only User3 Box 2: User1, User2, User3, and User4.
-- [ ] Box 1: Only User2 and User4 Box 2: Only User1 and User3.
-- [ ] Box 1: No members Box 2: No members.
 
 ### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: – Group1: Active assignment type, permanently assigned – Group2: Eligible assignment type, permanently eligible
 
