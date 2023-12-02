@@ -1036,25 +1036,32 @@
 - [ ] Be prompted for MFA.
 - [ ] Sign in by using a username and password only.
 
-### You have the Azure virtual networks shown in the following table. You have the Azure virtual machines shown in the following table. The firewalls on all the virtual machines allow ping traffic. NSG1 is configured as shown in the following exhibit. Inbound security rules. Outbound security rules.For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point
+### You have the Azure virtual networks shown in the following table. You have the Azure virtual machines shown in the following table. The firewalls on all the virtual machines allow ping traffic. NSG1 is configured as shown in the following exhibit. Inbound security rules. Outbound security rules. VM1 can ping VM3 successfully.
 
-![Question 71 part 1](images/question71_1.jpg)
-![Question 71 part 2](images/question71_2.jpg)
-![Question 71 part 3](images/question71_3.jpg)
-![Question 71 part 4](images/question71_4.jpg)
-![Question 71 part 5](images/question71_5.jpg)
-
-VM1 can ping VM3 successfully.
+![Question 108 part 1](images/question108_109_110_1.png)
+![Question 108 part 2](images/question108_109_110_2.jpg)
+![Question 108 part 3](images/question108_109_110_3.jpg)
+![Question 108 part 4](images/question108_109_110_4.png)
 
 - [x] Yes.
 - [ ] No.
 
-VM2 can ping VM4 successfully.
+### You have the Azure virtual networks shown in the following table. You have the Azure virtual machines shown in the following table. The firewalls on all the virtual machines allow ping traffic. NSG1 is configured as shown in the following exhibit. Inbound security rules. Outbound security rules. VM2 can ping VM4 successfully.
+
+![Question 109 part 1](images/question108_109_110_1.png)
+![Question 109 part 2](images/question108_109_110_2.jpg)
+![Question 109 part 3](images/question108_109_110_3.jpg)
+![Question 109 part 4](images/question108_109_110_4.png)
 
 - [ ] Yes.
 - [x] No.
 
-VM3 can be accessed by using Remote Deskopt from the internet.
+### You have the Azure virtual networks shown in the following table. You have the Azure virtual machines shown in the following table. The firewalls on all the virtual machines allow ping traffic. NSG1 is configured as shown in the following exhibit. Inbound security rules. Outbound security rules. VM3 can be accessed by using Remote Deskopt from the internet.
+
+![Question 110 part 1](images/question108_109_110_1.png)
+![Question 110 part 2](images/question108_109_110_2.jpg)
+![Question 110 part 3](images/question108_109_110_3.jpg)
+![Question 110 part 4](images/question108_109_110_4.png)
 
 - [x] Yes.
 - [ ] No.
