@@ -1255,9 +1255,9 @@
 - [ ] Create an initiative.
 - [ ] Configure continuous export.
 
-### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant. When a developer attempts to register an app named App1 in the tenant, the developer receives the error message shown in the following exhibit. You need to ensure that the developer can register App1 in the tenant. What should you do for the tenant?
+### You have an Azure subscription that is associated with an Azure Active Directory (Azure AD) tenant. When a developer attempts to register an app named App1 in the tenant, the developer receives the error message shown in the following exhibit. You need to ensure that the developer can register App1 in the tenant. What should you do for the tenant?
 
-![Question 107](images/question107.jpg)
+![Question 130](images/question130.jpg)
 
 - [x] Modify the User settings.
 - [ ] Set Enable Security default to Yes.
