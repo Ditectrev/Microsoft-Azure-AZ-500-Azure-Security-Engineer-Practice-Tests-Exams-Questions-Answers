@@ -1317,26 +1317,37 @@
 
 ### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You create a resource group named RG1. Which users can modify the permissions for RG1 and which users can create virtual networks in RG1?
 
-![Question 113 part 1](images/question113_1.jpg)
-![Question 113 part 2](images/question113_2.jpg)
+![Question 134 part 1](images/question134_1.jpg)
+![Question 134 part 2](images/question134_2.jpg)
 
-- [x] Box 1: User1 only Box 2: User1 and User2 only.
-- [ ] Box 1: User1 and User2 only Box 2: User1 only.
-- [ ] Box 1: User1 and User3 only Box 2: User1, User2, User3, and User4.
-- [ ] Box 1: User1, User2 and User3 only Box 2: User1 and User2 only.
-- [ ] Box 1: User1, User2, User3, and User4 Box 2: User1 and User3 only.
+- [x] Users who can modify the permissions for RG1: User1 only. Users who can create virtual networks in RG1: User1 and User2 only.
+- [ ] Users who can modify the permissions for RG1: User1 and User2 only. Users who can create virtual networks in RG1: User1 only.
+- [ ] Users who can modify the permissions for RG1: User1 and User3 only. Users who can create virtual networks in RG1: User1, User2, User3, and User4.
+- [ ] Users who can modify the permissions for RG1: User1, User2 and User3 only. Users who can create virtual networks in RG1: User1 and User2 only.
 
-### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources
+### You have an Azure subscription named Sub 1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. Each user is assigned an Azure AD Premium P2 license. You plan to onboard and configure Azure AD Identity Protection. Which users can onboard Azure AD Identity Protection, remediate users, and configure policies?
 
-- [ ] BRAK ODPOWIEDZI
+![Question 135 part 1](images/question135_1.jpg)
+![Question 135 part 2](images/question135_2.jpg)
 
-### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that <debbie@contoso.com> is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal
+- [x] Users who can onboard Azure AD Identity Protection: User1 only. Users who can remediate users and configure policies: User1 and User2 only.
+- [ ] Users who can onboard Azure AD Identity Protection: User1 and User2 only. Users who can remediate users and configure policies: User1 and User3 only.
+- [ ] Users who can onboard Azure AD Identity Protection: User1, User2, and User3 only. Users who can remediate users and configure policies: User1, User2, User3 and User4 only.
+- [ ] Users who can onboard Azure AD Identity Protection: User1, User2, User3 and User4 only. Users who can remediate users and configure policies: User1, User2, and User3 only.
 
-- [ ] BRAK ODPOWIEDZI
+### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that [email protected] is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
-- [ ] BRAK ODPOWIEDZI
+### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that <debbie@contoso.com> is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal.
+
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
 ### You are configuring just in time (JIT) VM access to a set of Azure virtual machines. You need to grant users PowerShell access to the virtual machine by using JIT VM access. What should you configure? Permission that must be granted to users on VM: TCP potal that must be allowed
 
@@ -2228,16 +2239,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Active Directory – Universal with MFA support.
 - [ ] SQL Server Authentication.
 - [ ] Active Directory – Integrated.Question Set 3
-
-### You have an Azure subscription named Sub 1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. Each user is assigned an Azure AD Premium P2 license. You plan to onboard and configure Azure AD Identity Protection. Which users can onboard Azure AD Identity Protection, remediate users, and configure policies? Users who can onboard Azure AD Identity Protection: Users who can remediate users and configure policies
-
-![Question 671 part 1](images/question671_1.jpg)
-![Question 671 part 2](images/question671_2.jpg)
-
-- [x] Box 1: User1 only Box 2: User1 and User2 only.
-- [ ] Box 1: User1 and User2 only.Box 2: User1 and User3 only.
-- [ ] Box 1: User1, User2, and User3 only Box 2: User1, User2, User3 and User4 only.
-- [ ] Box 1: User1, User2, User3 and User4 only Box 2: User1, User2, and User3 only.
 
 ### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit.
 
