@@ -152,135 +152,135 @@
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
 
-### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM2.
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM3.
 
-![Question 13 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 13 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 13 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 13 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 13 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 13 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 13 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 13 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 13 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 13 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 13 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 13 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 13 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 13 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 13 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 13 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 13 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 13 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 13 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 13 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 13 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 13 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 13 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 13 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 13 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 13 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM3.
 
-![Question 14 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 14 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 14 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 14 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 14 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 14 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 14 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 14 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 14 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 14 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 14 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 14 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 14 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 14 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 14 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 14 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 14 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 14 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 14 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 14 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 14 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 14 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 14 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 14 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 14 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 14 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM5.
 
-![Question 15 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 15 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 15 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 15 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 15 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 15 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 15 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 15 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 15 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 15 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 15 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 15 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 15 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 15 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 15 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 15 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 15 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 15 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 15 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 15 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 15 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 15 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 15 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 15 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 15 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 15 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [ ] Yes.
 - [x] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the private IP address of VM4.
 
-![Question 16 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 16 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 16 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 16 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 16 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 16 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 16 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 16 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 16 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 16 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 16 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 16 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 16 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 16 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 16 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 16 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 16 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 16 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 16 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 16 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 16 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 16 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 16 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 16 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 16 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 16 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [ ] Yes.
 - [x] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM2, you can successfully ping the private IP address of VM4.
 
-![Question 17 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 17 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 17 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 17 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 17 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 17 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 17 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 17 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 17 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 17 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 17 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 17 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 17 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 17 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 17 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 17 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 17 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 17 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 17 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 17 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 17 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 17 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 17 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 17 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 17 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 17 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the effect of the application security groups on the network communication between the virtual machines in Sub2. From VM1, you can connect to the web server on VM4.
 
-![Question 18 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 18 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 18 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 18 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 18 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 18 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 18 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 18 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 18 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 18 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 18 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 18 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 18 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 18 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 18 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 18 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 18 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 18 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 18 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 18 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 18 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 18 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 18 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 18 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 18 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 18 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You need to ensure that User2 can implement PIM. What should you do first?
 
-![Question 19 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 19 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 19 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 19 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 19 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 19 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 19 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 19 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 19 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 19 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 19 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 19 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 19 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 19 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 19 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 19 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 19 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 19 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 19 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 19 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 19 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 19 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 19 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 19 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 19 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 19 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Assign User2 the Global administrator role.
 - [ ] Configure authentication methods for contoso.com.
@@ -289,19 +289,19 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. Which virtual networks in Sub1 can User9 modify and delete in their current state?
 
-![Question 20 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 20 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 20 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 20 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 20 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 20 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 20 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 20 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 20 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 20 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 20 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 20 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 20 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 20 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 20 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 20 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 20 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 20 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 20 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 20 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 20 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 20 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 20 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 20 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 20 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 20 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 ![Question 20 part 14](images/question20_14.jpg)
 
 - [x] Virtual networks that User9 can modify: VNET4 and VNET1 only. Virtual networks that User9 can delete: VNET4 only.
@@ -648,57 +648,57 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM2.
 
-![Question 66 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 66 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 66 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 66 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 66 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 66 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 66 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 66 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 66 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 66 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 66 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 66 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 66 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 66 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 66 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 66 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 66 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 66 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 66 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 66 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 66 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 66 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 66 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 66 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 66 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 66 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of VM1, VM2, and VM3 in Sub2. From the Internet, you can connect the web server on VM2 by using HTTP.
 
-![Question 67 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 67 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 67 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 67 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 67 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 67 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 67 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 67 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 67 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 67 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 67 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 67 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 67 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 67 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 67 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 67 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 67 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 67 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 67 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 67 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 67 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 67 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 67 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 67 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 67 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 67 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [ ] Yes.
 - [x] No.
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of VM1, VM2, and VM3 in Sub2. From the Internet, you can connect to the server on VM3 by using HTTP.
 
-![Question 68 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 68 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 68 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 68 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 68 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 68 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 68 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 68 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 68 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 68 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 68 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 68 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 68 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 68 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 68 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 68 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 68 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 68 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 68 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 68 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 68 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 68 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 68 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 68 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 68 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 68 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
@@ -744,10 +744,11 @@
 
 ### You have an Azure subscription named Sub1. You create a virtual network that contains one subnet. On the subnet, you provision the virtual machines shown in the following table. Currently, you have not provisioned any network security groups (NSGs). You need to implement network security to meet the following requirements: Allow traffic to VM4 from VM3 only. Allow traffic from the Internet to VM1 and VM2 only. Minimize the number of NSGs and network security rules. How many NSGs and network security rules should you create?
 
-![Question 75](images/question75.png)
+![Question 75 part 1](images/question75_1.png)
+![Question 75 part 2](images/question75_2.jpg)
 
-- [ ] NSGs: 1. Network security rules: 1.
-- [x] NSGs: 2. Network security rules: 3.
+- [x] NSGs: 1. Network security rules: 3.
+- [ ] NSGs: 2. Network security rules: 3.
 - [ ] NSGs: 3. Network security rules: 2.
 - [ ] NSGs: 4. Network security rules: 4.
 
@@ -1101,19 +1102,19 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You need to meet the technical requirements for VNetwork1. What should you do first?
 
-![Question 115 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 115 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 115 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 115 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 115 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 115 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 115 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 115 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 115 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 115 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 115 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 115 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 115 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 115 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 115 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 115 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 115 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 115 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 115 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 115 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 115 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 115 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 115 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 115 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 115 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 115 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Create a new subnet on VNetwork1.
 - [ ] Remove the NSGs from Subnet11 and Subnet13.
@@ -1122,19 +1123,19 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. What is the membership of Group1 and Group2?
 
-![Question 116 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 116 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 116 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 116 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 116 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 116 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 116 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 116 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 116 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 116 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 116 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 116 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 116 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 116 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 116 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 116 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 116 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 116 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 116 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 116 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 116 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 116 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 116 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 116 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 116 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 116 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 ![Question 116 part 14](images/question116_14.jpg)
 
 - [x] Box 1: User1, User2, User3, and User4. Box 2: Only User3.
@@ -1276,19 +1277,19 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You assign User8 the Owner role for RG4, RG5, and RG6. In which resource groups can User8 create virtual networks and NSGs?
 
-![Question 132 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 132 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 132 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 132 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 132 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 132 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 132 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 132 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 132 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 132 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 132 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 132 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 132 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 132 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 132 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 132 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 132 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 132 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 132 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 132 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 132 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 132 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 132 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 132 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 132 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 132 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 ![Question 132 part 14](images/question132_14.jpg)
 
 - [x] User8 can create virtual networks in: RG4 only. User8 can create NSGs in: RG4 and RG6 only.
@@ -1298,19 +1299,19 @@
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of VM1, VM2, and VM3 in Sub2. From the Internet, you can connect the web server on VM1 by using HTTP.
 
-![Question 133 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1.png)
-![Question 133 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_2.png)
-![Question 133 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_3.png)
-![Question 133 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_4.png)
-![Question 133 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_5.png)
-![Question 133 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_6.png)
-![Question 133 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_7.png)
-![Question 133 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_8.png)
-![Question 133 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_9.png)
-![Question 133 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_10.png)
-![Question 133 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_11.png)
-![Question 133 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_12.png)
-![Question 133 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13.png)
+![Question 133 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 133 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 133 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 133 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 133 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 133 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 133 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 133 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 133 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 133 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 133 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 133 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 133 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
 
 - [x] Yes.
 - [ ] No.
@@ -1351,12 +1352,31 @@
 
 ### You are configuring just in time (JIT) VM access to a set of Azure virtual machines. You need to grant users PowerShell access to the virtual machine by using JIT VM access. What should you configure? Permission that must be granted to users on VM: TCP potal that must be allowed
 
-![Question 125](images/question125.jpg)
+![Question 138](images/question138.jpg)
 
-- [x] Box 1: Write Box 2: 5986.
-- [ ] Box 1: Update Box 2: 23.
-- [ ] Box 1: Read Box 2: 22.
-- [ ] Box 1: View Box 2: 3389.
+- [ ] Box 1: Write. Box 2: 5986.
+- [ ] Box 1: Update. Box 2: 23.
+- [x] Box 1: Read. Box 2: 5986.
+- [ ] Box 1: View. Box 2: 3389.
+
+### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM5.
+
+![Question 139 part 1](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1391.png)
+![Question 139 part 2](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1392.png)
+![Question 139 part 3](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1393.png)
+![Question 139 part 4](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1394.png)
+![Question 139 part 5](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1395.png)
+![Question 139 part 6](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1396.png)
+![Question 139 part 7](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1397.png)
+![Question 139 part 8](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1398.png)
+![Question 139 part 9](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_1399.png)
+![Question 139 part 10](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13910.png)
+![Question 139 part 11](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13911.png)
+![Question 139 part 12](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13912.png)
+![Question 139 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_13913.png)
+
+- [ ] Yes.
+- [x] No.
 
 ### From Azure Security Center, you enable Azure Container Registry vulnerability scanning of the images in Registry1. You perform the following actions: ✑ Push a Windows image named Image1 to Registry1. ✑ Push a Linux image named Image2 to Registry1. ✑ Push a Windows image named Image3 to Registry1. ✑ Modify Image1 and push the new image as Image4 to Registry1. ✑ Modify Image2 and push the new image as Image5 to Registry1. Which two images will be scanned for vulnerabilities? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
 
@@ -2270,15 +2290,3 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 - [ ] Add a deployment slot to Contoso1812.
 - [ ] Scale up the App Service plan of Contoso1812.
 - [x] Upload a PFX file to Contoso1812.
-
-### You have an Azure Container Registry named Registry1. You add role assignments for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1? Upload images: Download images
-
-![Question 743 part 1](images/question743_1.jpg)
-![Question 743 part 2](images/question743_2.jpg)
-![Question 743 part 3](images/question743_3.jpg)
-
-- [x] Box 1: User1 and User4 only Box 2: User1, User2, and User4.
-- [ ] Box 1: User1 only Box 2: User1, User2, User3 and User4.
-- [ ] Box 1: User2 only Box 2: User1, User3, and User4.
-- [ ] Box 1: User1, User2, User3 and User4 Box 2: User2 ad User4 only.
-- [ ] Box 1: User1, User2, User3 and User4 Box 2: User1 and User2 only.
