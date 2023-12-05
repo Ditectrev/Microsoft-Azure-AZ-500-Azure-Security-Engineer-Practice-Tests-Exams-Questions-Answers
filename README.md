@@ -1378,13 +1378,13 @@
 - [ ] Yes.
 - [x] No.
 
-### From Azure Security Center, you enable Azure Container Registry vulnerability scanning of the images in Registry1. You perform the following actions: ✑ Push a Windows image named Image1 to Registry1. ✑ Push a Linux image named Image2 to Registry1. ✑ Push a Windows image named Image3 to Registry1. ✑ Modify Image1 and push the new image as Image4 to Registry1. ✑ Modify Image2 and push the new image as Image5 to Registry1. Which two images will be scanned for vulnerabilities? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
+### From Azure Security Center, you enable Azure Container Registry vulnerability scanning of the images in Registry1. You perform the following actions: Push a Windows image named Image1 to Registry1. Push a Linux image named Image2 to Registry1. Push a Windows image named Image3 to Registry1. Modify Image1 and push the new image as Image4 to Registry1. Modify Image2 and push the new image as Image5 to Registry1. Which two images will be scanned for vulnerabilities?
 
 - [ ] Image4.
 - [x] Image2.
-- [x] Image1.
+- [ ] Image1.
 - [ ] Image3
-- [ ] Image5.
+- [x] Image5.
 
 ### You have a web app named WebApp1. You create a web application firewall (WAF) policy named WAF1. You need to protect WebApp1 by using WAF1.What should you do first?
 
@@ -1392,29 +1392,29 @@
 - [ ] Add an extension to WebApp1.
 - [ ] Deploy Azure Firewall.
 
-### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure SQL Database instance that is configured to support Azure AD authentication. Database developers must connect to the database instance and authenticate by using their on-premises Active Directory account. You need to ensure that developers can connect to the instance by using Microsoft SQL Server Management Studio. The solution must minimize authentication prompts.Which authentication method should you recommend?
+### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure SQL Database instance that is configured to support Azure AD authentication. Database developers must connect to the database instance and authenticate by using their on-premises Active Directory account. You need to ensure that developers can connect to the instance by using Microsoft SQL Server Management Studio. The solution must minimize authentication prompts. Which authentication method should you recommend?
 
 - [ ] Active Directory – Password.
 - [ ] Active Directory – Universal with MFA support.
 - [ ] SQL Server Authentication.
-- [x] Active Directory – Integrated
+- [x] Active Directory – Integrated.
 
 ### You have an Azure subscription that contains a resource group named RG1 and a security group serverless RG1 contains 10 virtual machine, a virtual network VNET1, and a network security group (NSG) named NSG1. ServerAdmins can access the virtual machines by using RDP. You need to ensure that NSG1 only RDP connections to the virtual for a maximum of 60 minutes when a member of ServerAdmins requests access. What should you configure?
 
-- [x] an Azure Active Directory (Azure AD) Privileged identity Management (PIM) role assignment.
-- [ ] a just in time (JIT) VM access policy in Azure Security Center.
-- [ ] an azure policy assigned to RG1..
-- [ ] an Azure Bastion host on VNET1.
+- [ ] Azure Active Directory (Azure AD) Privileged identity Management (PIM) role assignment.
+- [x] Just in time (JIT) VM access policy in Azure Security Center.
+- [ ] Azure policy assigned to RG1.
+- [ ] Azure Bastion host on VNET1.
 
 ### Your company has an Azure subscription named Subscription1 that contains the users shown in the following table. The company is sold to a new owner. The company needs to transfer ownership of Subscription1. Which user can transfer the ownership and which tool should the user use?
 
-![Question 145 part 1](images/question145_1.jpg)
-![Question 145 part 2](images/question145_2.jpg)
+![Question 144 part 1](images/question144_1.png)
+![Question 144 part 2](images/question144_2.jpeg)
 
-- [ ] Box 1: User 1 Box 2: Azure Cloud Shell.
-- [x] Box 1: User 2 Box 2: Azure Account Center.
-- [ ] Box 1: User 3 Box 2: Azure PowerShell.
-- [ ] Box 1: User 4 Box 2: Azure Security Center.
+- [ ] Box 1: User 1. Box 2: Azure Cloud Shell.
+- [x] Box 1: User 2. Box 2: Azure Portal (Azure Account Center).
+- [ ] Box 1: User 3. Box 2: Azure PowerShell.
+- [ ] Box 1: User 4. Box 2: Azure Security Center.
 
 ### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
