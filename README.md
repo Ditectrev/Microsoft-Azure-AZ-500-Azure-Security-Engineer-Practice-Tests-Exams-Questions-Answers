@@ -1416,7 +1416,7 @@
 - [ ] Box 1: User 3. Box 2: Azure PowerShell.
 - [ ] Box 1: User 4. Box 2: Azure Security Center.
 
-### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
+### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App service plan. You create a CNAME DNS record for <www.contoso.com> that points to the IP address of Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL. Which two actions should you perform?
 
 - [ ] Turn on the system-assigned managed identity for Contoso1812.
 - [x] Add a hostname to Contoso1812.
@@ -1425,14 +1425,22 @@
 - [ ] Scale up the App Service plan of Contoso1812.
 - [x] Upload a PFX file to Contoso1812.
 
-### You have an Azure subscription that contains an Azure Key Vault named Vault1. On January 1, 2019, Vault1 stores the following secrets. Which can each secret be used by an application? Password1: Password2
+### You have an Azure subscription that contains an Azure Key Vault named Vault1. On January 1, 2019, Vault1 stores the following secrets. When can each secret be used by an application?
 
-![Question 154 part 1](images/question154_1.jpg)
-![Question 154 part 2](images/question154_2.jpg)
+![Question 146 part 1](images/question146_1.jpg)
+![Question 146 part 2](images/question146_2.jpg)
 
-- [x] Box 1: Never Box 2: Only between March 1, 2019 and May 1.2019.
-- [ ] Box 1: Always Box 2: Never.
-- [ ] Box 1: Only after May 1, 2019 Box 2: Always.
+- [x] Password1: Never. Password2: Only between March 1, 2019 and May 1, 2019.
+- [ ] Password1: Always. Password2: Never.
+- [ ] Password1: Only after May 1, 2019. Password2: Always.
+- [ ] Password1: Only after May 1, 2019. Password2: Only between March 1, 2019 and May 1, 2019.
+
+### You have an Azure subscription that contains an Azure Key Vault named Vault1. In Vault1, you create a secret named Secret1. An application developer registers an application in Azure Active Directory (Azure AD). You need to ensure that the application can use Secret1. What should you do?
+
+- [ ] In Azure AD, create a role.
+- [ ] In Azure Key Vault, create a key.
+- [x] In Azure Key Vault, create an access policy.
+- [ ] In Azure AD, enable Azure AD Application Proxy.
 
 ### You have the Azure Information Protection conditions shown in the following table. You plan to use Azure Sentinel to monitor Windows Defender Firewall on the virtual machines. Which virtual machines you can connect to Azure Sentinel?
 
@@ -2014,13 +2022,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [x] branch policies.
 - [ ] branch locking
 
-### You have an Azure subscription that contains an Azure Key Vault named Vault1. In Vault1, you create a secret named Secret1. An application developer registers an application in Azure Active Directory (Azure AD). You need to ensure that the application can use Secret1. What should you do?
-
-- [ ] In Azure AD, create a role.
-- [ ] In Azure Key Vault, create a key.
-- [x] In Azure Key Vault, create an access policy.
-- [ ] In Azure AD, enable Azure AD Application Proxy.
-
 ### You have an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You configure an access review named Review1 as shown in the following exhibit. Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic . NOTE: Each correct selection is worth one point. User 3 can perform Review1 for: If User2 fails complete Review by March 2, 2019
 
 ![Question 479 part 1](images/question479_1.jpg)
@@ -2281,12 +2282,3 @@ When User1 signs in to to a new device from the Seattle office on June 7, the us
 
 - [x] Yes.
 - [ ] No.
-
-### You have an Azure subscription. You create an Azure web app named Contoso1812 that uses an S1 App Service plan. You plan to create a CNAME DNS record for <www.contoso.com> that points to Contoso1812. You need to ensure that users can access Contoso1812 by using the <https://www.contoso.com> URL. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [ ] Turn on the system-assigned managed identity for Contoso1812.
-- [x] Add a hostname to Contoso1812.
-- [ ] Scale out the App Service plan of Contoso1812.
-- [ ] Add a deployment slot to Contoso1812.
-- [ ] Scale up the App Service plan of Contoso1812.
-- [x] Upload a PFX file to Contoso1812.
