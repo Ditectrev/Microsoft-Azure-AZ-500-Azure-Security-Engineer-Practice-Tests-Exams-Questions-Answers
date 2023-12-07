@@ -813,10 +813,10 @@
 ![Question 82 part 3](images/question59_69_82_83_84_85_86_87_3.jpg)
 ![Question 82 part 4](images/question82_4.jpg)
 
-- [ ] Box 1: "Microsoft.Compute/. Box 2: disks/*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
-- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/*",. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
-- [ ] Box 1: "Microsoft.Storage/. Box 2: virtualMachines/disks/*",. Box 3: "/" .
-- [x] Box 1: "Microsoft.Compute/. Box 2: disks/*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
+- [ ] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
+- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*",. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
+- [ ] Box 1: "Microsoft.Storage/. Box 2: virtualMachines/disks/\*",. Box 3: "/" .
+- [x] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
 
 ### Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table. All San Francisco users and their devices must be members of Group1. The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Microsoft Antimalware must be installed on the virtual machines in Resource Group1. The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Litware must be able to customize the operating system security configurations in Azure Security Center. The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. WebApp1 must enforce mutual authentication. Whenever possible, administrative effort must be minimized. Whenever possible, use of automation must be maximized. You need to meet the identity and access requirements for Group1. What should you use?
 
@@ -1444,8 +1444,8 @@
 
 ### You have the Azure Information Protection conditions shown in the following table. You plan to use Azure Sentinel to monitor Windows Defender Firewall on the virtual machines. Which virtual machines you can connect to Azure Sentinel?
 
-![Question 155 part 1](images/question155_1.jpg)
-![Question 155 part 2](images/question155_2.jpg)
+![Question 148 part 1](images/question148_1.jpg)
+![Question 148 part 2](images/question148_2.jpg)
 
 - [ ] VM1 and VM3 only.
 - [ ] VM1 Only.
