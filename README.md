@@ -6,7 +6,7 @@
 
 ✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-500 (Azure Security Engineer) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
-[![Join our Discord](images/discord.png "Join our Discord")](https://discord.gg/RFjtXKfJy3)
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -813,10 +813,10 @@
 ![Question 82 part 3](images/question59_69_82_83_84_85_86_87_3.jpg)
 ![Question 82 part 4](images/question82_4.jpg)
 
-- [ ] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
-- [ ] Box 1: "Microsoft.Resources/ Box 2: storageAccounts/\*",. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
-- [ ] Box 1: "Microsoft.Storage/. Box 2: virtualMachines/disks/\*",. Box 3: "/" .
-- [x] Box 1: "Microsoft.Compute/. Box 2: disks/\*",. Box 3: "/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1".
+- [ ] Box 1: 'Microsoft.Compute/. Box 2: disks/\*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
+- [ ] Box 1: 'Microsoft.Resources/ Box 2: storageAccounts/\*',. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
+- [ ] Box 1: 'Microsoft.Storage/. Box 2: virtualMachines/disks/\*',. Box 3: '/' .
+- [x] Box 1: 'Microsoft.Compute/. Box 2: disks/\*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
 
 ### Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table. All San Francisco users and their devices must be members of Group1. The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Microsoft Antimalware must be installed on the virtual machines in Resource Group1. The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Litware must be able to customize the operating system security configurations in Azure Security Center. The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. WebApp1 must enforce mutual authentication. Whenever possible, administrative effort must be minimized. Whenever possible, use of automation must be maximized. You need to meet the identity and access requirements for Group1. What should you use?
 
@@ -1452,24 +1452,23 @@
 - [ ] VM1 and VM2 only.
 - [x] VM1, VM2, VM3 and VM4.
 
-### You have the Azure Information Protection conditions shown in the following table. You have the Azure Information Protection policies as shown in the following table. You need to identify how Azure Information Protection will label files. What should you identify? If User 1: creates a Microsoft World file that includes the text "Black and White", the file will be assigned: If User1 creates a Microsoft Notepad file that includes the text "Black or white", the file will be assigned
+### You have the Azure Information Protection conditions shown in the following table. You have the Azure Information Protection policies as shown in the following table. You need to identify how Azure Information Protection will label files. What should you identify?
 
-![Question 157 part 1](images/question157_1.jpg)
-![Question 157 part 2](images/question157_2.jpg)
-![Question 157 part 3](images/question157_3.jpg)
+![Question 149 part 1](images/question149_1.png)
+![Question 149 part 2](images/question149_2.png)
+![Question 149 part 3](images/question149_3.png)
 
-- [x] Box 1: Label2 only Box 2: No label.
-- [ ] Box 1: No label Box 2: Label1 only.
-- [ ] Box 1: Label1 only Box 2: Label and Label2 only.
-- [ ] Box 1: Label and Label2 only Box2: Label2 only.
+- [x] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: No label.
+- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: No label. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label1 only.
+- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label1 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label and Label2 only.
+- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label1 and Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label2 only.
 
 ### You have an Azure subscription that is linked to an Azure Active Directory (Azure AD) tenant. From the Azure portal, you register an enterprise application. Which additional resource will be created in Azure AD?
 
-- [x] a service principal.
-- [ ] an.
+- [x] Service principal.
 - [ ] 509 certificate.
-- [ ] a managed identity
-- [ ] a user account.
+- [ ] Managed identity.
+- [ ] User account.
 
 ### You have an Azure subscription. You plan to create a custom role-based access control (RBAC) role that will provide permission to read the Azure Storage account. Which property of the RBAC role definition should you configure?
 
