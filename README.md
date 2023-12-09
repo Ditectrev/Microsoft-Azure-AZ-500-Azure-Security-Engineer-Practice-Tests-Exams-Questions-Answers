@@ -1567,23 +1567,26 @@
 - [ ] Configure Azure Active Directory (Azure AD) Identity Protection..
 - [ ] Apply a resource lock to RG1.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. For each of the following statements, select Yes if the statement is true, Otherwise, select No. NOTE: Each correct selection is worth one point
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User1 cam print File1.
 
 ![Question 228 part 1](images/question228_1.jpg)
 ![Question 228 part 2](images/question228_2.jpg)
-![Question 228 part 3](images/question228_3.jpg)
-
-User1 cam print File1.
 
 - [x] Yes.
 - [ ] No.
 
-User3 can read File1.
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User3 can read File1.
+
+![Question 228 part 1](images/question228_1.jpg)
+![Question 228 part 2](images/question228_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-User4 can print File1.
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User4 can print File1.
+
+![Question 228 part 1](images/question228_1.jpg)
+![Question 228 part 2](images/question228_2.jpg)
 
 - [ ] Yes.
 - [x] No.
@@ -1686,7 +1689,7 @@ User3 will be promped to configure MFA registration during the user's next Azure
 - [ ] Box 1: User1 and User2 only Box 2: Group1 amd Group2 members only.
 - [ ] Box 1: User3 only Box 2: Group2 members only.
 
-### You have an Azure subscription named Sub1 that contains an Azure Log Analytics workspace named LAW1. You have 100 on-premises servers that run Windows Server 2012 R2 and Windows Server 2016. The servers connect to LAW1. LAW1 is configured to collect security-related performance counters from the connected servers. You need to configure alerts based on the data collected by LAW1. The solution must meet the following requirements: • Alert rules must support dimensions. • The time it takes to generate an alert must be minimized. • Alert notifications must be generated only once when the alert is generated and once when the alert is • resolved. Which signal type should you use when you create the alert rules?
+### You have an Azure subscription named Sub1 that contains an Azure Log Analytics workspace named LAW1. You have 100 on-premises servers that run Windows Server 2012 R2 and Windows Server 2016. The servers connect to LAW1. LAW1 is configured to collect security-related performance counters from the connected servers. You need to configure alerts based on the data collected by LAW1. The solution must meet the following requirements: Alert rules must support dimensions. The time it takes to generate an alert must be minimized. Alert notifications must be generated only once when the alert is generated and once when the alert is resolved. Which signal type should you use when you create the alert rules?
 
 - [ ] Log.
 - [ ] Log (Saved Query).
