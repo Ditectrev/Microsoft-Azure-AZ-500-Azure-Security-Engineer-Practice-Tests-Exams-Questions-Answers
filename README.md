@@ -1475,15 +1475,27 @@
 - [ ] NotActions [].
 - [ ] DataActions [].
 - [ ] AssignableScopes [].
-- [x] Actions []
+- [x] Actions [].
 
-![Question168](images/question168.jpg)
+### You have the Azure virtual machines shown in the following table. For which virtual machines can you enable Update Management?
+
+![Question 152](images/question152.jpg)
 
 - [ ] VM2 and VM3 only.
 - [ ] VM2, VM3, and VM4 only.
 - [x] VM1, VM2, and VM4 only.
 - [ ] VM1, VM2, VM3, and VM4.
 - [ ] VM1, VM2, and VM3 only.
+
+### You have Azure virtual machines that have Update Management enabled. The virtual machines are configured as shown in the following table. You schedule two update deployments named Update1 and Update2. Update1 updates VM3. Update2 updates VM6. Which additional virtual machines can be updated by using Update1 and Update2?
+
+![Question 153 part 1](images/question153_1.jpg)
+![Question 153 part 2](images/question153_2.jpeg)
+
+- [x] Update1: VM1 and VM2 only. Update2: VM4 and VM5 only.
+- [ ] Update1: VM2 only. Update2: VM5 only.
+- [ ] Update1: VM4 only. Update2: VM1 and VM2 only.
+- [ ] Update1: VM1, VM2, VM4, VM4, and VM6. Update2: VM1, VM2, and VM5 only.
 
 ### You have the Azure virtual machines shown in the following table. Each virtual machine has a single network interface. You add the network interface of VM1 to an application security group named ASG1. You need to identify the network interfaces of which virtual machines you can add to ASG1. What should you identify?
 
@@ -2064,17 +2076,6 @@ If User2 signs in to Azure from a device in the New York office, User1 must be a
 
 - [ ] Yes.
 - [x] No.
-
-### You have Azure virtual machines that have Update Management enabled. The virtual machines are configured as shown in the following table. You schedule two update deployments named Update1 and Update2. Update1 updates VM3. Update2 updates VM6. Which additional virtual machines can be updated by using Update1 and Update2? To answer, select the appropriate options in the answer area . NOTE: Each correct selection is worth one point. Update1: Update2
-
-![Question 491 part 1](images/question491_1.jpg)
-![Question 491 part 2](images/question491_2.jpg)
-
-- [x] Box 1: VM1 and VM2 only Box 2: VM4 and VM5 only.
-- [ ] Box 1: VM2 only Box 2: VM5 only.
-- [ ] Box 1: VM4 only Box 2: VM1 and VM2 only.
-- [ ] Box 1: VM1, VM2, VM4, VM4, and VM6 Box 2: VM1, VM2, and VM5 only.
-- [ ] Box 1: VM1 and VM2 only Box 2: VM1, VM2, VM4, VM4, and VM5.
 
 ### From the Azure portal, you are configuring an Azure policy. You plan to assign policies that use the DeployIfNotExist, AuditIfNotExist, Append, and Deny effects. Which effect requires a managed identity for the assignment?
 
