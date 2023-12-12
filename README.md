@@ -6,7 +6,7 @@
 
 ✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-500 (Azure Security Engineer) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
-[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+[![Join our Discord](images/discord.png "Join our Discord")](https://discord.gg/RFjtXKfJy3)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -1499,28 +1499,37 @@
 
 ### You have the Azure virtual machines shown in the following table. Each virtual machine has a single network interface. You add the network interface of VM1 to an application security group named ASG1. You need to identify the network interfaces of which virtual machines you can add to ASG1. What should you identify?
 
-![Question173](images/question173.jpg)
+![Question 154](images/question154.jpg)
 
 - [ ] VM2 only.
 - [ ] VM2, VM3, VM4, and VM5.
 - [ ] VM2, VM3, and VM5 only.
-- [x] Vm2 and Vm3 only.
+- [x] VM2 and VM3 only.
+
+### You have Azure virtual machines that have Update Management enabled. The virtual machines are configured as shown in the following table. You need to ensure that all critical and security updates are applied to each virtual machine every month. What is the minimum number of update deployments you should create?
+
+![Question 155](images/question155.png)
+
+- [ ] 4.
+- [ ] 6.
+- [x] 2.
+- [ ] 1.
 
 ### You have an Azure subscription named Sub1. In Azure Security Center, you have a security playbook named Play1. Play1 is configured to send an email message to a user named User1. You need to modify Play1 to send email messages to a distribution group named Alerts. What should you use to modify Play1?
 
 - [ ] Azure DevOps.
 - [ ] Azure Application Insights.
 - [ ] Azure Monitor.
-- [x] Azure Logic Apps Designer
+- [x] Azure Logic Apps Designer.
 
 ### You have an Azure subscription named Sub1 that contains the virtual machines shown in the following table. You need to ensure that the virtual machines in RG1 have the Remote Desktop port closed until an authorized user requests access. What should you configure?
 
-![Question181](images/question181.jpg)
+![Question 157](images/question157.jpg)
 
 - [ ] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
 - [ ] An application security group.
 - [ ] Azure Active Directory (Azure AD) conditional access.
-- [x] Just in time (JIT) VM access
+- [x] Just in time (JIT) VM access.
 
 ### You have an Azure subscription named Sub1 that contains an Azure Storage account named Contosostorage1 and an Azure Key Vault named Contosokeyvault1. You plan to create an Azure Automation runbook that will rotate the keys of Contosostorage1 and store them in Contosokeyvault1. You need to implement prerequisites to ensure that you can implement the runbook. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
 
