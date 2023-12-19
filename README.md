@@ -1527,47 +1527,45 @@
 ![Question 157](images/question157.jpg)
 
 - [ ] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
-- [ ] An application security group.
+- [ ] Application security group.
 - [ ] Azure Active Directory (Azure AD) conditional access.
 - [x] Just in time (JIT) VM access.
 
-### You have an Azure subscription named Sub1 that contains an Azure Storage account named Contosostorage1 and an Azure Key Vault named Contosokeyvault1. You plan to create an Azure Automation runbook that will rotate the keys of Contosostorage1 and store them in Contosokeyvault1. You need to implement prerequisites to ensure that you can implement the runbook. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### You have an Azure subscription named Sub1 that contains an Azure Storage account named Contosostorage1 and an Azure Key Vault named Contosokeyvault1. You plan to create an Azure Automation runbook that will rotate the keys of Contosostorage1 and store them in Contosokeyvault1. You need to implement prerequisites to ensure that you can implement the runbook. Which three actions should you perform in sequence?
 
-![Question193](images/question193.jpg)
+![Question 158](images/question158.jpg)
 
-- [ ] Run Set-AzureRmKeyVaultAccessPolicy.
-- [x] Create an Azure Automation account.
-- [x] Import PowerShell modules to the Azure Automation account.
-- [ ] Create a user-assigned managed identity.
-- [x] Create a connection resource in the Azure Automation account.
+- [ ] Box 1: Create an Azure Automation account. Box 2: Create a user-assigned managed identity. Box 3: Import PowerShell modules to the Azure Automation account.
+- [x] Box 1: Create an Azure Automation account. Box 2: Import PowerShell modules to the Azure Automation account. Box 3: Run Set-AzureRmKeyVaultAccessPolicy.
+- [ ] Box 1: Create an Azure Automation account. Box 2: Import PowerShell modules to the Azure Automation account. Box 3: Create a connection resource in the Azure Automation account.
+- [ ] Box 1: Run Set-AzureRmKeyVaultAccessPolicy. Box 2: Create a connection resource in the Azure Automation account. Box 3: Create a user-assigned managed identity.
 
-### Your company has an Azure Active Directory (Azure AD) tenant named contoso.com. The company is developing an application named App1. App1 will run as a service on server that runs Windows Server 2016. App1 will authenticate to contoso.com and access Microsoft Graph to read directory data. You need to delegate the minimum required permissions to App1. Which three actions should you perform in sequence from the Azure portal? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### Your company has an Azure Active Directory (Azure AD) tenant named contoso.com. The company is developing an application named App1. App1 will run as a service on server that runs Windows Server 2016. App1 will authenticate to contoso.com and access Microsoft Graph to read directory data. You need to delegate the minimum required permissions to App1. Which three actions should you perform in sequence from the Azure portal?
 
-![Question198](images/question198.jpg)
+![Question 159](images/question159.jpg)
 
-- [ ] Grant permissions.
-- [x] Add a delegated permission.
-- [ ] Configure Azure Ad Application Proxy.
-- [x] Add an application permission.
-- [x] Create an app registration.
+- [x] Box 1: Create an app registration. Box 2: Add an application permission. Box 3: Grant permissions.
+- [ ] Box 1: Create an app registration. Box 2: Grant permissions. Box 3: Add an application permission.
+- [ ] Box 1: Configure Azure AD Application Proxy. Box 2: Grant permissions. Box 3: Add a delegated permission.
+- [ ] Box 1: Add a delegated permission. Box 2: Configure Azure AD Application Proxy. Box 3: Create an app registration.
 
 ### You suspect that users are attempting to sign in to resources to which they have no access. You need to create an Azure Log Analytics query to identify failed user sign-in attempts from the last three days. The results must only show users who had more than five failed sign-in attempts. How should you configure the query?
 
-![Question203](images/question203.jpg)
+![Question 160](images/question160.jpg)
 
-- [ ] Box 1: ActivityID Box 2: Countif(),.
-- [ ] Box 1: DataTypen Box 2: Makeset(),.
-- [x] Box 1: EventID Box 2: Count(),.
-- [ ] Box 1: QuantityUnit Box 2: Split(),.
+- [ ] Box 1: ActivityID. Box 2: Countif(),.
+- [ ] Box 1: DataTypen. Box 2: Makeset(),.
+- [x] Box 1: EventID. Box 2: Count(),.
+- [ ] Box 1: QuantityUnit. Box 2: Split(),.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Contoso.com contains a group naming policy. The policy has a custom blocked word list rule that includes the word Contoso. Which users can create a group named Contoso Sales in contoso.com? Users who can create a security group named Contoso Sales: Users who can create an Office 365 group named Cantoso Sales
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Contoso.com contains a group naming policy. The policy has a custom blocked word list rule that includes the word Contoso. Which users can create a group named Contoso Sales in contoso.com?
 
-![Question206](images/question206.jpg)
+![Question 161](images/question161.jpg)
 
-- [x] Box 1: Admin1 and Admin3 only Box 2: Admin1 and Admin3 only.
-- [ ] Box 1: Admin1 only Box 2: Admin1 and Admin2 only.
-- [ ] Box 1: Admin1, Admin2, and Admin3 Box 2: Admin1.
-- [ ] Box 1: Admin1 and Admin2 only Box 2: Admin1, Admin2, and Admin3.
+- [ ] Users who can create a security group named Contoso Sales: Admin1 and Admin3 only. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin3 only.
+- [ ] Users who can create a security group named Contoso Sales: Admin1 only. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin2 only.
+- [x] Users who can create a security group named Contoso Sales: Admin1, Admin2, and Admin3. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin3 only.
+- [ ] Users who can create a security group named Contoso Sales: Admin1 and Admin2 only. Users who can create an Office 365 group named Cantoso Sales: Admin1, Admin2, and Admin3.
 
 ### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal
 
@@ -1618,7 +1616,7 @@
 - [x] Azure Logic Apps Designer.
 - [ ] Azure DevOps.
 
-### You have an Azure subscription named Sub1. You have an Azure Active Directory (Azure AD) group named Group1 that contains all the members of your IT team. You need to ensure that the members of Group1 can stop, start, and restart the Azure virtual machines in Sub1. The solution must use the principle of least privilege. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### You have an Azure subscription named Sub1. You have an Azure Active Directory (Azure AD) group named Group1 that contains all the members of your IT team. You need to ensure that the members of Group1 can stop, start, and restart the Azure virtual machines in Sub1. The solution must use the principle of least privilege. Which three actions should you perform in sequence?
 
 ![Question231](images/question231.jpg)
 
@@ -1803,7 +1801,7 @@ Sing ins From IP addresses with supicious activity:
 - [ ] Medium.
 - [x] Medium.
 
-### You create an Azure subscription with Azure AD Premium P2. You need to ensure that you can use Azure Active Directory (Azure AD) Privileged Identity Management (PIM) to secure Azure roles. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### You create an Azure subscription with Azure AD Premium P2. You need to ensure that you can use Azure Active Directory (Azure AD) Privileged Identity Management (PIM) to secure Azure roles. Which three actions should you perform in sequence?
 
 ![Question 326](images/question32.jpg)
 
@@ -1874,7 +1872,7 @@ Users external to the Contoso named location must use multi-factor authenticatio
 - [ ] Box 1: User2 and User4 only Box 2: User1, User2, User3 and User4.
 - [ ] Box 1: User1 and User4 only Box 2: User2 ad User4 only.
 
-### You need to configure an access review. The review will be assigned to a new collection of reviews and reviewed by resource owners. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order
+### You need to configure an access review. The review will be assigned to a new collection of reviews and reviewed by resource owners. Which three actions should you perform in sequence?
 
 ![Question 373 part 1](images/question373_1.jpg)
 ![Question 373 part 2](images/question373_2.jpg)
