@@ -1567,44 +1567,47 @@
 - [x] Users who can create a security group named Contoso Sales: Admin1, Admin2, and Admin3. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin3 only.
 - [ ] Users who can create a security group named Contoso Sales: Admin1 and Admin2 only. Users who can create an Office 365 group named Cantoso Sales: Admin1, Admin2, and Admin3.
 
-### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal
+### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal.
 
-- [ ] ... BRAK ODPOWIEDZI
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
+- [ ] NO ANSWER.
 
 ### You have an Azure Active Directory (Azure AD) tenant and a root management group. You create 10 Azure subscriptions and add the subscriptions to the rout management group. You need to create an Azure Blueprints definition that will be stored in the root management group. What should you do first?
 
 - [ ] Add an Azure Policy definition to the root management group.
-- [x] Modify the role-based access control (RBAC) role assignments for the root management group..
-- [ ] Create a user-assigned identity..
+- [x] Modify the role-based access control (RBAC) role assignments for the root management group.
+- [ ] Create a user-assigned identity.
 - [ ] Create a service principal.
 
 ### You have 15 Azure virtual machines in a resource group named RG1. All virtual machines run identical applications. You need to prevent unauthorized applications and malware from running on the virtual machines. What should you do?
 
 - [ ] Apply an Azure policy to RG1.
-- [x] From Azure Security Center, configure adaptive application controls..
-- [ ] Configure Azure Active Directory (Azure AD) Identity Protection..
+- [x] From Azure Security Center, configure adaptive application controls.
+- [ ] Configure Azure Active Directory (Azure AD) Identity Protection.
 - [ ] Apply a resource lock to RG1.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User1 cam print File1.
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. Label1 is applied to a file named File1. User1 can print File1.
 
-![Question 228 part 1](images/question228_1.jpg)
-![Question 228 part 2](images/question228_2.jpg)
-
-- [x] Yes.
-- [ ] No.
-
-### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User3 can read File1.
-
-![Question 228 part 1](images/question228_1.jpg)
-![Question 228 part 2](images/question228_2.jpg)
+![Question 165 part 1](images/question165_166_167_1.jpg)
+![Question 165 part 2](images/question165_166_167_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. (Click the Exhibit tab.) Label1 is applied to a file named File1. User4 can print File1.
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. Label1 is applied to a file named File1. User3 can read File1.
 
-![Question 228 part 1](images/question228_1.jpg)
-![Question 228 part 2](images/question228_2.jpg)
+![Question 166 part 1](images/question165_166_167_1.jpg)
+![Question 166 part 2](images/question165_166_167_2.jpg)
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso1812.onmicrosoft.com that contains the users shown in the following table. You create an Azure Information Protection label named Label1. The Protection settings for Label1 are configured as shown in the exhibit. Label1 is applied to a file named File1. User4 can print File1.
+
+![Question 167 part 1](images/question165_166_167_1.jpg)
+![Question 167 part 2](images/question165_166_167_2.jpg)
 
 - [ ] Yes.
 - [x] No.
@@ -1618,13 +1621,12 @@
 
 ### You have an Azure subscription named Sub1. You have an Azure Active Directory (Azure AD) group named Group1 that contains all the members of your IT team. You need to ensure that the members of Group1 can stop, start, and restart the Azure virtual machines in Sub1. The solution must use the principle of least privilege. Which three actions should you perform in sequence?
 
-![Question231](images/question231.jpg)
+![Question 169](images/question169.jpg)
 
-- [ ] Create a JSON file.
-- [ ] Run the Update-AzManagementGroup cmdlet.
-- [x] Create an XML file.
-- [x] Run the New-AzRoleDefinition cmdlet.
-- [x] Run the New-AzRoleAssignment cmdlet.
+- [ ] Box 1: Create a JSON file. Box 2: Run the Update-AzManagementGroup cmdlet. Box 3: Run the New-AzRoleAssignment cmdlet.
+- [x] Box 1: Create a JSON file. Box 2: Run the New-AzRoleDefinition cmdlet. Box 3: Run the New-AzRoleAssignment cmdlet.
+- [ ] Box 1: Create an XML file. Box 2: Run the Update-AzManagementGroup cmdlet. Box 3: Run the New-AzRoleAssignment cmdlet.
+- [ ] Box 1: Create an XML file. Box 2: Run the New-AzRoleDefinition cmdlet. Box 3: Run the New-AzRoleAssignment cmdlet.
 
 ### You have three on-premises servers named Server1, Server2, and Server3 that run Windows Server1 and Server2 and located on the Internal network. Server3 is located on the premises network. All servers have access to Azure. From Azure Sentinel, you install a Windows firewall data connector. You need to collect Microsoft Defender Firewall data from the servers for Azure Sentinel. What should you do?
 
