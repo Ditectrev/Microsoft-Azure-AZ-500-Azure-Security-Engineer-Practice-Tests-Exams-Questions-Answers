@@ -1631,18 +1631,18 @@
 ### You have three on-premises servers named Server1, Server2, and Server3 that run Windows Server1 and Server2 and located on the Internal network. Server3 is located on the premises network. All servers have access to Azure. From Azure Sentinel, you install a Windows firewall data connector. You need to collect Microsoft Defender Firewall data from the servers for Azure Sentinel. What should you do?
 
 - [ ] Create an event subscription from Server1, Server2 and Server3.
-- [ ] Install the On-premises data gateway on each server..
-- [x] Install the Microsoft Agent on each server..
+- [ ] Install the On-premises data gateway on each server.
+- [x] Install the Microsoft Agent on each server.
 - [ ] Install the Microsoft Agent on Server1 and Server2 install the on-premises data gateway on Server3.
 
 ### You plan to use Azure Log Analytics to collect logs from 200 servers that run Windows Server 2016. You need to automate the deployment of the Microsoft Monitoring Agent to all the servers by using an Azure Resource Manager template. How should you complete the template?
 
-![Question242](images/question242.jpg)
+![Question 171](images/question171.jpg)
 
-- [x] Box 1: WorkspaceID Box 2: WorkspaceKey.
-- [ ] Box 1: AzureADApplicationID Box 2: WorkspaceID
-- [ ] Box 1: WorkspaceName Box 2: StorageAccountKey.
-- [ ] Box 1: AzureADApplicationSecret Box 2: WorkspaceURL.
+- [x] Box 1: "WorkspaceID". Box 2: "WorkspaceKey".
+- [ ] Box 1: "AzureADApplicationID". Box 2: "WorkspaceID".
+- [ ] Box 1: "WorkspaceName". Box 2: "StorageAccountKey".
+- [ ] Box 1: "AzureADApplicationSecret". Box 2: "WorkspaceURL".
 
 ### You have an Azure Kubernetes Service (AKS) cluster that will connect to an Azure Container Registry. You need to use automatically generated service principal for the AKS cluster to authenticate to the Azure Container Registry. What should you create?
 
