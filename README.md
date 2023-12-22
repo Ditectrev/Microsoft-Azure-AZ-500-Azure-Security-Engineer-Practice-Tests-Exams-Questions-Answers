@@ -1138,10 +1138,10 @@
 ![Question 116 part 13](images/question13_14_15_16_17_18_19_20_66_67_68_115_116_132_133_139_13.png)
 ![Question 116 part 14](images/question116_14.jpg)
 
-- [x] Box 1: User1, User2, User3, and User4. Box 2: Only User3.
-- [ ] Box 1: No members. Box 2: User1, User2, User3, and User4.
-- [ ] Box 1: Only User2. Box 2: Only User1 and User3.
-- [ ] Box 1: Only User1 and User3. Box 2: No members.
+- [x] Group 1: User1, User2, User3, and User4. Group 2: Only User3.
+- [ ] Group 1: No members. Group 2: User1, User2, User3, and User4.
+- [ ] Group 1: Only User2. Group 2: Only User1 and User3.
+- [ ] Group 1: Only User1 and User3. Group 2: No members.
 
 ### You have an Azure subscription that contains the resources shown in the following table. The subscription is linked to an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. You create the groups shown in the following table. The membership rules for Group1 and Group2 are configured as shown in the following exhibit. User1 is a member of Group1 and Group2.
 
@@ -1646,46 +1646,55 @@
 
 ### You have an Azure Kubernetes Service (AKS) cluster that will connect to an Azure Container Registry. You need to use automatically generated service principal for the AKS cluster to authenticate to the Azure Container Registry. What should you create?
 
-- [ ] a secret in Azure Key Vault.
-- [x] a role assignment.
-- [ ] an Azure Active Directory (Azure AD) user.
-- [ ] an Azure Active Directory (Azure AD) group
+- [ ] Secret in Azure Key Vault.
+- [x] Role assignment.
+- [ ] Azure Active Directory (Azure AD) user.
+- [ ] Azure Active Directory (Azure AD) group.
 
-### You have a Azure subscription that contains an Azure Container Registry named Registry1. The subscription uses the Standard use tier of Azure Security Center. You upload several container images to Register1. You discover that vulnerability security scans were not performed. You need to ensured that the images are scanned for vulnerabilities when they are uploaded to Registry1. What should you do?
+### You are configuring an Azure Kubernetes Service (AKS) cluster that will connect to an Azure Container Registry. You need to use the auto-generated service principal to authenticate to the Azure Container Registry. What should you create?
+
+- [ ] Azure Active Directory (Azure AD) group.
+- [x] Azure Active Directory (Azure AD) role assignment.
+- [ ] Azure Active Directory (Azure AD) user.
+- [ ] Secret in Azure Key Vault.
+
+### You have an Azure subscription that contains an Azure Container Registry named Registry1. The subscription uses the Standard use tier of Azure Security Center. You upload several container images to Register1. You discover that vulnerability security scans were not performed. You need to ensured that the images are scanned for vulnerabilities when they are uploaded to Registry1. What should you do?
 
 - [x] From the Azure portal modify the Pricing tier settings.
-- [ ] From Azure CLI, lock the container images..
+- [ ] From Azure CLI, lock the container images.
 - [ ] Upload the container images by using AzCopy.
-- [ ] Push the container images to Registry1 by using Docker
+- [ ] Push the container images to Registry1 by using Docker.
 
-### You have the Azure Key Vaults shown in the following table. KV1 stores a secret named Secret1 and a key for a managed storage account named Key1. You back up Secret1 and Key1. To which key vaults can you restore each backup? You can restore the Secret1 backup to: You can restore the Key1 backup to
+### You have the Azure Key Vaults shown in the following table. KV1 stores a secret named Secret1 and a key for a managed storage account named Key1. You back up Secret1 and Key1. To which key vaults can you restore each backup?
 
-![Question 249 part 1](images/question249_1.jpg)
-![Question 249 part 2](images/question249_2.jpg)
+![Question 175 part 1](images/question175_1.jpg)
+![Question 175 part 2](images/question175_2.jpg)
 
-- [ ] Box 1: KV1 only Box 2: KV1, KV2, KV3, KV4, and KV5.
-- [ ] Box 1: KV1 and KV2 only Box 2: KV1, KV2 and KV4 only Box.
-- [x] Box 1: KV1, KV2 and KV3 only Box 2: KV1, KV2 and KV3 only.
-- [ ] Box 1: KV1, KV2 and KV4 only Box 2: KV1 and KV2 only Box.
-- [ ] Box 1: KV1, KV2, KV3, KV4, and KV5 Box 2: KV1 only.
+- [ ] You can restore the Secret1 backup to: KV1 only. You can restore the Key1 backup to: KV1, KV2, KV3, KV4, and KV5.
+- [ ] You can restore the Secret1 backup to: KV1 and KV2 only. You can restore the Key1 backup to: KV1, KV2 and KV4 only Box.
+- [x] You can restore the Secret1 backup to: KV1, KV2 and KV3 only. You can restore the Key1 backup to: KV1, KV2 and KV3 only.
+- [ ] You can restore the Secret1 backup to: KV1, KV2 and KV4 only. You can restore the Key1 backup to: KV1 and KV2 only Box.
 
-### You network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. The tenant contains the groups shown in the following table. The tenant contains the groups shown in the following table. You configure a multi-factor authentication (MFA) registration policy that and the following settings: • Assignments: • Include: Group1 • Exclude Group2 • Controls: Require Azure MFA registration • Enforce Policy: On For each of the following statements, select Yes if the statement is true. Otherwise, select No
+### You network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. The tenant contains the groups shown in the following table. The tenant contains the groups shown in the following table. You configure a multi-factor authentication (MFA) registration policy that and the following settings: Assignments: Include: Group1. Exclude: Group2. Controls: Require Azure MFA registration. Enforce Policy: On. User1 will be prompted to configure MFA registration during the user's next Azure AD authentication.
 
-![Question 263 part 1](images/question263_1.jpg)
-![Question 263 part 2](images/question263_2.jpg)
-![Question 263 part 2](images/question263_3.jpg)
-
-User1 will be promped to configure MFA registration during the user's next Azure AD authentication.
+![Question 176 part 1](images/question176_177_178_1.jpg)
+![Question 176 part 2](images/question176_177_178_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-User2 must configure MFA during the user's next Azure AD authentication.
+### You network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. The tenant contains the groups shown in the following table. The tenant contains the groups shown in the following table. You configure a multi-factor authentication (MFA) registration policy that and the following settings: Assignments: Include: Group1. Exclude: Group2. Controls: Require Azure MFA registration. Enforce Policy: On. User2 must configure MFA during the user's next Azure AD authentication.
+
+![Question 177 part 1](images/question176_177_178_1.jpg)
+![Question 177 part 2](images/question176_177_178_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-User3 will be promped to configure MFA registration during the user's next Azure AD authentication.
+### You network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. The tenant contains the groups shown in the following table. The tenant contains the groups shown in the following table. You configure a multi-factor authentication (MFA) registration policy that and the following settings: Assignments: Include: Group1. Exclude: Group2. Controls: Require Azure MFA registration. Enforce Policy: On. User3 will be prompted to configure MFA registration during the user's next Azure AD authentication.
+
+![Question 178 part 1](images/question176_177_178_1.jpg)
+![Question 178 part 2](images/question176_177_178_2.jpg)
 
 - [x] Yes.
 - [ ] No.
@@ -2092,13 +2101,6 @@ If User2 signs in to Azure from a device in the New York office, User1 must be a
 - [ ] Append.
 - [x] DeployIfNotExist.
 - [ ] Deny.
-
-### You are configuring an Azure Kubernetes Service (AKS) cluster that will connect to an Azure Container Registry. You need to use the auto-generated service principal to authenticate to the Azure Container Registry. What should you create?
-
-- [ ] an Azure Active Directory (Azure AD) group.
-- [x] an Azure Active Directory (Azure AD) role assignment.
-- [ ] an Azure Active Directory (Azure AD) user.
-- [ ] a secret in Azure Key Vault
 
 ### You create a new Azure subscription. You need to ensure that you can create custom alert rules in Azure Security Center. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
