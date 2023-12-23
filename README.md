@@ -1747,22 +1747,31 @@
 - [ ] Log.
 - [ ] Log (Saved Query).
 - [x] Metric.
-- [ ] Activity Log
+- [ ] Activity Log.
 
-### Your network contains an Active Directory forest named contoso.com. You have an Azure Directory (Azure AD) tenant named contoso.com. You plan to configure synchronization by using the Express Settings installation option in Azure AD Connect. You need to identify which roles and groups are required to perform the planned configurations. The solution must use the principle of least privilege. Which two roles and groups should you identify? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
+### You have an Azure subscription named Sub1 that contains an Azure Log Analytics workspace named LAW1. You have 500 Azure virtual machines that run Windows Server 2016 and are enrolled in LAW1. You plan to add the System Update Assessment solution to LAW1. You need to ensure that System Update Assessment-related logs are uploaded to LAW1 from 100 of the virtual machines only. Which three actions should you perform in sequence?
 
-- [x] the Domain Admins group in Active Directory.
-- [ ] the Security administrator role in Azure AD.
-- [x] the Global administrator role in Azure AD.
-- [ ] the User administrator role in Azure AD.
-- [x] the Enterprise Admins group in Active Directory.
+![Question 185](images/question185.png)
+
+- [ ] Box 1: Create a new workspace. Box 2: Create a computer group. Box 3: Apply the scope configuration to the solution.
+- [ ] Box 1: Create a data source. Box 2: Create a scope configuration. Box 3: Apply the scope configuration to the solution.
+- [ ] Box 1: Create a computer group. Box 2: Create a new workspace. Box 3: Apply the scope configuration to the solution.
+- [x] Box 1: Create a computer group. Box 2: Create a scope configuration. Box 3: Apply the scope configuration to the solution.
+
+### Your network contains an Active Directory forest named contoso.com. You have an Azure Directory (Azure AD) tenant named contoso.com. You plan to configure synchronization by using the Express Settings installation option in Azure AD Connect. You need to identify which roles and groups are required to perform the planned configurations. The solution must use the principle of least privilege. Which two roles and groups should you identify?
+
+- [ ] Domain Admins group in Active Directory.
+- [ ] Security administrator role in Azure AD.
+- [x] Global administrator role in Azure AD.
+- [ ] User administrator role in Azure AD.
+- [x] Enterprise Admins group in Active Directory.
 
 ### You onboard Azure Sentinel. You connect Azure Sentinel to Azure Security Center. You need to automate the mitigation of incidents in Azure Sentinel. The solution must minimize administrative effort. What should you create?
 
-- [ ] an alert rule.
-- [ ] a playbook.
-- [x] a function app.
-- [ ] a runbook.
+- [ ] Alert rule.
+- [x] Playbook.
+- [ ] Function app.
+- [ ] Runbook.
 
 ### You need to ensure that connections from the Internet to VNET1subnet0 are allowed only over TCP port 7777. The solution must use only currently deployed resources. To complete this task, sign in to the Azure portal
 
@@ -2233,14 +2242,6 @@ User2 can access App1 from an IP address of 154.12.18.10.
 
 - [ ] Yes.
 - [x] No.
-
-### Your network contains an Active Directory forest named contoso.com. You have an Azure Directory (Azure AD) tenant named contoso.com. You plan to configure synchronization by using the Express Settings installation option in Azure AD Connect. You need to identify which roles and groups are required to perform the planned configuration. The solution must use the principle of least privilege. Which two roles and groups should you identify? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [ ] the Domain Admins group in Active Directory.
-- [ ] the Security administrator role in Azure AD.
-- [x] the Global administrator role in Azure AD.
-- [ ] the User administrator role in Azure AD.
-- [x] the Enterprise Admins group in Active Directory.
 
 ### You create a new Azure subscription. You need to ensure that you can create custom alert rules in Azure Security Center. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
