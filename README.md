@@ -1560,7 +1560,8 @@
 
 ### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Contoso.com contains a group naming policy. The policy has a custom blocked word list rule that includes the word Contoso. Which users can create a group named Contoso Sales in contoso.com?
 
-![Question 161](images/question161.jpg)
+![Question 161 part 1](images/question161_1.png)
+![Question 161 part 2](images/question161_2.jpg)
 
 - [ ] Users who can create a security group named Contoso Sales: Admin1 and Admin3 only. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin3 only.
 - [ ] Users who can create a security group named Contoso Sales: Admin1 only. Users who can create an Office 365 group named Cantoso Sales: Admin1 and Admin2 only.
@@ -1706,17 +1707,40 @@
 - [x] From the Azure portal, select the virtual machine, select Connect, and then select Request access.
 - [ ] From the Azure portal, select the virtual machine and add the Network Watcher Agent machine extension.
 
-### You have an azure active Directory (Azure AD) tenant that contains the resources shown in the following table. User2 is the owner of Group2. The user and group settings for App1 are configured as shown in the following exhibit. Groupe awanser: App1 users
+### You have an azure active Directory (Azure AD) tenant that contains the resources shown in the following table. User2 is the owner of Group2. The user and group settings for App1 are configured as shown in the following exhibit. You enable self-service application access for App1 as shown in the following exhibit. User3 is configured to approve access to App1. After you enable self-service application access for App1, who will be configured as the Group2 owner and who will be configured as the App1 users?
 
-![Question 278 part 1](images/question278_1.jpg)
-![Question 278 part 2](images/question278_2.gif)
-![Question 278 part 3](images/question278_3.gif)
+![Question 180 part 1](images/question180_1.png)
+![Question 180 part 2](images/question180_2.jpeg)
+![Question 180 part 3](images/question180_3.jpeg)
 
-- [x] Box 1: User2 and User3 only Box 2: Group1 members only.
-- [ ] Box 1: User2 only Box 2: Group1 amd Group2 members, User1 and User2 only.
-- [ ] Box 1: User1, User2, and User3 Box 2: Group1 amd Group2 members and User1 only.
-- [ ] Box 1: User1 and User2 only Box 2: Group1 amd Group2 members only.
-- [ ] Box 1: User3 only Box 2: Group2 members only.
+- [ ] Group2 owners: User2 and User3 only. App1 users: Group1 members only.
+- [x] Group2 owners: User2 only. App1 users: Group1 and Group2 members only.
+- [ ] Group2 owners: User1, User2, and User3. App1 users: Group1 and Group2 members and User1 only.
+- [ ] Group2 owners: User1 and User2 only. App1 users: Group1 and Group2 members only.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains three security groups named Group1, Group2, and Group3 and the users shown in the following table. Group3 is a member of Group2. In contoso.com, you register an enterprise application named App1 that has the following settings: Owners: User1. Users and groups: Group2. You configure the properties of App1 as shown in the following exhibit. User1 has App1 listed on his My Apps portal.
+
+![Question 181 part 1](images/question181_182_183_1.png)
+![Question 181 part 2](images/question181_182_183_2.png)
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains three security groups named Group1, Group2, and Group3 and the users shown in the following table. Group3 is a member of Group2. In contoso.com, you register an enterprise application named App1 that has the following settings: Owners: User1. Users and groups: Group2. You configure the properties of App1 as shown in the following exhibit. User2 has App1 listed on his My Apps portal.
+
+![Question 182 part 1](images/question181_182_183_1.png)
+![Question 182 part 2](images/question181_182_183_2.png)
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains three security groups named Group1, Group2, and Group3 and the users shown in the following table. Group3 is a member of Group2. In contoso.com, you register an enterprise application named App1 that has the following settings: Owners: User1. Users and groups: Group2. You configure the properties of App1 as shown in the following exhibit. User3 has App1 listed on his My Apps portal.
+
+![Question 183 part 1](images/question181_182_183_1.png)
+![Question 183 part 2](images/question181_182_183_2.png)
+
+- [ ] Yes.
+- [x] No.
 
 ### You have an Azure subscription named Sub1 that contains an Azure Log Analytics workspace named LAW1. You have 100 on-premises servers that run Windows Server 2012 R2 and Windows Server 2016. The servers connect to LAW1. LAW1 is configured to collect security-related performance counters from the connected servers. You need to configure alerts based on the data collected by LAW1. The solution must meet the following requirements: Alert rules must support dimensions. The time it takes to generate an alert must be minimized. Alert notifications must be generated only once when the alert is generated and once when the alert is resolved. Which signal type should you use when you create the alert rules?
 
