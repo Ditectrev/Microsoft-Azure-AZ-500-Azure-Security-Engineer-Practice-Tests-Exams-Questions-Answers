@@ -1773,17 +1773,17 @@
 - [ ] Function app.
 - [ ] Runbook.
 
-### You need to ensure that connections from the Internet to VNET1subnet0 are allowed only over TCP port 7777. The solution must use only currently deployed resources. To complete this task, sign in to the Azure portal
+### You need to ensure that connections from the Internet to VNET1subnet0 are allowed only over TCP port 7777. The solution must use only currently deployed resources. To complete this task, sign in to the Azure portal.
 
-- [ ] BRAK ODPOWEIDZI
+- [x] 1. All services or type 'network security groups' on the search bar. 2. Click your target NSG. 3. on Settings. 4. Click 'Inbound security rules'. 5. Click + Add. 6. Source: service tag, destination port: 7777, Protocol: TCP, Priority:100, Name:<provide name>. 7. Leave the rest as defaults. 8. Click Add.
 
-### You need to configure a weekly backup of an Azure SQL database named Homepage. The backup must be retained for eight weeks. To complete this task, sign in to the Azure portal
+### You need to configure a weekly backup of an Azure SQL database named Homepage. The backup must be retained for eight weeks. To complete this task, sign in to the Azure portal.
 
-- [ ] ... BRAK ODPWIEDZI
+- [x] 1. Go to Search. 2. 'Homepage'. 3. Database overview. 4. Click on Server name. 5. Manage Backups. 6. Choose database 'Homepage'. 7. Configure retention. 8. Long-term Retention Configurations set to 8 weeks.
 
-### You need to ensure that connections through an Azure Application Gateway named Homepage-AGW are inspected for malicious requests. To complete this task, sign in to the Azure portal. You do not need to wait for the task to complete
+### You need to ensure that connections through an Azure Application Gateway named Homepage-AGW are inspected for malicious requests. To complete this task, sign in to the Azure portal.
 
-- [ ] BRAK ODPOWIEDZI
+- [x] 1. In the Azure portal, type Application gateways in the search box, select Application gateways from the search results then select the gateway named Homepage-AGW. Alternatively, browse to Application Gateways in the left navigation panel. 2. In the properties section of the application gateway, click on Web application firewall. 3. For the Tier setting, select WAF V2. 4. In the Firewall status section, click the slider to switch to Enabled. 5. In the Firewall mode section, click the slider to switch to Prevention. 6. Click Save to save the changes.
 
 ### You have an Azure subscription that contains a user named Admin1 and a resource group named RG1. In Azure Monitor, you create the alert rules shown in the following table. Admin1 performs the following actions on RG1: • Adds a virtual network named VNET1 • Adds a Delete lock named Lock1 Which rules will trigger an alert as a result of the actions of Admin1? Adding Vnet1: Adding Lock1
 
