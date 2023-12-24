@@ -1785,24 +1785,24 @@
 
 - [x] 1. In the Azure portal, type Application gateways in the search box, select Application gateways from the search results then select the gateway named Homepage-AGW. Alternatively, browse to Application Gateways in the left navigation panel. 2. In the properties section of the application gateway, click on Web application firewall. 3. For the Tier setting, select WAF V2. 4. In the Firewall status section, click the slider to switch to Enabled. 5. In the Firewall mode section, click the slider to switch to Prevention. 6. Click Save to save the changes.
 
-### You have an Azure subscription that contains a user named Admin1 and a resource group named RG1. In Azure Monitor, you create the alert rules shown in the following table. Admin1 performs the following actions on RG1: • Adds a virtual network named VNET1 • Adds a Delete lock named Lock1 Which rules will trigger an alert as a result of the actions of Admin1? Adding Vnet1: Adding Lock1
+### You have an Azure subscription that contains a user named Admin1 and a resource group named RG1. In Azure Monitor, you create the alert rules shown in the following table. Admin1 performs the following actions on RG1: Adds a virtual network named VNET1. Adds a Delete lock named Lock1. Which rules will trigger an alert as a result of the actions of Admin1?
 
-![Question 297 part 1](images/question297_1.jpg)
-![Question 297 part 2](images/question297_2.jpg)
+![Question 191 part 1](images/question191_1.jpg)
+![Question 191 part 2](images/question191_2.jpg)
 
-- [ ] Box 1: Rule2 only Box 2: Rule1, Rule2, Rule3, and Rule 4 Box 2.
-- [ ] Box 1: Rule4 only Box 2: Rule3 and Rule 4 only Box 2.
-- [x] Box 1: Rule2 and Rule 4 only Box 2: Rule2 and Rule 4 only.
-- [ ] Box 1: Rule3 and Rule 4 only Box 2: Rule4 only.
-- [ ] Box 1: Rule1, Rule2, Rule3, and Rule 4 Box 2: Rule2 only.
+- [ ] Adding VNET1: Rule2 only. Adding Lock1: Rule1, Rule2, Rule3, and Rule 4 Box 2.
+- [ ] Adding VNET1: Rule4 only. Adding Lock1: Rule3 and Rule 4 only Box 2.
+- [x] Adding VNET1: Rule2 and Rule 4 only. Adding Lock1: Rule2 and Rule 4 only.
+- [ ] Adding VNET1: Rule3 and Rule 4 only. Adding Lock1: Rule4 only.
 
-### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources
+### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] BRAK ODPOWIEDZI
+- [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET2. Alternatively, browse to
+Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
 
-### You need to enable Advanced Data Security for the SQLdb1 Azure SQL database. The solution must ensure that Azure Advanced Threat Protection (ATP) alerts are sent to <User1@contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources
+### You need to enable Advanced Data Security for the SQLdb1 Azure SQL database. The solution must ensure that Azure Advanced Threat Protection (ATP) alerts are sent to <User1@contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
--[x] BRAK ODPOWEIDZI
+- [x] 1. Database. 2. Security. 3. Security Center. 4. Click on Settings icon in the bar above the graphs. 5. Check 'Enable Azure Defender for SQL server settings'.
 
 ### You have an Azure subscription that contains the resources shown in the following table
 
