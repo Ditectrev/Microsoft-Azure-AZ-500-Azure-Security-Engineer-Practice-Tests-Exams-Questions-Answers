@@ -1842,13 +1842,12 @@ Virtual Networks in the left navigation panel. 2. In the Settings blade for virt
 
 ### You create an Azure subscription with Azure AD Premium P2. You need to ensure that you can use Azure Active Directory (Azure AD) Privileged Identity Management (PIM) to secure Azure roles. Which three actions should you perform in sequence?
 
-![Question 326](images/question32.jpg)
+![Question 198](images/question198.jpg)
 
-- [ ] Discover privileged roles.
-- [x] Sing up PIM for Azure AD roles.
-- [x] Consent to PIM.
-- [ ] Discover resources.
-- [x] Verify your identity by using multi-factor authentication (MFA).
+- [x] Box 1: Sign up PIM for Azure AD roles. Box 2: Discover privileged roles. Box 3: Consent to PIM.
+- [ ] Box 1: Verify your identity by using multi-factor authentication (MFA). Box 2: Discover privileged roles. Box 3: Sign up PIM for Azure AD roles.
+- [ ] Box 1: Discover privileged roles. Box 2: Sign up PIM for Azure AD roles. Box 3: Discover resources.
+- [ ] Box 1: Consent to PIM. Box 2: Verify your identity by using multi-factor authentication (MFA). Box 3: Sign up PIM for Azure AD roles.
 
 ### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create an initiative and an assignment that is scoped to a management group. Does this meet the goal?
 
