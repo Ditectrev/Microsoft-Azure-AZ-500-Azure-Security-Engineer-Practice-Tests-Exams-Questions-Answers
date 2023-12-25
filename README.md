@@ -1804,46 +1804,41 @@ Virtual Networks in the left navigation panel. 2. In the Settings blade for virt
 
 - [x] 1. Database. 2. Security. 3. Security Center. 4. Click on Settings icon in the bar above the graphs. 5. Check 'Enable Azure Defender for SQL server settings'.
 
-### You have an Azure subscription that contains the resources shown in the following table
+### You have an Azure subscription that contains the resources shown in the following table. An IP address of 10.1.0.4 is assigned to VM5. VM5 does not have a public IP address. VM5 has just in time (JIT) VM access configured as shown in the following exhibit. You enable JIT VM access for VM5. NSG1 has the inbound rules shown in the following exhibit. Deleting the security rule that has a priority of 100 will revoke the approved JIT acces request.
 
-![Question 322 part 1](images/question322_1.jpg)
-![Question 322 part 2](images/question322_2.jpg)
-![Question 322 part 3](images/question322_3.jpg)
-![Question 322 part 4](images/question322_4.jpg)
-
-Delting the security rule that has a priority of 100 will revoke the approved JIT acces request.
+![Question 194 part 1](images/question194_195_196_1.jpg)
+![Question 194 part 2](images/question194_195_196_2.jpeg)
+![Question 194 part 3](images/question194_195_196_3.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-Remote Desktop access to VM5 is blocked.
-
-- [x] Yes.
-- [ ] No.
-
-An Azure Bastion host will eneble Remote Desktop access to VM5 from the.
+### You have an Azure subscription that contains the resources shown in the following table. An IP address of 10.1.0.4 is assigned to VM5. VM5 does not have a public IP address. VM5 has just in time (JIT) VM access configured as shown in the following exhibit. You enable JIT VM access for VM5. NSG1 has the inbound rules shown in the following exhibit. Deleting the security rule that has a priority of 100 will revoke the approved JIT acces request. Remote Desktop access to VM5 is blocked.
 
 - [ ] Yes.
 - [x] No.
 
-### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: Users with leaked credentials Impossible travel to atypical locations Sign ins from IP addresses with suspicious activity Which level should you identify for each risk event? To answer, drag the appropriate levels to the correct risk events. Each level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point
+![Question 195 part 1](images/question194_195_196_1.jpg)
+![Question 195 part 2](images/question194_195_196_2.jpeg)
+![Question 195 part 3](images/question194_195_196_3.jpg)
 
-![Question 325](images/question325.jpg)
+### You have an Azure subscription that contains the resources shown in the following table. An IP address of 10.1.0.4 is assigned to VM5. VM5 does not have a public IP address. VM5 has just in time (JIT) VM access configured as shown in the following exhibit. You enable JIT VM access for VM5. NSG1 has the inbound rules shown in the following exhibit. An Azure Bastion host will eneble Remote Desktop access to VM5 from the internet.
 
-Impossible travel to atypical location:
+![Question 196 part 1](images/question194_195_196_1.jpg)
+![Question 196 part 2](images/question194_195_196_2.jpeg)
+![Question 196 part 3](images/question194_195_196_3.jpg)
 
-- [ ] High.
-- [x] Medium.
+- [ ] Yes.
+- [x] No.
 
-Users with leaked credentails:
+### You are implementing conditional access policies. You must evaluate the existing Azure Active Directory (Azure AD) risk events and risk levels to configure and implement the policies. You need to identify the risk level of the following risk events: Users with leaked credentials Impossible travel to atypical locations Sign ins from IP addresses with suspicious activity. Which level should you identify for each risk event?
 
-- [ ] Low.
-- [x] High.
+![Question 197](images/question197.jpg)
 
-Sing ins From IP addresses with supicious activity:
-
-- [ ] Medium.
-- [x] Medium.
+- [ ] Impossible travel to a typical location: Medium. Users with leaked credentails: High. Sign-ins from IP addresses with supicious activity: Low.
+- [x] Impossible travel to a typical location: Medium. Users with leaked credentails: High. Sign-ins from IP addresses with supicious activity: Medium.
+- [ ] Impossible travel to a typical location: Medium. Users with leaked credentails: Low. Sign-ins from IP addresses with supicious activity: Low.
+- [ ] Impossible travel to a typical location: Medium. Users with leaked credentails: Medium. Sign-ins from IP addresses with supicious activity: Low.
 
 ### You create an Azure subscription with Azure AD Premium P2. You need to ensure that you can use Azure Active Directory (Azure AD) Privileged Identity Management (PIM) to secure Azure roles. Which three actions should you perform in sequence?
 
