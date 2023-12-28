@@ -1798,7 +1798,7 @@
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
 - [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET2. Alternatively, browse to
-Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
+     Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
 
 ### You need to enable Advanced Data Security for the SQLdb1 Azure SQL database. The solution must ensure that Azure Advanced Threat Protection (ATP) alerts are sent to <User1@contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
@@ -1854,6 +1854,37 @@ Virtual Networks in the left navigation panel. 2. In the Settings blade for virt
 - [x] Yes.
 - [ ] No.
 
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a resource graph and an assignment that is scoped to a management group. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy initiative and assignments that are scoped to resource groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy initiative and an assignment that is scoped to the Tenant Root Group management group. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure subscription that contains the resources shown in the following table. You need to ensure that ServerAdmins can perform the following tasks: Create virtual machines in RG1 only. Connect the virtual machines to the existing virtual networks in RG2 only. The solution must use the principle of least privilege. Which two role-based access control (RBAC) roles should you assign to ServerAdmins?
+
+![Question 204](images/question204.png)
+
+- [ ] Contributor role for the subscription.
+- [ ] Network Contributor role for RG2
+- [ ] Custom RBAC role for the subscription.
+- [x] Custom RBAC role for RG2.
+- [ ] Network Contributor role for RG1.
+- [x] Virtual Machine Contributor role for RG1.
+
 ### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. (Click the Conditions tab.)
 
 ![Question 332 part 1](images/question332_1.jpg)
@@ -1874,17 +1905,6 @@ Users external to the Contoso named location must use multi-factor authenticatio
 
 - [ ] Yes.
 - [x] No.
-
-### You have an Azure subscription that contains the resources shown in the following table. You need to ensure that ServerAdmins can perform the following tasks: Create virtual machine to the existing virtual network in RG2 only. The solution must use the principle of least privilege. Which two role-based access control (RBAC) roles should you assign to ServerAdmins? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-![Question 342](images/question342.jpg)
-
-- [ ] The Contributor role for the subscription.
-- [x] The Network Contributor role for RG2
-- [ ] A custom RBAC role for the subscription.
-- [ ] A custom RBAC role for RG2.
-- [ ] The Network Contributor role for RG1.
-- [x] The Virtual Machine Contributor role for RG1.
 
 ### CORRECT TEXT You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
 
@@ -1969,11 +1989,6 @@ If User3 wants to activate the Password Administrator role, the user can approve
 - [ ] Web Service Configuration Tool.
 - [ ] the Azure AD Connect wizard.
 - [ ] Active Directory Users and Computers
-
-### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a resource graph and an assignment that is scoped to a management group. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### Your company has an Azure subscription named Sub1 that is associated to an Azure Active Directory Azure (Azure AD) tenant named contoso.com. The company develops a mobile application named App1. App1 uses the OAuth 2 implicit grant type to acquire Azure AD access tokens. You need to register App1 in Azure AD. What information should you obtain from the developer to register the application?
 
@@ -2176,11 +2191,6 @@ You can create a virtual machine in RG2.
 ### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources
 
 - [ ] BRAK ODPOWIEDZI
-
-### You use Azure Security Center for the centralized policy management of three Azure subscriptions. You use several policy definitions to manage the security of the subscriptions. You need to deploy the policy definitions as a group to all three subscriptions. Solution: You create a policy definition and assignments that are scoped to resource groups. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### From Azure Security Center, you create a custom alert rule. You need to configure which users will receive an email message when the alert is triggered. What should you do?
 
