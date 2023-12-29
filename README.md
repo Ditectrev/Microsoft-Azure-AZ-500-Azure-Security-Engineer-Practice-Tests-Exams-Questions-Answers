@@ -1885,30 +1885,33 @@
 - [ ] Network Contributor role for RG1.
 - [x] Virtual Machine Contributor role for RG1.
 
-### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. (Click the Conditions tab.)
+### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. Users from the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
 
-![Question 332 part 1](images/question332_1.jpg)
-![Question 332 part 2](images/question332_2.jpg)
-![Question 332 part 3](images/question332_3.jpg)
+![Question 205 part 1](images/question205_206_207_1.png)
+![Question 205 part 2](images/question205_206_207_2.jpeg)
 
-Users from the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
+- [x] Yes.
+- [ ] No.
 
-- [ ] Yes.
-- [x] No.
+### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. Users from the Contoso named location must use multi-factor authentication (MFA) to access the web services hosted in the Azure subscription.
 
-Users from the Contoso named location must use multi-factor authentication (MFA) to access the web services hosted in the Azure subscryption.
-
-- [ ] Yes.
-- [x] No.
-
-Users external to the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
+![Question 206 part 1](images/question205_206_207_1.png)
+![Question 206 part 2](images/question205_206_207_2.jpeg)
 
 - [ ] Yes.
 - [x] No.
 
-### CORRECT TEXT You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes
+### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. Users external to the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
 
-- [ ] ... BRAK OPOWIEDZI
+![Question 207 part 1](images/question205_206_207_1.png)
+![Question 207 part 2](images/question205_206_207_2.jpeg)
+
+- [ ] Yes.
+- [x] No.
+
+### You need to deploy an Azure firewall to a virtual network named VNET3. To complete this task, sign in to the Azure portal and modify the Azure resources. This task might take several minutes to complete. You can perform other tasks while the task completes.
+
+- [x] When you open the subnet in VNET3, you can already see an existing subnet. Simply delete that and reuse the same subnet with the new AzureFirewallSubnet.
 
 ### Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
 
@@ -2272,27 +2275,6 @@ If User2 activates the security Administrator role, the user will be assigned th
 - [ ] No.
 
 User3 can activate the Security Administrator role.
-
-- [x] Yes.
-- [ ] No.
-
-### You create a new Azure subscription that is associated to a new Azure Active Directory (Azure AD) tenant. You create one active conditional access policy named Portal Policy. Portal Policy is used to provide access to the Microsoft Azure Management cloud app. The Conditions settings for Portal Policy are configured as shown in the Conditions exhibit. (Click the Conditions tab.) The Grant settings for Portal Policy are configured as shown in the Grant exhibit. (Click the Grant tab.)
-
-![Question 662 part 1](images/question661_1.jpg)
-![Question 662 part 2](images/question661_2.jpg)
-![Question 662 part 3](images/question661_3.jpg)
-
-Users from the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
-
-- [ ] Yes.
-- [x] No.
-
-Users from the Contoso named location must use multi-factor authentication (MFA) to access the web services hosted in the Azure subscryption.
-
-- [x] Yes.
-- [ ] No.
-
-Users external to the Contoso named location must use multi-factor authentication (MFA) to access the Azure portal.
 
 - [x] Yes.
 - [ ] No.
