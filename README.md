@@ -1939,60 +1939,70 @@
 - [x] Box 1: Create an access review program. Box 2: Create an access review control. Box 3: Set Reviewers to Group owners.
 - [ ] Box 1: Create an access review audit. Box 2: Set Reviewers to Members. Box 3: Set Reviewers to Group owners.
 
-### You have an Azure Active Directory (Azure AD) tenant. You have the deleted objects shown in the following table. On May 4, 2020, you attempt to restore the deleted objects by using the Azure Active Directory admin center. Which two objects can you restore? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
+### You have an Azure Active Directory (Azure AD) tenant. You have the deleted objects shown in the following table. On May 4, 2020, you attempt to restore the deleted objects by using the Azure Active Directory admin center. Which two objects can you restore?
 
-![Question 376](images/question376.jpg)
+![Question 212](images/question212.jpg)
 
 - [ ] Group1.
 - [x] Group2
-- [x] User2
-- [ ] User1
+- [x] User2.
+- [ ] User1.
 
-### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Azure AD Privileged Identity Management (PIM) is enabled for the tenant. In PIM, the Password Administrator role has the following settings: • Maximum activation duration (hours): 2 • Send email notifying admins of activation: Disable • Require incident/request ticket number during activation: Disable • Require Azure Multi-Factor Authentication for activation: Enable • Require approval to activate this role: Enable • Selected approver: Group1 You assign users the Password Administrator role as shown in the following table.
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Azure AD Privileged Identity Management (PIM) is used in contoso.com. In PIM, the Password Administrator role has the following settings: Maximum activation duration (hours): 2. Send email notifying admins of activation: Disable. Require incident/request ticket number during activation: Disable. Require Azure Multi-Factor Authentication for activation: Enable. Require approval to activate this role: Enable. Selected approver: Group1. You assign users the Password Administrator role as shown in the following table. When User1 signs in, the user is assigned the password Administraror role automatically.
 
-![Question 386 part 1](images/question386_1.jpg)
-![Question 386 part 2](images/question386_2.jpg)
-![Question 386 part 3](images/question386_3.jpg)
-
-When User 1 sings in, the user is assigned the password Administraror role automatically.
-
-- [ ] Yes.
-- [x] No.
-
-User 2 can request to activate the Password Administrator role.
+![Question 213 part 1](images/question213_214_215_1.jpg)
+![Question 213 part 2](images/question213_214_215_2.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-If User3 wants to activate the Password Administrator role, the user can approve their own reguest.
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Azure AD Privileged Identity Management (PIM) is used in contoso.com. In PIM, the Password Administrator role has the following settings: Maximum activation duration (hours): 2. Send email notifying admins of activation: Disable. Require incident/request ticket number during activation: Disable. Require Azure Multi-Factor Authentication for activation: Enable. Require approval to activate this role: Enable. Selected approver: Group1. You assign users the Password Administrator role as shown in the following table. User2 can request to activate the Password Administrator role.
+
+![Question 214 part 1](images/question213_214_215_1.jpg)
+![Question 214 part 2](images/question213_214_215_2.jpg)
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table. Azure AD Privileged Identity Management (PIM) is used in contoso.com. In PIM, the Password Administrator role has the following settings: Maximum activation duration (hours): 2. Send email notifying admins of activation: Disable. Require incident/request ticket number during activation: Disable. Require Azure Multi-Factor Authentication for activation: Enable. Require approval to activate this role: Enable. Selected approver: Group1. You assign users the Password Administrator role as shown in the following table. If User3 wants to activate the Password Administrator role, the user can approve their own request.
+
+![Question 215 part 1](images/question213_214_215_1.jpg)
+![Question 215 part 2](images/question213_214_215_2.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure subscription that contains the following resources: A virtual network named VNET1 that contains two subnets named Subnet1 and Subnet2. A virtual machine named VM1 that has only a private IP address and connects to Subnet1. You need to ensure that Remote Desktop connections can be established to VM1 from the internet. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange then in the correct order
+### You have an Azure subscription that contains the following resources: A virtual network named VNET1 that contains two subnets named Subnet1 and Subnet2. A virtual machine named VM1 that has only a private IP address and connects to Subnet1. You need to ensure that Remote Desktop connections can be established to VM1 from the internet. Which three actions should you perform in sequence?
 
-![Question 399](images/question399.jpg)
+![Question 216](images/question216.jpg)
 
-- [ ] Configure a network security group (NGS).
-- [ ] Create a netowrk rule collection.
-- [x] Create a NAT rule collection.
-- [x] Create a new subnet.
-- [ ] Deploy Azure Application Gateway.
-- [x] Deploy Azure Firewall.
+- [ ] Box 1: Create a new subnet. Box 2: Create a NAT rule collection. Box 3: Deploy Azure Firewall.
+- [ ] Box 1: Deploy Azure Application Gateway. Box 2: Create a network rule collection. Box 3: Deploy Azure Firewall.
+- [ ] Box 1: Deploy Azure Application Gateway. Box 2: Create a NAT rule collection. Box 3: Create a network rule collection.
+- [x] Box 1: Create a new subnet. Box 2: Deploy Azure Firewall. Box 3: Create a NAT rule collection.
 
 ### Your network contains an on-premises Active Directory domain named corp.contoso.com. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You sync all on-premises identities to Azure AD. You need to prevent users who have a givenName attribute that starts with TEST from being synced to Azure AD. The solution must minimize administrative effort. What should you use?
 
 - [x] Synchronization Rules Editor.
 - [ ] Web Service Configuration Tool.
-- [ ] the Azure AD Connect wizard.
-- [ ] Active Directory Users and Computers
+- [ ] Azure AD Connect wizard.
+- [ ] Active Directory Users and Computers.
 
 ### Your company has an Azure subscription named Sub1 that is associated to an Azure Active Directory Azure (Azure AD) tenant named contoso.com. The company develops a mobile application named App1. App1 uses the OAuth 2 implicit grant type to acquire Azure AD access tokens. You need to register App1 in Azure AD. What information should you obtain from the developer to register the application?
 
-- [x] a redirect URI.
-- [ ] a reply URL.
-- [ ] a key.
-- [ ] an application ID.
+- [x] Redirect URI.
+- [ ] Reply URL.
+- [ ] Key.
+- [ ] Application ID.
+
+
+### Your company has an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. The company develops an application named App1. App1 is registered in Azure AD. You need to ensure that App1 can access secrets in Azure Key Vault on behalf of the application users. What should you configure?
+
+- [ ] Application permission without admin consent.
+- [x] Delegated permission without admin consent.
+- [ ] Delegated permission that requires admin consent.
+- [ ] Application permission that requires admin consent.
+
 
 ### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You assign Role1 to User1 for RG1.
 
@@ -2023,13 +2033,6 @@ User1 can attach the network interface of VM1 to VNET1.
 - [ ] Install the container network interface (CNI) plug-in.
 - [ ] Create an Azure Standard Load Balancer.
 - [ ] Create an Azure Basic Load Balancer.
-
-### Your company has an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. The company develops an application named App1. App1 is registered in Azure AD. You need to ensure that App1 can access secrets in Azure Key Vault on behalf of the application users. What should you configure?
-
-- [ ] an application permission without admin consent.
-- [x] a delegated permission without admin consent.
-- [ ] a delegated permission that requires admin consent.
-- [ ] an application permission that requires admin consent.
 
 ### You have a hybrid configuration of Azure Active Directory (Azure AD). All users have computers that run Windows 10 and are hybrid Azure AD joined. You have an Azure SQL database that is configured to support Azure AD authentication. Database developers must connect to the SQL database by using Microsoft SQL Server Management Studio (SSMS) and authenticate by using their on-premises Active Directory account. You need to tell the developers which authentication method to use to connect to the SQL database from SSMS. The solution must minimize authentication prompts. Which authentication method should you instruct the developers to use?
 
