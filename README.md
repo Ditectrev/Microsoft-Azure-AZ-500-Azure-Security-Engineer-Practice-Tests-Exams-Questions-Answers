@@ -1913,37 +1913,31 @@
 
 - [x] When you open the subnet in VNET3, you can already see an existing subnet. Simply delete that and reuse the same subnet with the new AzureFirewallSubnet.
 
-### Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
+### You have an Azure Container Registry named Registry1. You add role assignment for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1?
 
-- [ ] Upload a public certificate.
-- [x] Turn on the HTTPS Only protocol setting..
-- [ ] Set the Minimum TLS Version protocol setting to 1.2..
-- [ ] Change the pricing tier of the App Service plan.
-- [x] Turn on the Incoming client certificates protocol setting.
+![Question 209 part 1](images/question209_1.jpg)
+![Question 209 part 2](images/question209_2.jpg)
 
-### You have an Azure Container Registry named Registry1. You add role assignment for Registry1 as shown in the following table. Which users can upload images to Registry1 and download images from Registry1? Upload images: Download images
+- [x] Upload images: User1 and User4 only. Download images: User1, User2, and User4.
+- [ ] Upload images: User1 only. Download images: User2 only.
+- [ ] Upload images: User1 and User2 only. Download images: User1 and User2 only.
+- [ ] Upload images: User2 and User4 only. Download images: User1, User2, User3 and User4.
 
-![Question 370 part 1](images/question370_1.jpg)
-![Question 370 part 2](images/question370_2.jpg)
-![Question 370 part 3](images/question370_3.jpg)
+### You have been tasked with configuring an access review, which you plan to assigned to a new collection of reviews. You also have to make sure that the reviews can be reviewed by resource owners. You start by creating an access review program and an access review control. You now need to configure the Reviewers.Which of the following should you set Reviewers to?
 
-- [x] Box 1: User1 and User4 only Box 2: User1, User2, and User4.
-- [ ] Box 1: User1 only Box 2: User2 only.
-- [ ] Box 1: User1 and User2 only Box 2: User1 and User2 only.
-- [ ] Box 1: User2 and User4 only Box 2: User1, User2, User3 and User4.
-- [ ] Box 1: User1 and User4 only Box 2: User2 ad User4 only.
+- [x] Selected users.
+- [ ] Members (Self).
+- [ ] Group Owners.
+- [ ] Anyone.
 
 ### You need to configure an access review. The review will be assigned to a new collection of reviews and reviewed by resource owners. Which three actions should you perform in sequence?
 
-![Question 373 part 1](images/question373_1.jpg)
-![Question 373 part 2](images/question373_2.jpg)
+![Question 211](images/question211.jpg)
 
-- [x] Create an access review program.
-- [ ] Set Reviewers to Selected users.
-- [ ] Create an access review audit.
-- [x] Create an access review control.
-- [x] Set Reviewers to Group owners.
-- [ ] Set Reviewers to Members.
+- [ ] Box 1: Create an access review program. Box 2: Set Reviewers to Group owners. Box 3: Set Reviewers to Members.
+- [ ] Box 1: Create an access review program. Box 2: Set Reviewers to Selected users. Box 3: Set Reviewers to Members.
+- [x] Box 1: Create an access review program. Box 2: Create an access review control. Box 3: Set Reviewers to Group owners.
+- [ ] Box 1: Create an access review audit. Box 2: Set Reviewers to Members. Box 3: Set Reviewers to Group owners.
 
 ### You have an Azure Active Directory (Azure AD) tenant. You have the deleted objects shown in the following table. On May 4, 2020, you attempt to restore the deleted objects by using the Azure Active Directory admin center. Which two objects can you restore? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
 
