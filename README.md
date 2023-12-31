@@ -1995,7 +1995,6 @@
 - [ ] Key.
 - [ ] Application ID.
 
-
 ### Your company has an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. The company develops an application named App1. App1 is registered in Azure AD. You need to ensure that App1 can access secrets in Azure Key Vault on behalf of the application users. What should you configure?
 
 - [ ] Application permission without admin consent.
@@ -2003,24 +2002,50 @@
 - [ ] Delegated permission that requires admin consent.
 - [ ] Application permission that requires admin consent.
 
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create an Azure role by using the following JSON file. You assign Role1 to User1 for RG1. User1 can create a new virtual machine in RG1.
 
-### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You assign Role1 to User1 for RG1.
-
-![Question 436 part 1](images/question436_1.jpg)
-![Question 436 part 2](images/question436_2.jpg)
-![Question 436 part 3](images/question436_3.jpg)
-
-User1 can create a new virtual machine in RG1.
-
-- [x] Yes.
-- [ ] No.
-
-User can modify the properties of storage1.
+![Question 220 part 1](images/question220_221_222_1.png)
+![Question 220 part 2](images/question220_221_222_2.jpeg)
 
 - [ ] Yes.
 - [x] No.
 
-User1 can attach the network interface of VM1 to VNET1.
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create a custom RBAC role in Subscription1 by using the following JSON file. You assign Role1 to User1 for RG1. User1 can modify the properties of storage1.
+
+![Question 221 part 1](images/question220_221_222_1.png)
+![Question 221 part 2](images/question220_221_222_2.jpeg)
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create a custom RBAC role in Subscription1 by using the following JSON file. You assign Role1 to User1 for RG1. User1 can attach the network interface of VM1 to VNET1.
+
+![Question 222 part 1](images/question220_221_222_1.png)
+![Question 222 part 2](images/question220_221_222_2.jpeg)
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create a custom RBAC role in Subscription1 by using the following JSON file. You assign Role1 to User1 on RG1. User1 can add VM1 to VNET1.
+
+![Question 223 part 1](images/question223_224_225_1.png)
+![Question 223 part 2](images/question223_224_225_2.png)
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create a custom RBAC role in Subscription1 by using the following JSON file. You assign Role1 to User1 on RG1. User1 can start and stop App1.
+
+![Question 224 part 1](images/question223_224_225_1.png)
+![Question 224 part 2](images/question223_224_225_2.png)
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create a custom RBAC role in Subscription1 by using the following JSON file. You assign Role1 to User1 on RG1. User1 can start and stop cont1.
+
+![Question 225 part 1](images/question223_224_225_1.png)
+![Question 225 part 2](images/question223_224_225_2.png)
 
 - [ ] Yes.
 - [x] No.
