@@ -2050,34 +2050,49 @@
 - [ ] Yes.
 - [x] No.
 
-### You are testing an Azure Kubernetes Service (AKS) cluster. The cluster is configured as shown in the exhibit. (Click the Exhibit tab.) You plan to deploy the cluster to production. You disable HTTP application routing. You need to implement application routing that will provide reverse proxy and TLS termination for AKS services by using a single IP address. What should you do?
+### You are testing an Azure Kubernetes Service (AKS) cluster. The cluster is configured as shown in the exhibit. You plan to deploy the cluster to production. You disable HTTP application routing. You need to implement application routing that will provide reverse proxy and TLS termination for AKS services by using a single IP address. What should you do?
 
-![Question 438](images/question438.jpg)
+![Question 226](images/question226.png)
 
 - [x] Create an AKS Ingress controller.
 - [ ] Install the container network interface (CNI) plug-in.
 - [ ] Create an Azure Standard Load Balancer.
 - [ ] Create an Azure Basic Load Balancer.
 
+### You need to consider the underlined segment to establish whether it is accurate. You have configured an Azure Kubernetes Service (AKS) cluster in your testing environment. You are currently preparing to deploy the cluster to the production environment. After disabling HTTP application routing, you want to replace it with an application routing solution that allows for reverse proxy and TLS termination for AKS services via a solitary IP address. You must create an AKS Ingress controller.
+
+- [x] No adjustment required.
+- [ ] Network security group.
+- [ ] Application security group.
+- [ ] Azure Basic Load Balancer.
+
 ### You have a hybrid configuration of Azure Active Directory (Azure AD). All users have computers that run Windows 10 and are hybrid Azure AD joined. You have an Azure SQL database that is configured to support Azure AD authentication. Database developers must connect to the SQL database by using Microsoft SQL Server Management Studio (SSMS) and authenticate by using their on-premises Active Directory account. You need to tell the developers which authentication method to use to connect to the SQL database from SSMS. The solution must minimize authentication prompts. Which authentication method should you instruct the developers to use?
 
 - [ ] SQL Login.
-- [ ] Active Directory C Universal with MFA support.
-- [x] Active Directory C Integrated.
-- [ ] Active Directory C Password
+- [ ] Active Directory - Universal with MFA support.
+- [x] Active Directory - Integrated.
+- [ ] Active Directory - Password.
+
+### You have a hybrid configuration of Azure Active Directory (Azure AD) that has Single Sign-On (SSO) enabled. You have an Azure SQL Database instance that is configured to support Azure AD authentication. Database developers must connect to the database instance from the domain joined device and authenticate by using their on-premises Active Directory account. You need to ensure that developers can connect to the instance by using Microsoft SQL Server Management Studio. The solution must minimize authentication prompts. Which authentication method should you recommend?
+
+- [ ] SQL Login.
+- [ ] Active Directory - Universal with MFA support.
+- [x] Active Directory - Integrated.
+- [ ] Active Directory - Password.
 
 ### You have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016. You need to implement a policy to ensure that each virtual machine has a custom antimalware virtual machine extension installed. How should you complete the policy?
 
-![Question 450](images/question450.jpg)
+![Question 230](images/question230.jpg)
 
-- [ ] Box 1: Append Box 2: existenceCondition.
-- [ ] Box 1: Deny Box 2: resources.
-- [x] Box 1: DeployNotExists Box 2: template.
+- [ ] Box 1: Append. Box 2: existenceCondition.
+- [ ] Box 1: Deny. Box 2: resources.
+- [x] Box 1: DeployNotExists. Box 2: template.
+- [ ] Box 1: DeployNotExists. Box 2: resources.
 
-### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You are assigned the Global administrator role for the tenant. You are responsible for managing Azure Security Center settings. You need to create a custom sensitivity label. What should you do first?
+### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You are assigned the Global administrator role for the tenant. You are responsible for managing Azure Security Center settings. You need to create a custom sensitivity label. What should you do?
 
 - [x] Create a custom sensitive information type.
-- [ ] Elevate access for global administrators in Azure A.
+- [ ] Elevate access for global administrators in Azure AD.
 - [ ] Upgrade the pricing tier of the Security Center to Standard.
 - [ ] Enable integration with Microsoft Cloud App Security.
 
