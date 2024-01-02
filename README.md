@@ -2096,31 +2096,42 @@
 - [ ] Upgrade the pricing tier of the Security Center to Standard.
 - [ ] Enable integration with Microsoft Cloud App Security.
 
-### You have an Azure subscription that contains 100 virtual machines. Azure Diagnostics is enabled on all the virtual machines. You are planning the monitoring of Azure services in the subscription. You need to retrieve the following details: Identify the user who deleted a virtual machine three weeks ago. Query the security events of a virtual machine that runs Windows Server 2016. What should you use in Azure Monitor? To answer, drag the appropriate configuration settings to the correct details. Each configuration setting may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Identify the user who deleted a virtual machine three weeks ago: Querty the security events of a vitual machine that runs Windows Server 2016
+### You have an Azure subscription that contains 100 virtual machines. Azure Diagnostics is enabled on all the virtual machines. You are planning the monitoring of Azure services in the subscription. You need to retrieve the following details: Identify the user who deleted a virtual machine three weeks ago. Query the security events of a virtual machine that runs Windows Server 2016. What should you use in Azure Monitor?
 
-![Question 464](images/question464.jpg)
+![Question 232](images/question232.jpg)
 
-- [x] Activity log
-- [x] Logs
-- [ ] Metrics
-- [ ] Service Health
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Metrics. Query the security events of a vitual machine that runs Windows Server 2016: Activity log.
+- [x] Identify the user who deleted a virtual machine three weeks ago: Activity log. Query the security events of a vitual machine that runs Windows Server 2016: Logs.
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Activity log. Query the security events of a vitual machine that runs Windows Server 2016: Logs.
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Service Health. Query the security events of a vitual machine that runs Windows Server 2016: Metrics.
 
-### You have two Azure virtual machines in the East US2 region as shown in the following table. You deploy and configure an Azure Key vault. You need to ensure that you can enable Azure Disk Encryption on VM1 and VM2. What should you modify on each virtual machine? To answer, select the appropriate options in the answer area . NOTE: Each correct selection is worth one point. VM1: VM2
+### You have two Azure virtual machines in the East US2 region as shown in the following table. You deploy and configure an Azure Key vault. You need to ensure that you can enable Azure Disk Encryption on VM1 and VM2. What should you modify on each virtual machine?
 
-![Question 466 part 1](images/question466_1.jpg)
-![Question 466 part 2](images/question466_2.jpg)
+![Question 233 part 1](images/question233_1.jpg)
+![Question 233 part 2](images/question233_2.jpg)
 
-- [x] Box 1: The tier Box 2: The operating system version.
-- [ ] Box 1: The operating system version. Box 2: The type.
-- [ ] Box 1: The type Box 2: The tier.
+- [ ] VM1: The tier. VM2: The operating system version.
+- [ ] VM1: The operating system version. VM2: The type.
+- [ ] VM1: The type. VM2: The tier.
+- [x] VM1: The tier. VM2: The type.
 
-### You have an Azure SQL database. You implement Always Encrypted. You need to ensure that application developers can retrieve and decrypt data in the database. Which two pieces of information should you provide to the developers? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
+### You have an Azure SQL database. You implement Always Encrypted. You need to ensure that application developers can retrieve and decrypt data in the database. Which two pieces of information should you provide to the developers?
 
-- [ ] a stored access policy.
-- [ ] a shared access signature (SAS).
-- [x] the column encryption key.
-- [ ] user credentials.
-- [x] the column master key.
+- [ ] Stored access policy.
+- [ ] Shared access signature (SAS).
+- [x] Column encryption key.
+- [ ] User credentials.
+- [x] Column master key.
+
+### Your company has an Azure SQL database that has Always Encrypted enabled. You are required to make the relevant information available to application developers to allow them to access data in the database. Which two of the following options should be made available?
+
+![Question 235](images/question235.jpeg)
+
+- [ ] Key vault access policy.
+- [ ] Shared access signature (SAS).
+- [x] Column encryption key.
+- [ ] DLP policy.
+- [x] Column master key.
 
 ### You have an Azure SQL Database server named SQL1. You plan to turn on Advanced Threat Protection for SQL1 to detect all threat detection types. Which action will Advanced Threat Protection detect as a threat?
 
