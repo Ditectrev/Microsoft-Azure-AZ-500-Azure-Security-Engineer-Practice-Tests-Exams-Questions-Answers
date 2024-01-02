@@ -568,10 +568,10 @@
 
 ### You have been tasked with enabling Advanced Threat Protection for an Azure SQL Database server. Advanced Threat Protection must be configured to identify all types of threat detection. Which of the following will happen if when a faulty SQL statement is generate in the database by an application?
 
-- [x] A Potential SQL injection alert is triggered.
-- [ ] A Vulnerability to SQL injection alert is triggered.
-- [ ] An Access from a potentially harmful application alert is triggered.
-- [ ] A Brute force SQL credentials alert is triggered.
+- [x] Potential SQL injection alert is triggered.
+- [ ] Vulnerability to SQL injection alert is triggered.
+- [ ] Access from a potentially harmful application alert is triggered.
+- [ ] Brute force SQL credentials alert is triggered.
 
 ### You are in the process of creating an Azure Kubernetes Service (AKS) cluster. The Azure Kubernetes Service (AKS) cluster must be able to connect to an Azure Container Registry. You want to make sure that Azure Kubernetes Service (AKS) cluster authenticates to the Azure Container Registry by making use of the auto-generated service principal. Solution: You create an Azure Active Directory (Azure AD) role assignment. Does the solution meet the goal?
 
@@ -813,10 +813,10 @@
 ![Question 82 part 3](images/question59_69_82_83_84_85_86_87_3.jpg)
 ![Question 82 part 4](images/question82_4.jpg)
 
-- [ ] Box 1: 'Microsoft.Compute/. Box 2: disks/\*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
-- [ ] Box 1: 'Microsoft.Resources/ Box 2: storageAccounts/\*',. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
-- [ ] Box 1: 'Microsoft.Storage/. Box 2: virtualMachines/disks/\*',. Box 3: '/' .
-- [x] Box 1: 'Microsoft.Compute/. Box 2: disks/\*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
+- [ ] Box 1: 'Microsoft.Compute/. Box 2: disks/*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
+- [ ] Box 1: 'Microsoft.Resources/ Box 2: storageAccounts/*',. Box 3: /subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4.
+- [ ] Box 1: 'Microsoft.Storage/. Box 2: virtualMachines/disks/*',. Box 3: '/' .
+- [x] Box 1: 'Microsoft.Compute/. Box 2: disks/*',. Box 3: '/subscription/43894a43-17c2-4a39-8cfc-3540c2653ef4/resourceGroups/RG1'.
 
 ### Litware, Inc. is a digital media company that has 500 employees in the Chicago area and 20 employees in the San Francisco area. Existing Environment Litware has an Azure subscription named Sub1 that has a subscription ID of 43894a43-17c2-4a39-8cfc-3540c2653ef4. Sub1 is associated to an Azure Active Directory (Azure AD) tenant named litwareinc.com. The tenant contains the user objects and the device objects of all the Litware employees and their devices. Each user is assigned an Azure AD Premium P2 license. Azure AD Privileged Identity Management (PIM) isactivated. The tenant contains the groups shown in the following table. The Azure subscription contains the objects shown in the following table. Azure Security Center is set to the Free tier. Planned changes Litware plans to deploy the Azure resources shown in the following table. All San Francisco users and their devices must be members of Group1. The members of Group2 must be assigned the Contributor role to Resource Group2 by using a permanent eligible assignment. Users must be prevented from registering applications in Azure AD and from consenting to applications that access company information on the users' behalf. Microsoft Antimalware must be installed on the virtual machines in Resource Group1. The members of Group2 must be assigned the Azure Kubernetes Service Cluster Admin Role. Azure AD users must be to authenticate to AKS1 by using their Azure AD credentials. Following the implementation of the planned changes, the IT team must be able to connect to VM0 by using JIT VM access. A new custom RBAC role named Role1 must be used to delegate the administration of the managed disks in Resource Group1. Role1 must be available only for Resource Group1. Litware must be able to customize the operating system security configurations in Azure Security Center. The users in Group2 must be able to authenticate to SQLDB1 by using their Azure AD credentials. WebApp1 must enforce mutual authentication. Whenever possible, administrative effort must be minimized. Whenever possible, use of automation must be maximized. You need to meet the identity and access requirements for Group1. What should you use?
 
@@ -2135,17 +2135,24 @@
 
 ### You have an Azure SQL Database server named SQL1. You plan to turn on Advanced Threat Protection for SQL1 to detect all threat detection types. Which action will Advanced Threat Protection detect as a threat?
 
-- [ ] A user updates more than 50 percent of the records in a table.
-- [x] A user attempts to sign as select \* from table1..
-- [ ] A user is added to the db_owner database role..
-- [ ] A user deletes more than 100 records from the same table.
+- [ ] User updates more than 50 percent of the records in a table.
+- [x] User attempts to sign as SELECT * FROM table1.
+- [ ] User is added to the db_owner database role.
+- [ ] User deletes more than 100 records from the same table.
+
+### You have an Azure SQL Database server named SQL1. For SQL1, you turn on Azure Defender for SQL to detect all threat detection types. Which action will Azure Defender for SQL detect as a threat?
+
+- [ ] User updates more than 50 percent of the records in a table.
+- [x] User attempts to sign as SELECT * FROM table1.
+- [ ] User is added to the db_owner database role.
+- [ ] User deletes more than 100 records from the same table.
 
 ### Your company uses Azure DevOps. You need to recommend a method to validate whether the code meets the company's quality standards and code review standards. What should you recommend implementing in Azure DevOps?
 
-- [ ] branch folders.
-- [ ] branch permissions.
-- [x] branch policies.
-- [ ] branch locking
+- [ ] Branch folders.
+- [ ] Branch permissions.
+- [x] Branch policies.
+- [ ] Branch locking.
 
 ### You have an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant contains the users shown in the following table. You configure an access review named Review1 as shown in the following exhibit. Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic . NOTE: Each correct selection is worth one point. User 3 can perform Review1 for: If User2 fails complete Review by March 2, 2019
 
