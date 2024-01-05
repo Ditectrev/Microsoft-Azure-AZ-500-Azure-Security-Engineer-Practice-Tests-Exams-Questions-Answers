@@ -2221,59 +2221,81 @@
 - [x] DeployIfNotExist.
 - [ ] Deny.
 
-### You create a new Azure subscription. You need to ensure that you can create custom alert rules in Azure Security Center. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
+### You are in the process of configuring an Azure policy via the Azure portal. Your policy will include an effect that will need a managed identity for it to be assigned. Which of the following is the effect in question?
+
+- [ ] AuditIfNotExist.
+- [ ] Disabled.
+- [x] DeployIfNotExist.
+- [ ] EnforceOPAConstraint.
+
+### You create a new Azure subscription. You need to ensure that you can create custom alert rules in Azure Security Center. Which two actions should you perform?
 
 - [ ] Onboard Azure Active Directory (Azure AD) Identity Protection.
-- [x] Create an Azure Storage account..
-- [ ] Implement Azure Advisor recommendations..
+- [ ] Create an Azure Storage account.
+- [ ] Implement Azure Advisor recommendations.
 - [x] Create an Azure Log Analytics workspace.
-- [ ] Upgrade the pricing tier of Security Center to Standard.
+- [x] Upgrade the pricing tier of Security Center to Standard.
 
-### You have an Azure subscription that contains the virtual networks shown in the following table. The Azure virtual machines on SpokeVNetSubnet0 can communicate with the computers on the on-premises network. You plan to deploy an Azure firewall to HubVNet. You create the following two routing tables: • RT1: Includes a user-defined route that points to the private IP address of the Azure firewall as a next hop address • RT2: Disables BGP route propagation and defines the private IP address of the Azure firewall as the default gateway You need to ensure that traffic between SpokeVNetSubnet0 and the on-premises network flows through the Azure firewall. To which subnet should you associate each route table? To answer, drag the appropriate subnets to the correct route tables. Each subnet may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content . NOTE: Each correct selection is worth one point
+### After creating a new Azure subscription, you are tasked with making sure that custom alert rules can be created in Azure Security Center. You have created an Azure Storage account. Which of the following is the action you should take?
 
-![Question 513 part 1](images/question513_1.jpg)
-![Question 513 part 2](images/question513_2.jpg)
+- [ ] You should make sure that Azure Active Directory (Azure AD) Identity Protection is removed.
+- [ ] You should create a DLP policy.
+- [x] You should create an Azure Log Analytics workspace.
+- [ ] You should make sure that Security Center has the necessary tier configured.
 
-- [ ] Azure FirewallSubnet.
-- [x] GatewaySubnet.
-- [x] HubVNetSybnet.
+### You have an Azure subscription that contains the virtual networks shown in the following table. The Azure virtual machines on SpokeVNetSubnet0 can communicate with the computers on the on-premises network. You plan to deploy an Azure firewall to HubVNet. You create the following two routing tables: RT1: Includes a user-defined route that points to the private IP address of the Azure firewall as a next hop address. RT2: Disables BGP route propagation and defines the private IP address of the Azure firewall as the default gateway. You need to ensure that traffic between SpokeVNetSubnet0 and the on-premises network flows through the Azure firewall. To which subnet should you associate each route table?
 
-### You have an Azure subscription that contains the virtual machines shown in the following table. You create the Azure policies shown in the following table. You create the resource locks shown in the following table.
+![Question 248 part 1](images/question248_1.png)
+![Question 248 part 2](images/question248_2.jpeg)
 
-![Question 541 part 1](images/question541_1.jpg)
-![Question 541 part 2](images/question541_2.jpg)
-![Question 541 part 3](images/question541_3.jpg)
-![Question 541 part 4](images/question541_4.jpg)
+- [ ] RT1: AzureFirewallSubnet. RT2: GatewaySubnet.
+- [x] RT1: GatewaySubnet. RT2: SpokeVNetSubnet0.
+- [ ] RT1: SpokeVNetSubnet0. RT2: GatewaySubnet.
+- [ ] RT1: GatewaySubnet. RT2: AzureFirewallSubnet.
 
-You can start VM1.
+### You have an Azure subscription that contains the virtual machines shown in the following table. You create the Azure policies shown in the following table. You create the resource locks shown in the following table. You can start VM1.
+
+![Question 249 part 1](images/question249_250_251_1.jpg)
+![Question 249 part 2](images/question249_250_251_2.jpg)
+![Question 249 part 3](images/question249_250_251_3.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-You can start VM2.
+### You have an Azure subscription that contains the virtual machines shown in the following table. You create the Azure policies shown in the following table. You create the resource locks shown in the following table. You can start VM2.
 
-- [x] Yes.
-- [ ] No.
+![Question 250 part 1](images/question249_250_251_1.jpg)
+![Question 250 part 2](images/question249_250_251_2.jpg)
+![Question 250 part 3](images/question249_250_251_3.jpg)
 
-You can create a virtual machine in RG2.
+- [ ] Yes.
+- [x] No.
 
-- [x] Yes.
-- [ ] No.
+### You have an Azure subscription that contains the virtual machines shown in the following table. You create the Azure policies shown in the following table. You create the resource locks shown in the following table. You can create a virtual machine in RG2.
+
+![Question 251 part 1](images/question249_250_251_1.jpg)
+![Question 251 part 2](images/question249_250_251_2.jpg)
+![Question 251 part 3](images/question249_250_251_3.jpg)
+
+- [ ] Yes.
+- [x] No.
 
 ### You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You connect to each virtual machine and add a Windows feature. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources
+### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] BRAK ODPOWIEDZI
+![Question 253](images/question253.jpeg)
+
+- [x] 1. Register the Application. 2. Sign in to your Azure Account through the Azure portal. 3. Select Azure Active Directory. 4. Select App registrations. 5. Select New registration. 6. Name the application App12345678. 7. Select a supported account type, which determines who can use the application. 8. Under Redirect URI, select Web for the type of application you want to create. 9. Enter the URI: https://app.contoso.com, where the access token is sent to. 10. Click Register
 
 ### From Azure Security Center, you create a custom alert rule. You need to configure which users will receive an email message when the alert is triggered. What should you do?
 
 - [x] From Azure Monitor, create an action group.
-- [ ] From Security Center, modify the Security policy settings of the Azure subscription..
-- [ ] From Azure Active Directory (Azure AD), modify the members of the Security Reader role group..
+- [ ] From Security Center, modify the Security policy settings of the Azure subscription.
+- [ ] From Azure Active Directory (Azure AD), modify the members of the Security Reader role group.
 - [ ] From Security Center, modify the alert rule.
 
 ### You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server 2012 R2 or Windows Server 2016. You need to deploy Microsoft Antimalware to the virtual machines. Solution: You add an extension to each virtual machine. Does this meet the goal?
@@ -2323,14 +2345,6 @@ User2 can access App1 from an IP address of 154.12.18.10.
 
 - [ ] Yes.
 - [x] No.
-
-### You create a new Azure subscription. You need to ensure that you can create custom alert rules in Azure Security Center. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point
-
-- [x] Onboard Azure Active Directory (Azure AD) Identity Protection.
-- [x] Create an Azure Storage account.
-- [ ] Implement Azure Advisor recommendations.
-- [x] Create an Azure Log Analytics workspace.
-- [ ] Upgrade the pricing tier of Security Center to Standard.
 
 ### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: – Group1: Active assignment type, permanently assigned – Group2: Eligible assignment type, permanently eligible
 
