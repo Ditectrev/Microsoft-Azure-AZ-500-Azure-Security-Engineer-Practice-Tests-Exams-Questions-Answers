@@ -311,9 +311,9 @@
 
 ### Your network contains an Active Directory forest named contoso.com. The forest contains a single domain. You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to deploy Azure AD Connect and to integrate Active Directory and the Azure AD tenant. You need to recommend an integration solution that meets the following requirements: Ensures that password policies and user logon restrictions apply to user accounts that are synced to the Tenant. Minimizes the number of servers required for the solution. Which authentication method should you include in the recommendation?
 
-- [ ] federated identity with Active Directory Federation Services (AD FS).
-- [ ] password hash synchronization with seamless single sign-on (SSO).
-- [x] pass-through authentication with seamless single sign-on (SSO)
+- [ ] Federated identity with Active Directory Federation Services (AD FS).
+- [ ] Password hash synchronization with seamless single sign-on (SSO).
+- [x] Pass-through authentication with seamless single sign-on (SSO)
 
 ### You need to deploy Microsoft Antimalware to meet the platform protection requirements. What should you do?
 
@@ -1456,12 +1456,12 @@
 
 ![Question 149 part 1](images/question149_1.png)
 ![Question 149 part 2](images/question149_2.png)
-![Question 149 part 3](images/question149_3.png)
+![Question 149 part 3](images/question149_3.jpeg)
 
-- [x] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: No label.
-- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: No label. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label1 only.
-- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label1 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label and Label2 only.
-- [ ] If User 1 creates a Microsoft World file that includes the text 'Black and White', the file will be assigned: Label1 and Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label2 only.
+- [x] If User 1 creates a Microsoft Word file that includes the text 'Black and White', the file will be assigned: Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: No label.
+- [ ] If User 1 creates a Microsoft Word file that includes the text 'Black and White', the file will be assigned: No label. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label1 only.
+- [ ] If User 1 creates a Microsoft Word file that includes the text 'Black and White', the file will be assigned: Label1 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label and Label2 only.
+- [ ] If User 1 creates a Microsoft Word file that includes the text 'Black and White', the file will be assigned: Label1 and Label2 only. If User1 creates a Microsoft Notepad file that includes the text 'Black or white', the file will be assigned: Label2 only.
 
 ### You have an Azure subscription that is linked to an Azure Active Directory (Azure AD) tenant. From the Azure portal, you register an enterprise application. Which additional resource will be created in Azure AD?
 
@@ -2303,95 +2303,101 @@
 - [x] Yes
 - [ ] No.
 
-### Your network contains an on-premises Active Directory domain that syncs to an Azure Active Directory (Azure AD) tenant. The tenant contains the users shown in the following table. You configure a multi-factor authentication (MFA) registration policy that has the following settings: – Assignments: – Include: Group1 – Exclude Group2 – Controls: Require Azure MFA registration – Enforce Policy: On
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. The tenant contains the named locations shown in the following table. You create the conditional access policies for a cloud app named App1 as shown in the following table. User1 can access App1 from an IP address of 154.12.18.10.
 
-![Question 607 part 1](images/question607_1.jpg)
-![Question 607 part 2](images/question607_2.jpg)
-![Question 607 part 3](images/question607_3.jpg)
-
-User1 will be prompted to configure MFA registration during the user's next Azure AD authentication.
+![Question 256 part 1](images/question256_257_258_1.png)
+![Question 256 part 2](images/question256_257_258_2.png)
+![Question 256 part 2](images/question256_257_258_3.png)
 
 - [x] Yes.
 - [ ] No.
 
-User2 must configure MFA during the user's next Azure AD authentication.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. The tenant contains the named locations shown in the following table. You create the conditional access policies for a cloud app named App1 as shown in the following table. User2 can access App1 from an IP address of 193.77.10.15.
+
+![Question 257 part 1](images/question256_257_258_1.png)
+![Question 257 part 2](images/question256_257_258_2.png)
+![Question 257 part 2](images/question256_257_258_3.png)
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. The tenant contains the named locations shown in the following table. You create the conditional access policies for a cloud app named App1 as shown in the following table. User2 can access App1 from an IP address of 154.12.18.10.
+
+![Question 258 part 1](images/question256_257_258_1.png)
+![Question 258 part 2](images/question256_257_258_2.png)
+![Question 258 part 2](images/question256_257_258_3.png)
 
 - [ ] Yes.
 - [x] No.
 
-User3 will be prompted to configure MFA registration during the user's next Azure AD authentication.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: Group1: Active assignment type, permanently assigned. Group2: Eligible assignment type, permanently eligible. User1 can only activate the Security Administrator role in five hours.
 
-- [x] Yes.
-- [ ] No.
-
-### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. The tenant contains the named locations shown in the following table. You create the conditional access policies for a cloud app named App1 as shown in the following table.
-
-![Question 632 part 1](images/question632_1.jpg)
-![Question 632 part 2](images/question632_2.jpg)
-![Question 632 part 3](images/question632_3.jpg)
-![Question 632 part 4](images/question632_4.jpg)
-
-User1 can access App1 from an IP address of 154.12.18.10.
+![Question 259 part 1](images/question259_260_261_1.jpg)
+![Question 259 part 2](images/question259_260_261_2.jpeg)
 
 - [ ] Yes.
 - [x] No.
 
-User2 can access App1 from an IP address of 192.77.10.15
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: Group1: Active assignment type, permanently assigned. Group2: Eligible assignment type, permanently eligible. If User2 activates the security Administrator role, the user will be assigned the role immediately.
+
+![Question 260 part 1](images/question259_260_261_1.jpg)
+![Question 260 part 2](images/question259_260_261_2.jpeg)
 
 - [x] Yes.
 - [ ] No.
 
-User2 can access App1 from an IP address of 154.12.18.10.
+### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: Group1: Active assignment type, permanently assigned. Group2: Eligible assignment type, permanently eligible. User3 can activate the Security Administrator role.
+
+![Question 261 part 1](images/question259_260_261_1.jpg)
+![Question 261 part 2](images/question259_260_261_2.jpeg)
 
 - [ ] Yes.
 - [x] No.
 
-### You have an Azure Active Directory (Azure AD) tenant that contains the users shown in the following table. From Azure AD Privileged Identity Management (PIM), you configure the settings for the Security Administrator role as shown in the following exhibit. From PIM, you assign the Security Administrator role to the following groups: – Group1: Active assignment type, permanently assigned – Group2: Eligible assignment type, permanently eligible
+### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit. When User1 signs in to Device1 from the Seattle office on June 10, the user will be prompted for MFA.
 
-![Question 657 part 1](images/question637_1.jpg)
-![Question 657 part 2](images/question637_2.jpg)
-![Question 657 part 3](images/question637_3.jpg)
-
-User1 can only activate the Security Administrator role in five hours.
-
-- [x] Yes.
-- [ ] No.
-
-If User2 activates the security Administrator role, the user will be assigned the role immediately.
-
-- [x] Yes.
-- [ ] No.
-
-User3 can activate the Security Administrator role.
-
-- [x] Yes.
-- [ ] No.
-
-### You have a hybrid configuration of Azure Active Directory (Azure AD). You have an Azure SQL Database instance that is configured to support Azure AD authentication. Database developers must connect to the database instance and authenticate by using their on-premises Active Directory account. You need to ensure that developers can connect to the instance by using Microsoft SQL Server Management Studio. The solution must minimize authentication prompts. Which authentication method should you recommend?
-
-- [x] Active Directory – Password.
-- [ ] Active Directory – Universal with MFA support.
-- [ ] SQL Server Authentication.
-- [ ] Active Directory – Integrated.Question Set 3
-
-### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit.
-
-![Question 677 part 1](images/question677_1.jpg)
-![Question 677 part 2](images/question677_2.jpg)
-![Question 677 part 3](images/question677_3.jpg)
-![Question 677 part 4](images/question677_4.jpg)
-
-When User1 signs in to Device1 from the Seattle office on June 10, the user will be prompted for MFA.
+![Question 262 part 1](images/question262_263_264_1.jpg)
+![Question 262 part 2](images/question262_263_264_2.jpg)
+![Question 262 part 3](images/question262_263_264_3.jpg)
 
 - [ ] Yes.
 - [x] No.
 
-When User1 signs in to Device2 from the Seattle office on June 5, the user will be prompted for MFA.
+### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit. When User2 signs in to Device2 from the Seattle office on June 5, the user will be prompted for MFA.
+
+![Question 263 part 1](images/question262_263_264_1.jpg)
+![Question 263 part 2](images/question262_263_264_2.jpg)
+![Question 263 part 3](images/question262_263_264_3.jpg)
+
+- [ ] Yes.
+- [x] No.
+
+### You work at a company named Contoso, Ltd. that has the offices shown in the following table. Contoso has an Azure Active Directory (Azure AD) tenant named contoso.com. All contoso.com users have Azure Multi-Factor Authentication (MFA) enabled. The tenant contains the users shown in the following table. The multi-factor settings for contoso.com are configured as shown in the following exhibit. When User1 signs in to to a new device from the Seattle office on June 7, the user will be prompted for MFA.
+
+![Question 264 part 1](images/question262_263_264_1.jpg)
+![Question 264 part 2](images/question262_263_264_2.jpg)
+![Question 264 part 3](images/question262_263_264_3.jpg)
 
 - [x] Yes.
 - [ ] No.
 
-When User1 signs in to to a new device from the Seattle office on June 7, the user will be prompted for MFA.
+### Your company has the offices shown in the following table. The company has an Azure Active Directory (Azure AD) tenant named contoso.com that contains a user named User1.Users connect to a Windows Virtual Desktop deployment named WVD1. WVD1 contains session hosts that have public IP addresses from the 52.166.253.0/24 subnet.Contoso.com has a conditional access policy that has the following settings: Name: Policy1. Assignments: Users and groups: User1. Cloud apps or actions: Windows Virtual Desktop. Access controls: Grant: Grant access, Require multi-factor authentication. Enable policy: On. If User1 connects to Windows Virtual Desktop from the office in Boston, User1 is prompted for multi-factor authentication (MFA).
+
+![Question 265](images/question265_266_267.png)
 
 - [x] Yes.
 - [ ] No.
+
+### Your company has the offices shown in the following table. The company has an Azure Active Directory (Azure AD) tenant named contoso.com that contains a user named User1.Users connect to a Windows Virtual Desktop deployment named WVD1. WVD1 contains session hosts that have public IP addresses from the 52.166.253.0/24 subnet.Contoso.com has a conditional access policy that has the following settings: Name: Policy1. Assignments: Users and groups: User1. Cloud apps or actions: Windows Virtual Desktop. Access controls: Grant: Grant access, Require multi-factor authentication. Enable policy: On. If User1 connects to Windows Virtual Desktop from home, User1 is prompted for multi-factor authentication (MFA).
+
+![Question 266](images/question265_266_267.png)
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has the offices shown in the following table. The company has an Azure Active Directory (Azure AD) tenant named contoso.com that contains a user named User1.Users connect to a Windows Virtual Desktop deployment named WVD1. WVD1 contains session hosts that have public IP addresses from the 52.166.253.0/24 subnet.Contoso.com has a conditional access policy that has the following settings: Name: Policy1. Assignments: Users and groups: User1. Cloud apps or actions: Windows Virtual Desktop. Access controls: Grant: Grant access, Require multi-factor authentication. Enable policy: On. If User1 connects to Microsoft Exchange Online from a Windows Virtual Desktop session, User1 is prompted for multi-factor authentication (MFA).
+
+![Question 267](images/question265_266_267.png)
+
+- [ ] Yes.
+- [x] No.
