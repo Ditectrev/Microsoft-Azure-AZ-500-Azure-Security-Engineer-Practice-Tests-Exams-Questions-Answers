@@ -2401,3 +2401,91 @@
 
 - [ ] Yes.
 - [x] No.
+
+### You have a file named File1.yaml that contains the following contents. You create an Azure container instance named container1 by using File1.yaml. You need to identify where you can access the values of Variable1 and Variable2. What should you identify?
+
+![Question 268 part 1](images/question268_1.jpeg)
+![Question 268 part 2](images/question268_2.jpeg)
+
+- [ ] Variable1: Cannot be accessed. Variable2: Cannot be accessed.
+- [ ] Variable1: Can be accessed from inside container1 only. Variable2: Cannot be accessed.
+- [x] Variable1: Can be accessed from inside container1 and the Azure portal. Variable2: Can be accessed from inside container1 only.
+- [ ] Variable1: Can be accessed from inside container1 and the Azure portal. Variable2: Cannot be accessed.
+
+### You implement the planned changes for ASG1 and ASG2. In which NSGs can you use ASG1. and the network interfaces of which virtual machines can you assign to ASG2?
+
+![Question 269](images/question269.jpeg)
+
+- [ ] NSGs: NSG2 only. Virtual machines: VM1, VM2, and VM4 only.
+- [ ] NSGs: NSG2 and NSG4 only. Virtual machines: VM1, VM2, and VM4 only.
+- [ ] NSGs: NSG2 and NSG4 only. Virtual machines: VM3 only.
+- [x] NSGs: NSG2 only. Virtual machines: VM3 only.
+
+### Your company has an Active Directory forest with a single domain, named weylandindustries.com. They also have an Azure Active Directory (Azure AD) tenant with the same name.You have been tasked with integrating Active Directory and the Azure AD tenant. You intend to deploy Azure AD Connect. Your strategy for the integration must make sure that password policies and user logon limitations affect user accounts that are synced to the Azure AD tenant, and that the amount of necessary servers are reduced. Solution: You recommend the use of password hash synchronization and seamless SSO. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company recently created an Azure subscription. You have been tasked with making sure that a specified user is able to implement Azure AD Privileged Identity Management (PIM). Which of the following is the role you should assign to the user?
+
+- [x] The Global administrator role.
+- [ ] The Security administrator role.
+- [ ] The Password administrator role.
+- [ ] The Compliance administrator role.
+
+### Your company has an Active Directory forest with a single domain, named weylandindustries.com. They also have an Azure Active Directory (Azure AD) tenant with the same name. You have been tasked with integrating Active Directory and the Azure AD tenant. You intend to deploy Azure AD Connect. Your strategy for the integration must make sure that password policies and user logon limitations affect user accounts that are synced to the Azure AD tenant, and that the amount of necessary servers are reduced. Solution: You recommend the use of federation with Active Directory Federation Services (AD FS). Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an Active Directory forest with a single domain, named weylandindustries.com. They also have an Azure Active Directory (Azure AD) tenant with the same name.You have been tasked with integrating Active Directory and the Azure AD tenant. You intend to deploy Azure AD Connect. Your strategy for the integration must make sure that password policies and user logon limitations affect user accounts that are synced to the Azure AD tenant, and that the amount of necessary servers are reduced. Solution: You recommend the use of pass-through authentication and seamless SSO with password hash synchronization. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You need to delegate the creation of RG2 and the management of permissions for RG1. Which users can perform each task?
+
+![Question 274](images/question274.jpeg)
+
+- [ ] Create RG2: Admin3 only. Manage RG1 permissions: Admin4 only.
+- [x] Create RG2: Admin3 only. Manage RG1 permissions: Admin1 and Admin4 only.
+- [ ] Create RG2: Admin2, Admin3, and Admin4 only. Manage RG1 permissions: Admin1, Admin2, and Admin4 only.
+- [ ] Create RG2: Admin1, Admin2, Admin3, and Admin4. Manage RG1 permissions: Admin1, Admin2, Admin3, and Admin4.
+
+### You have an Azure subscription.You plan to create a workflow automation in Azure Security Center that will automatically remediate a security vulnerability.What should you create first?
+
+- [ ] Automation account.
+- [ ] Managed identity.
+- [x] Azure logic app.
+- [ ] Azure function app.
+- [ ] Alert rule.
+
+### Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). Azure AD Connect is installed on a domain member server named Server1. You need to ensure that a domain administrator for the adatum.com domain can modify the synchronization options. The solution must use the principle of least privilege. Which Azure AD role should you assign to the domain administrator?
+
+- [ ] Security administrator.
+- [x] Global administrator.
+- [ ] User administrator.
+
+### Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User1 will be prompted to change the password on the next sign-in.
+
+![Question 278 part 1](images/question278_279_280_1.png)
+![Question 278 part 2](images/question278_279_280_2.jpeg)
+
+- [ ] Yes.
+- [x] No.
+
+### Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User2 can change the password to @d@tum_C0mpleX123.
+
+![Question 279 part 1](images/question278_279_280_1.png)
+![Question 279 part 2](images/question278_279_280_2.jpeg)
+
+- [x] Yes.
+- [ ] No.
+
+### Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User3 can change the password for Adatum123!.
+
+![Question 280 part 1](images/question278_279_280_1.png)
+![Question 280 part 2](images/question278_279_280_2.jpeg)
+
+- [x] Yes.
+- [ ] No.
