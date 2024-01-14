@@ -15,10 +15,9 @@
 ![Question 1 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 1 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Settings blade for virtual network VNET, select Locks. 2. To add a lock, select Add. 3. For Lock type select Delete lock, and click OK.
+![Question 1 answer part 1](images/question1_answer1.png)
+![Question 1 answer part 2](images/question1_answer2.png)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. The developers at your company plan to create a web app named App10598168 and to publish the app to <https://www.contoso.com>. The developers at your company plan to create a web app named App12345678 and to publish the app to <https://www.contoso.com>. You need to perform the following tasks: Ensure that App12345678 is registered to Azure Active Directory (Azure AD). Generate a password for App12345678. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -27,22 +26,17 @@
 ![Question 2 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 2 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Sign in to your Azure Account through the Azure portal. 2. Select Azure Active Directory. 3. Select App registrations. 4. Select New registration. 5. Name the application 12345678. Select a supported account type, which determines who can use the application. Under Redirect URI, select Web for the type of application you want to create. Enter the URI: https://www.contoso.com , where the access token is sent to. 6. Click Register. 7. Select Certificates & secrets. 8. Select Client secrets -> New client secret. 9. Provide a description of the secret, and a duration. When done, select Add. 10. After saving the client secret, the value of the client secret is displayed. Copy this value because you aren't able to retrieve the key later. You provide the key value with the application ID to sign in as the application. Store the key value where your application can retrieve it.
+![Question 2 answer](images/question2_answer.jpeg)
 
-### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to email an alert to a user named <admin1@contoso.com> if the average CPU usage of a virtual machine named VM1 is greater than 70 percent for a period of 15 minutes. To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to email an alert to a user named <admin1@contoso.com> if the average CPU usage of a virtual machine named VM1 is greater than 70 percent for a period of 15 minutes. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
 ![Question 3 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
 ![Question 3 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
 ![Question 3 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 3 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the portal, locate the resource, here VM1, you are interested in monitoring and select it. Select Alerts under the MONITORING section. Select New alert rule. Fill in Condition, Actions, Alert rule details. Click Create alert rule.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to create a new Azure Active Directory (Azure AD) directory named 12345678.onmicrosoft.com. The new directory must contain a user named user12345678 who is configured to sign in by using Azure Multi-Factor Authentication (MFA). To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -51,10 +45,17 @@
 ![Question 4 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 4 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Browse to the Azure portal and sign in with an account that has an Azure subscription. 2. Select the plus icon (+) and search for Azure Active Directory. 3. Select Azure Active Directory in the search results. 4. Select Create. 5. Provide an Organization name (12345678) and an Initial domain name (12345678). Then select Create. This will create the directory named
+12345678.onmicrosoft.com. 6. After directory creation is complete, select the information box to manage your new directory. 7. In the Azure portal, make sure you are on the Azure Active Directory fly out. If not, select the Azure Active Directory icon from the left services navigation. 8. Under Manage, select Users. 9. Select All users and then select + New user. 10. Provide a Name and User name (user12345678) for the user. When you're done, select Create. 11. In the Azure portal, make sure you are on the Azure Active Directory fly out. If not, select the Azure Active Directory icon from the left services navigation. 12. Under Manage, select Users. 13. Click on the Multi-Factor Authentication link. 14. Tick the checkbox next to the user's name and click the Enable link.
+![Question 4 answer part 1](images/question4_answer1.png)
+![Question 4 answer part 2](images/question4_answer2.png)
+![Question 4 answer part 3](images/question4_answer3.png)
+![Question 4 answer part 4](images/question4_answer4.png)
+![Question 4 answer part 5](images/question4_answer5.png)
+![Question 4 answer part 6](images/question4_answer6.jpeg)
+![Question 4 answer part 7](images/question4_answer7.png)
+![Question 4 answer part 8](images/question4_answer8.png)
+![Question 4 answer part 9](images/question4_answer9.jpeg)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that only devices connected to a 131.107.0.0/16 subnet can access data in the rg1lod1234578 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -63,10 +64,7 @@
 ![Question 5 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 5 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Go to the storage account. 2. Under 'Security + networking' SELECT 'Networking'. 2. Select 'Firewalls and virtual networks' on the top (next to Custom domain). 3. Under Public network access, CHOOSE the 'Enable from selected virtual network and IP addresses RADIO button. 4. Under 'Virtual networks' add existing virtual network. 5. Add the network with the CIDR.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to collect all the audit failure data from the security log of a virtual machine named VM1 to an Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -75,22 +73,16 @@
 ![Question 6 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 6 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Go to VM. 2. Diagnostic Settings. 3. Enable it. 4. Point to storage account. 5. Under Logs check (Security > Audit Failure) is ticked.
 
-### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to configure Azure to allow RDP connections from the Internet to a virtual machine named VM1. The solution must minimize the attack surface of VM1.To complete this task, sign in to the Azure portal. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
+### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to configure Azure to allow RDP connections from the Internet to a virtual machine named VM1. The solution must minimize the attack surface of VM1.To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
 ![Question 7 part 1](images/question1_2_3_4_5_6_7_8_9_10_11_12_1.jpg)
 ![Question 7 part 2](images/question1_2_3_4_5_6_7_8_9_10_11_12_2.jpg)
 ![Question 7 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 7 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Sign in to the Azure portal. 2. In Virtual Machines, select VM1. 3. In Settings, select Networking. 4. In Inbound port rules, check whether the port for RDP is set correctly. The following is an example of the configuration: Priority: 300. Name: Port_3389. Port(Destination): 3389. Protocol: TCP. Source: Service Tag - Internet. Destinations: Any. Action: Allow.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to add the network interface of a virtual machine named VM1 to an application security group named ASG1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -99,10 +91,7 @@
 ![Question 8 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 8 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Search resources, services, and docs box at the top of the portal, begin typing the name of a virtual machine that has a network interface that you want to add to, or remove from, an application security group. When the name of your VM appears in the search results, select it. 2. Under SETTINGS, select Networking. Select Application Security Groups then Configure the application security groupselect the application security groups that you want to add the network interface to, or unselect the application security groups that you want to remove the network interface from, and then select Save. Only network interfaces that exist in the same virtual network can be added to the same application security group. The application security group must exist in the same location as the network interface.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that a user named user2-12345678 can manage the properties of the virtual machines in the RG1lod12345678 resource group. The solution must use the principle of least privilege. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -111,10 +100,7 @@
 ![Question 9 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 9 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Sign in to the Azure portal. 2. Browse to Resource Groups. 3. Select the RG1lod12345678 resource group. 4. Select Access control (IAM). 5. Select Add > role assignment. 6. Select Virtual Machine Contributor (you can filter the list of available roles by typing 'virtual' in the search box) then click Next. 7. Select the +Select members option and select user2-12345678 then click the Select button. 8. Click the Review + assign button twice.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to ensure that the rg1lod1234578n1 Azure Storage account is encrypted by using a key stored in the KeyVault12345678 Azure Key Vault. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -123,10 +109,7 @@
 ![Question 10 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 10 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Go to Storage Accounts. 2. Click on your storage account. 3. In the search box type encryption and select it. 4. From the encryption page select Customer-managed keys. 5. And then click the link to select a key vault and key. 6. A new page opens and then you select the appropriate key vault and key.
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to perform a full malware scan every Sunday at 02:00 on a virtual machine named VM1 by using Microsoft Antimalware for Virtual Machines. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -135,10 +118,9 @@
 ![Question 11 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 11 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In Azure Portal, go to the Azure VM1's blade, navigate to the Extensions section and press Add. 2. Select the Microsoft Antimalware extension and press Create. 3. Fill the Install extension form as desired and press OK. Scheduled: Enable. Scan type: Full. Scan day: Sunday (note: picture wrongly shows 'Saturday').
+![Question 11 answer part 1](images/question11_answer1.jpeg)
+![Question 11 answer part 2](images/question11_answer2.png)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent HTTP connections to the rg1lod1234578n1 Azure Storage account. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -147,10 +129,8 @@
 ![Question 12 part 3](images/question1_2_3_4_5_6_7_8_9_10_11_12_3.jpg)
 ![Question 12 part 4](images/question1_2_3_4_5_6_7_8_9_10_11_12_4.jpg)
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In Azure Portal select you Azure Storage account rg1lod12345678n1. 2. Select Configuration, and Secure Transfer required.
+![Question 12 answer](images/question12_answer.jpeg)
 
 ### Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York. The company hosts its entire server infrastructure in Azure. Contoso has two Azure subscriptions named Sub1 and Sub2. Both subscriptions are associated to an Azure Active Directory (Azure AD) tenant named contoso.com. Contoso identifies the following technical requirements: Deploy Azure Firewall to VNetwork1 in Sub2. Register an application named App2 in contoso.com. Whenever possible, use the principle of least privilege. Enable Azure AD Privileged Identity Management (PIM) for contoso.com. Contoso.com contains the users shown in the following table. Contoso.com contains the security groups shown in the following table. Sub1 contains six resource groups named RG1, RG2, RG3, RG4, RG5, and RG6. User9 creates the virtual networks shown in the following table. Sub1 contains the locks shown in the following table. Sub1 contains the Azure policies shown in the following table. Sub2 contains the virtual networks shown in the following table. Sub2 contains the virtual machines shown in the following table. All virtual machines have the public IP addresses and the Web Server (IIS) role installed. The firewalls for each virtual machine allow ping requests and web requests. Sub2 contains the network security groups (NSGs) shown in the following table. NSG1 has the inbound security rules shown in the following table. NSG2 has the inbound security rules shown in the following table. NSG3 has the inbound security rules shown in the following table. NSG4 has the inbound security rules shown in the following table. NSG1, NSG2, NSG3, and NSG4 have the outbound security rules shown in the following table. You are evaluating the security of the network communication between the virtual machines in Sub2. From VM1, you can successfully ping the public IP address of VM3.
 
@@ -420,12 +400,9 @@
 - [ ] Azure Storage account.
 - [ ] Azure DevTest Labs lab.
 
-### You plan to connect several Windows servers to the WS11641655 Azure Log Analytics workspace. You need to ensure that the events in the System event logs are collected automatically to the workspace after you connect the Windows servers. To complete this task, sign in to the Azure portal and modify the Azure resources
+### You plan to connect several Windows servers to the WS12345678 Azure Log Analytics workspace. You need to ensure that the events in the System event logs are collected automatically to the workspace after you connect the Windows servers. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, locate the WS12345678 Azure Log Analytics workspace then select Advanced settings. 2. Select Data, and then select Windows Event Logs. 3. You add an event log by typing in the name of the log. Type System and then select the plus sign +. 4. In the table, check the severities Error and Warning. (for this question, select all severities to ensure that ALL logs are collected). 5. Select Save at the top of the page to save the configuration.
 
 ### You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal.
 
@@ -443,10 +420,9 @@
 
 ### You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, type Recovery Services Vaults in the search box, select Recovery Services Vaults from the search results then select Vault1. Alternatively, browse to Recovery Services Vaults in the left navigation panel. 2. In the properties of Vault1, scroll down to the Monitoring section and select Diagnostic Settings. 3. Click the Add a diagnostic setting link. 4. Enter a name in the Diagnostic settings name box. 5. In the Log section, select AzureBackupReport. 6. In the Destination details section, select Send to log analytics. 7. Select the WS12345678 Azure Log Analytics workspace. 8. Click the Save button to save the changes.
+![Question 37 answer part 1](images/question37_answer1.png)
+![Question 37 answer part 2](images/question37_answer2.png)
 
 ### You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. An Azure virtual machine on Subnet1 can access data on Contoso1901.
 
@@ -1336,7 +1312,7 @@
 - [ ] Users who can onboard Azure AD Identity Protection: User1, User2, and User3 only. Users who can remediate users and configure policies: User1, User2, User3 and User4 only.
 - [ ] Users who can onboard Azure AD Identity Protection: User1, User2, User3 and User4 only. Users who can remediate users and configure policies: User1, User2, and User3 only.
 
-### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources. To complete this task, sign in to the Azure portal and modify the Azure resources.
+### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
 - [ ] NO ANSWER.
 - [ ] NO ANSWER.
@@ -1797,8 +1773,7 @@
 
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET2. Alternatively, browse to
-     Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
+- [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET2. Alternatively, browse to Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
 
 ### You need to enable Advanced Data Security for the SQLdb1 Azure SQL database. The solution must ensure that Azure Advanced Threat Protection (ATP) alerts are sent to <User1@contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
