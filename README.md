@@ -406,10 +406,7 @@
 
 ### You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, type Virtual Machines in the search box, select Virtual Machines from the search results then select web1234578. Alternatively, browse to Virtual Machines in the left navigation pane. 2. In the properties of web11597200, click on Extentions + Applications under Settings of VM. 3. Click the Add button to add an Extension. 4. Scroll down the list of extensions and select Microsoft Antimalware. 5. Click the Create button. This will open the settings pane for the Microsoft Antimalware Extension. 6. In the Scan day field, select Friday. 7. In the Scan time field, enter 60. The scan time is measured in minutes after midnight so 60 would be 01:00, 120 would be 02:00 etc. 8. Click the OK button to save the configuration and install the extension.
 
 ### You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com You need to ensure AKS1 can be accessed by using accounts from Contoso.com The solution must minimize administrative effort. What should you do first?
 
@@ -457,10 +454,7 @@
 
 ### You need to create a web app named Intranet11597200 and enable users to authenticate to the web app by using Azure Active Directory (Azure AD). To complete this task, sign in to the Azure portal.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, type App services in the search box and select App services from the search results. 2. Click the Create app service button to create a new app service. 3. In the Resource Group section, click the Create new link to create a new resource group. 4. Give the resource group a name such as Intranet11597200RG and click OK. 5. In the Instance Details section, enter Intranet11597200 in the Name field. 6. In the Runtime stack field, select any runtime stack such as .NET Core 3.1. 7. Click the Review + create button. 8. Click the Create button to create the web app. 9. Click the Go to resource button to open the properties of the new web app. 10. In the Settings section, click on Authentication / Authorization. 11. Click the App Service Authentication slider to set it to On. 12. In the Action to take when request is not authentication box, select Log in with Azure Active Directory. 13. Click Save to save the changes. 14. Sign in to the Azure portal: Go to the Azure portal (https://portal.azure.com/) and sign in with your Azure account credentials. 15. Create a new web app: In the Azure portal, click on the '+ Create a resource' button and search for 'Web App'. Click on 'Web App' and then click on the 'Create' button. 16. Fill in the web app details: In the 'Web App' section, fill in the details for your web app such as name, subscription, resource group, operating system, and other required details. 17. Configure authentication: After creating the web app, you need to configure authentication using Azure AD. To do this, navigate to your newly created web app and click on 'Authentication / Authorization' under the 'Settings' section. 18. Enable authentication: On the 'Authentication / Authorization' screen, switch the 'App Service Authentication' toggle to 'On'. This will allow you to configure authentication using Azure AD. 19. Configure Azure AD authentication: In the 'Authentication / Authorization' screen, click on the 'Azure Active Directory' tab. Here, you need to configure Azure AD authentication. To do this, select 'Express' as the authentication provider and click on 'OK'. 20. Configure Azure AD: After configuring Azure AD authentication, you need to configure Azure AD. Click on the 'Manage Azure AD' button to go to the Azure AD portal. 21. Create a new Azure AD app: In the Azure AD portal, click on 'App registrations' under the 'Manage' section. Click on the '+ New registration' button to create a new Azure AD app. 22. Configure the Azure AD app: In the 'Register an application' section, fill in the details for your Azure AD app such as name, supported account types, and redirect URI. 23. Grant permissions: After configuring the Azure AD app, you need to grant permissions to the app. Click on the 'API permissions' tab and click on the 'Add a permission' button. Select the required permissions and click on 'Add permissions'. 24. Configure the web app: After configuring the Azure AD app and granting permissions, you need to configure the web app to use Azure AD for authentication. Go back to the Azure portal and navigate to your web app. Click on 'Authentication / Authorization' under the 'Settings' section. 25. Configure Azure AD authentication: In the 'Authentication / Authorization' screen, click on the 'Azure Active Directory' tab. Here, you need to configure Azure AD authentication. Select 'Advanced' as the authentication provider and fill in the details for your Azure AD app. 26. Save the configuration: After configuring Azure AD authentication, click on the 'Save' button to save the configuration. 27. Once you have completed these steps, your web app named Intranet11597200 should be configured to enable users to authenticate to the web app by using Azure Active Directory (Azure AD).
 
 ### You have an Azure subscription that contains the resources shown in the following table. You create the Azure Storage accounts shown in the following table. You need to configure auditing for SQL1. Which storage accounts and Log Analytics workspaces can you use as the audit log destination?
 
@@ -1314,17 +1308,12 @@
 
 ### You need to configure network connectivity between a virtual network named VNET1 and a virtual network named VNET2. The solution must ensure that virtual machines connected to VNET1 can communicate with virtual machines connected to VNET2. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET1. Alternatively, browse to
+Virtual Networks in the left navigation pane. 2. In the properties of VNET1, click on Peerings. 3. In the Peerings blade, click Add to add a new peering. 4. In the Name of the peering from VNET1 to remote virtual network box, enter a name such as VNET1-VNET2 (this is the name that the peering will be displayed as in VNET1) 5. In the Virtual Network box, select VNET2. 6. In the Name of the peering from remote virtual network to VNET1 box, enter a name such as VNET2-VNET1 (this is the name that the peering will be displayed as in VNET2). There is an option Allow virtual network access from VNET to remote virtual network. This should be left as Enabled. 7. For the option Allow virtual network access from remote network to VNET1, click the slider button to Disabled. 8. Click the OK button to save the changes.
 
 ### A user named Debbie has the Azure app installed on her mobile device. You need to ensure that <debbie@contoso.com> is alerted when a resource lock is deleted. To complete this task, sign in to the Azure portal.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. Type Monitor into the search box and select Monitor from the search results. 2. Click on Alerts. 3. Click on +New Alert Rule. 4. In the Scope section, click on the Select resource link. 5. In the Filter by resource type box, type locks and select Management locks (locks) from the filtered results. 6. Select the subscription then click the Done button. 7. In the Condition section, click on the Select condition link. 8. Select the Delete management locks condition the click the Done button. 9. In the Action group section, click on the Select action group link. 10. Click the Create action group button to create a new action group. 11. Give the group a name such as Debbie Mobile App (it doesn't matter what name you enter for the exam) then click the Next: Notifications > button. 12. In the Notification type box, select the Email/SMS message/Push/Voice option. 13. In the Email/SMS message/Push/Voice window, tick the Azure app Push Notifications checkbox and enter debbie@contoso.com in the Azure account email field. 14. Click the OK button to close the window. 15. Enter a name such as Debbie Mobile App in the notification name box. 16. Click the Review & Create button then click the Create button to create the action group. 17. Back in the Create alert rule window, in the Alert rule details section, enter a name such as Management lock deletion in the Alert rule name field. 18. Click the Create alert rule button to create the alert rule.
 
 ### You are configuring just in time (JIT) VM access to a set of Azure virtual machines. You need to grant users PowerShell access to the virtual machine by using JIT VM access. What should you configure? Permission that must be granted to users on VM: TCP potal that must be allowed
 
@@ -1546,10 +1535,7 @@
 
 ### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal.
 
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
-- [ ] NO ANSWER.
+- [x] 1. In the Azure portal, type Network Security Groups in the search box, select Network Security Groups from the search results then select VNET01-Subnet0-NSG. 2. Alternatively, browse to Network Security Groups in the left navigation pane. 3. In the properties of the Network Security Group, click on Diagnostic Settings. 4. Click on the Add diagnostic setting link. 5. Provide a name in the Diagnostic settings name field. It doesn't matter what name you provide for the exam. 6. In the Log section, select NetworkSecurityGroupRuleCounter. 7. In the Destination details section, select Archive to a storage account. 8. In the Storage account field, select the logs11597200 storage account. 9. In the Retention (days) field, enter 30. 10. Click the Save button to save the changes.
 
 ### You have an Azure Active Directory (Azure AD) tenant and a root management group. You create 10 Azure subscriptions and add the subscriptions to the rout management group. You need to create an Azure Blueprints definition that will be stored in the root management group. What should you do first?
 
@@ -1774,6 +1760,8 @@
 ### You need to configure a virtual network named VNET2 to meet the following requirements: Administrators must be prevented from deleting VNET2 accidentally. Administrators must be able to add subnets to VNET2 regularly. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
 - [x] 1. In the Azure portal, type Virtual Networks in the search box, select Virtual Networks from the search results then select VNET2. Alternatively, browse to Virtual Networks in the left navigation panel. 2. In the Settings blade for virtual network VNET2, select Locks. 3. To add a lock, select Add. 4. For Lock type select Delete lock, and click OK.
+![Question 192 answer part 1](images/question192_answer1.png)
+![Question 192 answer part 2](images/question192_answer2.png)
 
 ### You need to enable Advanced Data Security for the SQLdb1 Azure SQL database. The solution must ensure that Azure Advanced Threat Protection (ATP) alerts are sent to <User1@contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
@@ -2264,7 +2252,8 @@
 
 ![Question 253](images/question253.jpeg)
 
-- [x] 1. Register the Application. 2. Sign in to your Azure Account through the Azure portal. 3. Select Azure Active Directory. 4. Select App registrations. 5. Select New registration. 6. Name the application App12345678. 7. Select a supported account type, which determines who can use the application. 8. Under Redirect URI, select Web for the type of application you want to create. 9. Enter the URI: https://app.contoso.com, where the access token is sent to. 10. Click Register
+- [x] 1. Register the Application. 2. Sign in to your Azure Account through the Azure portal. 3. Select Azure Active Directory. 4. Select App registrations. 5. Select New registration. 6. Name the application App12345678. 7. Select a supported account type, which determines who can use the application. 8. Under Redirect URI, select Web for the type of application you want to create. 9. Enter the URI: https://app.contoso.com, where the access token is sent to. 10. Click Register.
+![Question 253 answer](images/question253_answer.jpeg)
 
 ### From Azure Security Center, you create a custom alert rule. You need to configure which users will receive an email message when the alert is triggered. What should you do?
 
