@@ -96,7 +96,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 33  | [You have an Azure web app named webapp1. You need to configure continuous deployment for webapp1 by using an Azure Repo. What should you create first?](#you-have-an-azure-web-app-named-webapp1-you-need-to-configure-continuous-deployment-for-webapp1-by-using-an-azure-repo-what-should-you-create-first)
 | 34  | [You plan to connect several Windows servers to the WS12345678 Azure Log Analytics workspace. You need to ensure that the events in the System event logs are collected automatically to the workspace after you connect the Windows servers. To complete this task, sign in to the Azure portal and modify the Azure resources.](#you-plan-to-connect-several-windows-servers-to-the-ws12345678-azure-log-analytics-workspace-you-need-to-ensure-that-the-events-in-the-system-event-logs-are-collected-automatically-to-the-workspace-after-you-connect-the-windows-servers-to-complete-this-task-sign-in-to-the-azure-portal-and-modify-the-azure-resources)
 | 35  | [You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal.](#you-need-to-ensure-that-web11597200-is-protected-from-malware-by-using-microsoft-antimalware-for-virtual-machines-and-is-scanned-every-friday-at-0100-to-complete-this-task-sign-in-to-the-azure-portal)
-| 36  | [You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com You need to ensure AKS1 can be accessed by using accounts from Contoso.com The solution must minimize administrative effort. What should you do first?](#you-have-an-azure-active-directory-azure-ad-tenant-named-contosocom-and-an-azure-service-aks-cluster-aks1-you-discover-that-aks1-cannot-be-accessed-by-using-accounts-from-contosocom-you-need-to-ensure-aks1-can-be-accessed-by-using-accounts-from-contosocom-the-solution-must-minimize-administrative-effort-what-should-you-do-first)
+| 36  | [You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com. You need to ensure AKS1 can be accessed by using accounts from Contoso.com. The solution must minimize administrative effort. What should you do first?](#you-have-an-azure-active-directory-azure-ad-tenant-named-contosocom-and-an-azure-service-aks-cluster-aks1-you-discover-that-aks1-cannot-be-accessed-by-using-accounts-from-contosocom-you-need-to-ensure-aks1-can-be-accessed-by-using-accounts-from-contosocom-the-solution-must-minimize-administrative-effort-what-should-you-do-first)
 | 37  | [You need to ensure that the AzureBackupReport log for the Vault1 Recovery Services vault is stored in the WS11641655 Azure Log Analytics workspace. To complete this task, sign in to the Azure portal and modify the Azure resources.](#you-need-to-ensure-that-the-azurebackupreport-log-for-the-vault1-recovery-services-vault-is-stored-in-the-ws11641655-azure-log-analytics-workspace-to-complete-this-task-sign-in-to-the-azure-portal-and-modify-the-azure-resources)
 | 38  | [You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. An Azure virtual machine on Subnet1 can access data on Contoso1901.](#you-create-resources-in-an-azure-subscription-as-shown-in-the-following-table-vnet1-contains-two-subnets-named-subnet1-and-subnet2-subnet1-has-a-network-id-of-1000024-subnet2-has-a-network-id-of-1011024-contoso1901-is-configured-as-shown-in-the-exhibit-an-azure-virtual-machine-on-subnet1-can-access-data-on-contoso1901)
 | 39  | [You create resources in an Azure subscription as shown in the following table. VNET1 contains two subnets named Subnet1 and Subnet2. Subnet1 has a network ID of 10.0.0.0/24. Subnet2 has a network ID of 10.1.1.0/24. Contoso1901 is configured as shown in the exhibit. An Azure virtual machine on Subnet2 can access data in Cantoso1901.](#you-create-resources-in-an-azure-subscription-as-shown-in-the-following-table-vnet1-contains-two-subnets-named-subnet1-and-subnet2-subnet1-has-a-network-id-of-1000024-subnet2-has-a-network-id-of-1011024-contoso1901-is-configured-as-shown-in-the-exhibit-an-azure-virtual-machine-on-subnet2-can-access-data-in-cantoso1901)
@@ -811,7 +811,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com You need to ensure AKS1 can be accessed by using accounts from Contoso.com The solution must minimize administrative effort. What should you do first?
+### You have an Azure Active Directory (Azure AD) tenant named Contoso.com and an Azure Service (AKS) cluster AKS1. You discover that AKS1 cannot be accessed by using accounts from Contoso.com. You need to ensure AKS1 can be accessed by using accounts from Contoso.com. The solution must minimize administrative effort. What should you do first?
 
 - [x] From Azure recreate AKS1.
 - [ ] From AKS1, upgrade the version of Kubermetes.
@@ -887,6 +887,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Audit events for DB1 are written to storage1.
 
+![Question 44 part 1](images/question44_45_46_1.png)
+![Question 44 part 2](images/question44_45_46_2.png)
+
 - [x] Yes.
 - [ ] No.
 
@@ -894,12 +897,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Audit events for DB2 are written to storage1 and storage2.
 
+![Question 45 part 1](images/question44_45_46_1.png)
+![Question 45 part 2](images/question44_45_46_2.png)
+
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an Azure subscription that contains three storage accounts, an Azure SQL managed instance named SQL1, and three Azure SQL databases. The storage accounts are configured as shown in the following table. SQL1 has the following settings: Auditing: On. Audit log destination: storage1. The Azure SQL databases are configured as shown in the following table. Storage3 can be used as an audit log destination for DB3.
+
+![Question 46 part 1](images/question44_45_46_1.png)
+![Question 46 part 2](images/question44_45_46_2.png)
 
 - [x] Yes.
 - [ ] No.
