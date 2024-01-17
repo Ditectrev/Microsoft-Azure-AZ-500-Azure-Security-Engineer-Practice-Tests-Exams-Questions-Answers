@@ -10,7 +10,7 @@
 
 ## ✨ This course is unlike any Microsoft Azure AZ-500 (Azure Security Engineer) course you will find online
 
-✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-500 (Azure Security Engineer) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it'sf even better for you to join now!
+✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-500 (Azure Security Engineer) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
 [![Join our Discord](images/discord.png "Join our Discord")](https://discord.gg/RFjtXKfJy3)
 
