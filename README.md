@@ -878,10 +878,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 43 part 1](images/question43_1.jpg)
 ![Question 43 part 2](images/question43_2.jpg)
 
-- [ ] Storage accounts that can be used as the audit log destination:: Storage1 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 only.
-- [x] Storage accounts that can be used as the audit log destination:: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1, Analytics2, and Analytics3.
-- [ ] Storage accounts that can be used as the audit log destination:: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
-- [ ] Storage accounts that can be used as the audit log destination:: Storage1, Storage2, and Storage3. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
+- [ ] Storage accounts that can be used as the audit log destination: Storage1 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 only.
+- [x] Storage accounts that can be used as the audit log destination: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1, Analytics2, and Analytics3.
+- [ ] Storage accounts that can be used as the audit log destination: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
+- [ ] Storage accounts that can be used as the audit log destination: Storage1, Storage2, and Storage3. Log Analytics workspaces that can be used as the audio log destination: Analytics1 and Analytics3 only.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1254,7 +1254,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Configure App1 to authenticate by using a: Key. Configure a Key Vault reference foe App1 from the: Extensions blade.
 - [ ] Configure App1 to authenticate by using a: Certificate. Configure a Key Vault reference foe App1 from the: General settings tab.
 - [ ] Configure App1 to authenticate by using a: Passphrase. Configure a Key Vault reference foe App1 from the: TLS/SSL settings blade.
-- [ ] Configure App1 to authenticate by using a: Managed identity. Configure a Key Vault reference foe App1 from the: Application settings tab.
+- [x] Configure App1 to authenticate by using a: Managed identity. Configure a Key Vault reference foe App1 from the: Application settings tab.
 
 **[⬆ Back to Top](#table-of-contents)**
 
