@@ -340,6 +340,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 277 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User1 will be prompted to change the password on the next sign-in.](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-the-azure-ad-tenant-contains-the-users-shown-in-the-following-table-you-configure-the-authentication-methods-password-protection-settings-for-adatumcom-as-shown-in-the-following-exhibit-user1-will-be-prompted-to-change-the-password-on-the-next-sign-in)
 | 278 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User2 can change the password to @d@tum_C0mpleX123.](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-the-azure-ad-tenant-contains-the-users-shown-in-the-following-table-you-configure-the-authentication-methods-password-protection-settings-for-adatumcom-as-shown-in-the-following-exhibit-user2-can-change-the-password-to-dtum_c0mplex123)
 | 279 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User3 can change the password for Adatum123!.](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-the-azure-ad-tenant-contains-the-users-shown-in-the-following-table-you-configure-the-authentication-methods-password-protection-settings-for-adatumcom-as-shown-in-the-following-exhibit-user3-can-change-the-password-for-adatum123)
+| 280 | [You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You regenerate the Azure storage account access keys. Does this meet the goal?](#you-have-an-azure-subscription-named-sub1-you-have-an-azure-storage-account-named-sa1-in-a-resource-group-named-rg1-users-and-applications-access-the-blob-service-and-the-file-service-in-sa1-by-using-several-shared-access-signatures-sass-and-stored-access-policies-you-discover-that-unauthorized-users-accessed-both-the-file-service-and-the-blob-service-you-need-to-revoke-all-access-to-sa1-solution-you-regenerate-the-azure-storage-account-access-keys-does-this-meet-the-goal)
+| 281 | [You plan to configure Azure Disk Encryption for VM4. Which key vault can you use to store the encryption key?](#you-plan-to-configure-azure-disk-encryption-for-vm4-which-key-vault-can-you-use-to-store-the-encryption-key)
+| 282 | [You have an Azure resource group that contains 100 virtual machines. You have an initiative named Initiative1 that contains multiple policy definitions. Initiative1 is assigned to the resource group. You need to identify which resources do NOT match the policy definitions. What should you do?](#you-have-an-azure-resource-group-that-contains-100-virtual-machines-you-have-an-initiative-named-initiative1-that-contains-multiple-policy-definitions-initiative1-is-assigned-to-the-resource-group-you-need-to-identify-which-resources-do-not-match-the-policy-definitions-what-should-you-do)
+| 283 | [You have an Azure environment. You need to identify any Azure configurations and workloads that are non-compliant with ISO 27001 standards. What should you use?](#you-have-an-azure-environment-you-need-to-identify-any-azure-configurations-and-workloads-that-are-non-compliant-with-iso-27001-standards-what-should-you-use)
+| 284 | [You have the Azure virtual machines shown in the following table. For which virtual machine can you enable Update Management?](#you-have-the-azure-virtual-machines-shown-in-the-following-table-for-which-virtual-machine-can-you-enable-update-management)
+| 285 | [You have an Azure Sentinel workspace that has an Azure Active Directory (Azure AD) data connector. You are threat hunting suspicious traffic from a specific IP address. You need to annotate an intermediate event stored in the workspace and be able to reference the IP address when navigating through the investigation graph. Which three actions should you perform in sequence?](#you-have-an-azure-sentinel-workspace-that-has-an-azure-active-directory-azure-ad-data-connectoryou-are-threat-hunting-suspicious-traffic-from-a-specific-ip-address-you-need-to-annotate-an-intermediate-event-stored-in-the-workspace-and-be-able-to-reference-the-ip-address-when-navigating-through-the-investigation-graph-which-three-actions-should-you-perform-in-sequence)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -3096,8 +3102,6 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 ### The developers at your company plan to publish an app named App11641655 to Azure. You need to ensure that the app is registered to Azure Active Directory (Azure AD). The registration must use the sign-on URLs of <https://app.contoso.com>. To complete this task, sign in to the Azure portal and modify the Azure resources.
 
-![Question 253](images/question253.jpeg)
-
 - [x] 1. Register the Application. 2. Sign in to your Azure Account through the Azure portal. 3. Select Azure Active Directory. 4. Select App registrations. 5. Select New registration. 6. Name the application App12345678. 7. Select a supported account type, which determines who can use the application. 8. Under Redirect URI, select Web for the type of application you want to create. 9. Enter the URI: https://app.contoso.com, where the access token is sent to. 10. Click Register.
 ![Question 253 answer](images/question253_answer.jpeg)
 
@@ -3351,5 +3355,61 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 - [x] Yes.
 - [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure Subscription named Sub1. You have an Azure Storage account named Sa1 in a resource group named RG1. Users and applications access the blob service and the file service in Sa1 by using several shared access signatures (SASs) and stored access policies. You discover that unauthorized users accessed both the file service and the blob service. You need to revoke all access to Sa1. Solution: You regenerate the Azure storage account access keys. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You plan to configure Azure Disk Encryption for VM4. Which key vault can you use to store the encryption key?
+
+- [x] KeyVault1.
+- [ ] KeyVault3.
+- [ ] KeyVault2.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure resource group that contains 100 virtual machines. You have an initiative named Initiative1 that contains multiple policy definitions. Initiative1 is assigned to the resource group. You need to identify which resources do NOT match the policy definitions. What should you do?
+
+- [x] From Azure Security Center, view the Regulatory compliance assessment.
+- [ ] From the Policy blade of the Azure Active Directory admin center, select Compliance.
+- [ ] From Azure Security Center, view the Secure Score.
+- [ ] From the Policy blade of the Azure Active Directory admin center, select Assignments.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure environment. You need to identify any Azure configurations and workloads that are non-compliant with ISO 27001 standards. What should you use?
+
+- [ ] Azure Sentinel.
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+- [x] Microsoft Defender for Cloud.
+- [ ] Microsoft Defender for Identity.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have the Azure virtual machines shown in the following table. For which virtual machine can you enable Update Management?
+
+![Question 284](images/question284.jpeg)
+
+- [ ] VM2 and VM3 only.
+- [ ] VM2, VM3, and VM4 only.
+- [x] VM1, VM2, and VM4 only.
+- [ ] VM1, VM2, VM3, and VM4.
+- [ ] VM1, VM2, and VM3 only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure Sentinel workspace that has an Azure Active Directory (Azure AD) data connector. You are threat hunting suspicious traffic from a specific IP address. You need to annotate an intermediate event stored in the workspace and be able to reference the IP address when navigating through the investigation graph. Which three actions should you perform in sequence?
+
+![Question 285](images/question285.jpeg)
+
+- [x] Box 1: From the Azure Sentinel workspace, run an Azure Log Analytics query. Box 2: Select a query result. Box 3: Add a bookmark and map an entity.
+- [ ] Box 1: In a Jupyter notebook, create a reference to the IP address. Box 2: From the Azure Sentinel workspace, run an Azure Log Analytics query. Box 3: Select a query result.
+- [ ] Box 1: From Azure Monitor, run an Azure Log Analytics query. Box 2: Add a bookmark and map an entity. Box 3: Add a bookmark and assign a tag.
+- [ ] Box 1: Add the query to Favorites. Box 2: From Azure Monitor, run an Azure Log Analytics query. Box 3: In a Jupyter notebook, create a reference to the IP address.
 
 **[⬆ Back to Top](#table-of-contents)**
