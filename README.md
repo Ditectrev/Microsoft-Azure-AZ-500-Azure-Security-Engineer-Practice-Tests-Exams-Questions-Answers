@@ -335,7 +335,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 272 | [Your company has an Active Directory forest with a single domain, named weylandindustries.com. They also have an Azure Active Directory (Azure AD) tenant with the same name. You have been tasked with integrating Active Directory and the Azure AD tenant. You intend to deploy Azure AD Connect. Your strategy for the integration must make sure that password policies and user logon limitations affect user accounts that are synced to the Azure AD tenant, and that the amount of necessary servers are reduced. Solution: You recommend the use of federation with Active Directory Federation Services (AD FS). Does the solution meet the goal?](#your-company-has-an-active-directory-forest-with-a-single-domain-named-weylandindustriescom-they-also-have-an-azure-active-directory-azure-ad-tenant-with-the-same-name-you-have-been-tasked-with-integrating-active-directory-and-the-azure-ad-tenant-you-intend-to-deploy-azure-ad-connect-your-strategy-for-the-integration-must-make-sure-that-password-policies-and-user-logon-limitations-affect-user-accounts-that-are-synced-to-the-azure-ad-tenant-and-that-the-amount-of-necessary-servers-are-reduced-solution-you-recommend-the-use-of-federation-with-active-directory-federation-services-ad-fs-does-the-solution-meet-the-goal)
 | 273 | [Your company has an Active Directory forest with a single domain, named weylandindustries.com. They also have an Azure Active Directory (Azure AD) tenant with the same name.You have been tasked with integrating Active Directory and the Azure AD tenant. You intend to deploy Azure AD Connect. Your strategy for the integration must make sure that password policies and user logon limitations affect user accounts that are synced to the Azure AD tenant, and that the amount of necessary servers are reduced. Solution: You recommend the use of pass-through authentication and seamless SSO with password hash synchronization. Does the solution meet the goal?](#your-company-has-an-active-directory-forest-with-a-single-domain-named-weylandindustriescom-they-also-have-an-azure-active-directory-azure-ad-tenant-with-the-same-nameyou-have-been-tasked-with-integrating-active-directory-and-the-azure-ad-tenant-you-intend-to-deploy-azure-ad-connect-your-strategy-for-the-integration-must-make-sure-that-password-policies-and-user-logon-limitations-affect-user-accounts-that-are-synced-to-the-azure-ad-tenant-and-that-the-amount-of-necessary-servers-are-reduced-solution-you-recommend-the-use-of-pass-through-authentication-and-seamless-sso-with-password-hash-synchronization-does-the-solution-meet-the-goal)
 | 274 | [You need to delegate the creation of RG2 and the management of permissions for RG1. Which users can perform each task?](#you-need-to-delegate-the-creation-of-rg2-and-the-management-of-permissions-for-rg1-which-users-can-perform-each-task)
-| 275 | [You have an Azure subscription.You plan to create a workflow automation in Azure Security Center that will automatically remediate a security vulnerability. What should you create first?](#you-have-an-azure-subscriptionyou-plan-to-create-a-workflow-automation-in-azure-security-center-that-will-automatically-remediate-a-security-vulnerability-what-should-you-create-first)
+| 275 | [You have an Azure subscription. You plan to create a workflow automation in Azure Security Center that will automatically remediate a security vulnerability. What should you create first?](#you-have-an-azure-subscriptionyou-plan-to-create-a-workflow-automation-in-azure-security-center-that-will-automatically-remediate-a-security-vulnerability-what-should-you-create-first)
 | 276 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). Azure AD Connect is installed on a domain member server named Server1. You need to ensure that a domain administrator for the adatum.com domain can modify the synchronization options. The solution must use the principle of least privilege. Which Azure AD role should you assign to the domain administrator?](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-azure-ad-connect-is-installed-on-a-domain-member-server-named-server1-you-need-to-ensure-that-a-domain-administrator-for-the-adatumcom-domain-can-modify-the-synchronization-options-the-solution-must-use-the-principle-of-least-privilege-which-azure-ad-role-should-you-assign-to-the-domain-administrator)
 | 277 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User1 will be prompted to change the password on the next sign-in.](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-the-azure-ad-tenant-contains-the-users-shown-in-the-following-table-you-configure-the-authentication-methods-password-protection-settings-for-adatumcom-as-shown-in-the-following-exhibit-user1-will-be-prompted-to-change-the-password-on-the-next-sign-in)
 | 278 | [Your network contains an on-premises Active Directory domain named adatum.com that syncs to Azure Active Directory (Azure AD). The Azure AD tenant contains the users shown in the following table. You configure the Authentication methods Password Protection settings for adatum.com as shown in the following exhibit. User2 can change the password to @d@tum_C0mpleX123.](#your-network-contains-an-on-premises-active-directory-domain-named-adatumcom-that-syncs-to-azure-active-directory-azure-ad-the-azure-ad-tenant-contains-the-users-shown-in-the-following-table-you-configure-the-authentication-methods-password-protection-settings-for-adatumcom-as-shown-in-the-following-exhibit-user2-can-change-the-password-to-dtum_c0mplex123)
@@ -346,6 +346,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 283 | [You have an Azure environment. You need to identify any Azure configurations and workloads that are non-compliant with ISO 27001 standards. What should you use?](#you-have-an-azure-environment-you-need-to-identify-any-azure-configurations-and-workloads-that-are-non-compliant-with-iso-27001-standards-what-should-you-use)
 | 284 | [You have the Azure virtual machines shown in the following table. For which virtual machine can you enable Update Management?](#you-have-the-azure-virtual-machines-shown-in-the-following-table-for-which-virtual-machine-can-you-enable-update-management)
 | 285 | [You have an Azure Sentinel workspace that has an Azure Active Directory (Azure AD) data connector. You are threat hunting suspicious traffic from a specific IP address. You need to annotate an intermediate event stored in the workspace and be able to reference the IP address when navigating through the investigation graph. Which three actions should you perform in sequence?](#you-have-an-azure-sentinel-workspace-that-has-an-azure-active-directory-azure-ad-data-connectoryou-are-threat-hunting-suspicious-traffic-from-a-specific-ip-address-you-need-to-annotate-an-intermediate-event-stored-in-the-workspace-and-be-able-to-reference-the-ip-address-when-navigating-through-the-investigation-graph-which-three-actions-should-you-perform-in-sequence)
+| 286 | [You have five Azure subscriptions linked to a single Azure Active Directory (Azure AD) tenant. You create an Azure Policy initiative named SecurityPolicyInitiative1. You identify which standard role assignments must be configured on all new resource groups. You need to enforce SecurityPolicyInitiative1 and the role assignments when a new resource group is created. Which three actions should you perform in sequence?](#you-have-five-azure-subscriptions-linked-to-a-single-azure-active-directory-azure-ad-tenant-you-create-an-azure-policy-initiative-named-securitypolicyinitiative1-you-identify-which-standard-role-assignments-must-be-configured-on-all-new-resource-groups-you-need-to-enforce-securitypolicyinitiative1-and-the-role-assignments-when-a-new-resource-group-is-created-which-three-actions-should-you-perform-in-sequence)
+| 287 | [You plan to use Azure Sentinel to create an analytic rule that will detect suspicious threats and automate responses. Which components are required for the rule?](#you-plan-to-use-azure-sentinel-to-create-an-analytic-rule-that-will-detect-suspicious-threats-and-automate-responses-which-components-are-required-for-the-rule)
+| 288 | [You have an Azure Active Directory (Azure AD) tenant. You need to prevent nonprivileged Azure AD users from creating service principals in Azure AD. What should you do in the Azure Active Directory admin center of the tenant?](#you-have-an-azure-active-directory-azure-ad-tenant-you-need-to-prevent-nonprivileged-azure-ad-users-from-creating-service-principals-in-azure-ad-what-should-you-do-in-the-azure-active-directory-admin-center-of-the-tenant)
+| 289 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM1, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-start-vm1-an-alert-is-triggered)
+| 290 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM2, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-start-vm2-an-alert-is-triggered)
+| 291 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you add a tag to RG1, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-add-a-tag-to-rg1-an-alert-is-triggered)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -2011,7 +2017,7 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 ![Question 144 part 2](images/question144_2.jpeg)
 
 - [ ] Box 1: User 1. Box 2: Azure Cloud Shell.
-- [x] Box 1: User 2. Box 2: Azure Portal (Azure Account Center).
+- [x] Box 1: User 2. Box 2: Azure Account Center.
 - [ ] Box 1: User 3. Box 2: Azure PowerShell.
 - [ ] Box 1: User 4. Box 2: Azure Security Center.
 
@@ -2205,7 +2211,7 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 ### You need to ensure that the events in the NetworkSecurityGroupRuleCounter log of the VNET01-Subnet0-NSG network security group (NSG) are stored in the logs11597200 Azure Storage account for 30 days. To complete this task, sign in to the Azure portal.
 
-- [x] 1. In the Azure portal, type Network Security Groups in the search box, select Network Security Groups from the search results then select VNET01-Subnet0-NSG. 2. Alternatively, browse to Network Security Groups in the left navigation pane. 3. In the properties of the Network Security Group, click on Diagnostic Settings. 4. Click on the Add diagnostic setting link. 5. Provide a name in the Diagnostic settings name field. It doesn't matter what name you provide for the exam. 6. In the Log section, select NetworkSecurityGroupRuleCounter. 7. In the Destination details section, select Archive to a storage account. 8. In the Storage account field, select the logs11597200 storage account. 9. In the Retention (days) field, enter 30. 10. Click the Save button to save the changes.
+- [x] 1. In the Azure portal, type Network Security Groups in the search box, select Network Security Groups from the search results then select VNET01-Subnet0-NSG. 2. Alternatively, browse to Network Security Groups in the left navigation panel. 3. In the properties of the Network Security Group, click on Diagnostic Settings. 4. Click on the Add diagnostic setting link. 5. Provide a name in the Diagnostic settings name field. It doesn't matter what name you provide for the exam. 6. In the Log section, select NetworkSecurityGroupRuleCounter. 7. In the Destination details section, select Archive to a storage account. 8. In the Storage account field, select the logs11597200 storage account. 9. In the Retention (days) field, enter 30. 10. Click the Save button to save the changes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3310,7 +3316,7 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an Azure subscription.You plan to create a workflow automation in Azure Security Center that will automatically remediate a security vulnerability. What should you create first?
+### You have an Azure subscription. You plan to create a workflow automation in Azure Security Center that will automatically remediate a security vulnerability. What should you create first?
 
 - [ ] Automation account.
 - [ ] Managed identity.
@@ -3411,5 +3417,63 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 - [ ] Box 1: In a Jupyter notebook, create a reference to the IP address. Box 2: From the Azure Sentinel workspace, run an Azure Log Analytics query. Box 3: Select a query result.
 - [ ] Box 1: From Azure Monitor, run an Azure Log Analytics query. Box 2: Add a bookmark and map an entity. Box 3: Add a bookmark and assign a tag.
 - [ ] Box 1: Add the query to Favorites. Box 2: From Azure Monitor, run an Azure Log Analytics query. Box 3: In a Jupyter notebook, create a reference to the IP address.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have five Azure subscriptions linked to a single Azure Active Directory (Azure AD) tenant. You create an Azure Policy initiative named SecurityPolicyInitiative1. You identify which standard role assignments must be configured on all new resource groups. You need to enforce SecurityPolicyInitiative1 and the role assignments when a new resource group is created. Which three actions should you perform in sequence?
+
+![Question 286](images/question286.jpeg)
+
+- [ ] Box 1: Publish an Azure Blueprints version. Box 2: Create a policy assignment. Box 3: Create a dedicated management subscription.
+- [ ] Box 1: Create an Azure Blueprints definition. Box 2: Publish an Azure Blueprints version. Box 3: Create an initiative assignment.
+- [x] Box 1: Create an Azure Blueprints definition. Box 2: Publish an Azure Blueprints version. Box 3: Assign an Azure blueprint.
+- [ ] Box 1: Publish an Azure Blueprints version. Box 2: Create a custom role-based access control (RBAC) role. Box 3: Create a dedicated management solution.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You plan to use Azure Sentinel to create an analytic rule that will detect suspicious threats and automate responses. Which components are required for the rule?
+
+![Question 287](images/question287.jpeg)
+
+- [ ] Detect suspicious threats: A Transact-SQL query. Automate responses: An Azure Sentinel playbook.
+- [ ] Detect suspicious threats: An Azure PowerShell script. Automate responses: An Azure PowerShell script.
+- [ ] Detect suspicious threats: A Kusto query language query. Automate responses: An Azure Function app.
+- [x] Detect suspicious threats: A Kusto query language query. Automate responses: An Azure Sentinel playbook.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure Active Directory (Azure AD) tenant. You need to prevent nonprivileged Azure AD users from creating service principals in Azure AD. What should you do in the Azure Active Directory admin center of the tenant?
+
+- [x] From the User settings blade, set Users can register applications to No.
+- [ ] From the Properties blade, set Access management for Azure resources to No.
+- [ ] From the User settings blade, set Restrict access to Azure AD administration portal to Yes.
+- [ ] From the Properties blade, set Enable Security defaults to Yes.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM1, an alert is triggered.
+
+![Question 289](images/question289_290_291.png)
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM2, an alert is triggered.
+
+![Question 290](images/question289_290_291.png)
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you add a tag to RG1, an alert is triggered.
+
+![Question 291](images/question289_290_291.png)
+
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
