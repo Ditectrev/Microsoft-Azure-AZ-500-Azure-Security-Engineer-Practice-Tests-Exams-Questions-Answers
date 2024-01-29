@@ -352,6 +352,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 289 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM1, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-start-vm1-an-alert-is-triggered)
 | 290 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you start VM2, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-start-vm2-an-alert-is-triggered)
 | 291 | [You have an Azure subscription that contains the resources shown in the following table. VM1 and VM2 are stopped. You create an alert rule that has the following settings: Resource: RG1. Condition: All Administrative operations. Actions: Action groups configured for this alert rule: ActionGroup1. Alert rule name: Alert1. You create an action rule that has the following settings: Scope: VM1. Filter criteria: Resource Type = 'Virtual Machines'. Define on this scope: Suppression. Suppression config: From now (always). Name: ActionRule1. If you add a tag to RG1, an alert is triggered.](#you-have-an-azure-subscription-that-contains-the-resources-shown-in-the-following-table-vm1-and-vm2-are-stopped-you-create-an-alert-rule-that-has-the-following-settings-resource-rg1-condition-all-administrative-operations-actions-action-groups-configured-for-this-alert-rule-actiongroup1-alert-rule-name-alert1-you-create-an-action-rule-that-has-the-following-settings-scope-vm1-filter-criteria-resource-type-virtual-machines-define-on-this-scope-suppression-suppression-config-from-now-always-name-actionrule1-if-you-add-a-tag-to-rg1-an-alert-is-triggered)
+| 292 | [Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to encrypt storage1 to meet the technical requirements. Which key vaults can you use?](#fabrikam-inc-is-a-consulting-company-that-has-a-main-office-in-montreal-and-branch-offices-in-seattle-and-new-york-fabrikam-has-it-human-resources-hr-and-finance-departments-fabrikam-has-a-microsoft-365-subscription-and-an-azure-subscription-named-subscription1-the-network-contains-an-on-premises-active-directory-domain-named-fabrikamcom-the-domain-contains-two-organizational-units-ous-named-ou1-and-ou2-azure-ad-connect-cloud-sync-syncs-only-ou1-the-azure-resources-hierarchy-is-shown-in-the-following-exhibit-the-azure-active-directory-azure-ad-tenant-contains-the-users-shown-in-the-following-table-azure-ad-contains-the-resources-shown-in-the-following-table-subscription1-contains-the-virtual-networks-shown-in-the-following-table-subscription1-contains-the-network-security-groups-nsgs-shown-in-the-following-table-subscription1-contains-the-virtual-machines-shown-in-the-following-table-subscription1-contains-the-azure-key-vaults-shown-in-the-following-table-subscription1-contains-a-storage-account-named-storage1-in-the-west-us-azure-region-fabrikam-plans-to-implement-the-following-changes-create-two-application-security-groups-as-shown-in-the-following-table-associate-the-network-interface-of-vm1-to-asg1-deploy-secpol1-by-using-azure-security-center-deploy-a-third-party-app-named-app1-a-version-of-app1-exists-for-all-available-operating-systems-create-a-resource-group-named-rg2-sync-ou2-to-azure-ad-add-user1-to-group1-fabrikam-identifies-the-following-technical-requirements-the-finance-department-users-must-reauthenticate-after-three-hours-when-they-access-sharepoint-online-storage1-must-be-encrypted-by-using-customer-managed-keys-and-automatic-key-rotation-from-sentinel1-you-must-ensure-that-the-following-notebooks-can-be-launched-entity-explorer-–-account-entity-explorer-–-windows-host-guided-investigation-process-alerts-vm1-vm2-and-vm3-must-be-encrypted-by-using-azure-disk-encryption-just-in-time-jit-vm-access-for-vm1-vm2-and-vm3-must-be-enabled-app1-must-use-a-secure-connection-string-stored-in-keyvault1-keyvault1-traffic-must-not-travel-over-the-internet-you-need-to-encrypt-storage1-to-meet-the-technical-requirements-which-key-vaults-can-you-use)
+| 293 | [You have an Azure subscription name Sub1 that contains an Azure Policy definition named Policy1. Policy1 has the following settings: Definition location: Tenant Root Group. Category: Monitoring. You need to ensure that resources that are noncompliant with Policy1 are listed in the Azure Security Center dashboard. What should you do first?](#you-have-an-azure-subscription-name-sub1-that-contains-an-azure-policy-definition-named-policy1-policy1-has-the-following-settings-definition-location-tenant-root-group-category-monitoring-you-need-to-ensure-that-resources-that-are-noncompliant-with-policy1-are-listed-in-the-azure-security-center-dashboard-what-should-you-do-first)
+| 294 | [You have an Azure subscription that contains the storage accounts shown in the following table. You need to configure authorization access. Which authorization types can you use for each storage account?](#you-have-an-azure-subscription-that-contains-the-storage-accounts-shown-in-the-following-table-you-need-to-configure-authorization-access-which-authorization-types-can-you-use-for-each-storage-account)
+| 295 | [You have an Azure subscription that uses Azure Active Directory (Azure AD) Privileged Identity Management (PIM). A PIM user that is assigned the User Access Administrator role reports receiving an authorization error when performing a role assignment or viewing the list of assignments. You need to resolve the issue by ensuring that the PIM service principal has the correct permissions for the subscription. The solution must use the principle of least privilege. Which role should you assign to the PIM service principle?](#you-have-an-azure-subscription-that-uses-azure-active-directory-azure-ad-privileged-identity-management-pim-a-pim-user-that-is-assigned-the-user-access-administrator-role-reports-receiving-an-authorization-error-when-performing-a-role-assignment-or-viewing-the-list-of-assignments-you-need-to-resolve-the-issue-by-ensuring-that-the-pim-service-principal-has-the-correct-permissions-for-the-subscription-the-solution-must-use-the-principle-of-least-privilege-which-role-should-you-assign-to-the-pim-service-principle)
+| 296 | [You have an Azure subscription that uses Azure AD Privileged Identity Management (PIM). A user named User1 is eligible for the Billing administrator role. You need to ensure that the role can only be used for a maximum of two hours. What should you do?](#you-have-an-azure-subscription-that-uses-azure-ad-privileged-identity-management-pim-a-user-named-user1-is-eligible-for-the-billing-administrator-role-you-need-to-ensure-that-the-role-can-only-be-used-for-a-maximum-of-two-hours-what-should-you-do)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -695,15 +700,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to configure support for Microsoft Sentinel notebooks to meet the technical requirements. What is the minimum number of Azure container registries and Azure Machine Learning workspaces required?
 
-![Question 23 part 1](images/question23_96_97_1.jpg)
-![Question 23 part 2](images/question23_96_97_2.jpg)
-![Question 23 part 3](images/question23_96_97_3.jpg)
-![Question 23 part 4](images/question23_96_97_4.jpg)
-![Question 23 part 5](images/question23_96_97_5.jpg)
-![Question 23 part 6](images/question23_96_97_6.jpg)
-![Question 23 part 7](images/question23_96_97_7.png)
-![Question 23 part 8](images/question23_96_97_8.jpg)
-![Question 23](images/question23_9.jpg)
+![Question 23 part 1](images/question23_96_97_292_1.jpg)
+![Question 23 part 2](images/question23_96_97_292_2.jpg)
+![Question 23 part 3](images/question23_96_97_292_3.jpg)
+![Question 23 part 4](images/question23_96_97_292_4.jpg)
+![Question 23 part 5](images/question23_96_97_292_5.jpg)
+![Question 23 part 6](images/question23_96_97_292_6.jpg)
+![Question 23 part 7](images/question23_96_97_292_7.png)
+![Question 23 part 8](images/question23_96_97_292_8.jpg)
+![Question 23 part 9](images/question23_9.jpg)
 
 - [ ] Container registries: 0. Workspaces: 2.
 - [ ] Container registries: 1. Workspaces: 3.
@@ -1455,14 +1460,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to meet the technical requirements for the finance department users. Which CAPolicy1 settings should you modify?
 
-![Question 96 part 1](images/question23_96_97_1.jpg)
-![Question 96 part 2](images/question23_96_97_2.jpg)
-![Question 96 part 3](images/question23_96_97_3.jpg)
-![Question 96 part 4](images/question23_96_97_4.jpg)
-![Question 96 part 5](images/question23_96_97_5.jpg)
-![Question 96 part 6](images/question23_96_97_6.jpg)
-![Question 96 part 7](images/question23_96_97_7.png)
-![Question 96 part 8](images/question23_96_97_8.jpg)
+![Question 96 part 1](images/question23_96_97_292_1.jpg)
+![Question 96 part 2](images/question23_96_97_292_2.jpg)
+![Question 96 part 3](images/question23_96_97_292_3.jpg)
+![Question 96 part 4](images/question23_96_97_292_4.jpg)
+![Question 96 part 5](images/question23_96_97_292_5.jpg)
+![Question 96 part 6](images/question23_96_97_292_6.jpg)
+![Question 96 part 7](images/question23_96_97_292_7.png)
+![Question 96 part 8](images/question23_96_97_292_8.jpg)
 
 - [ ] Cloud apps or actions.
 - [ ] Conditions.
@@ -1473,14 +1478,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to perform the planned changes for OU2 and User1. Which tools should you use?
 
-![Question 97 part 1](images/question23_96_97_1.jpg)
-![Question 97 part 2](images/question23_96_97_2.jpg)
-![Question 97 part 3](images/question23_96_97_3.jpg)
-![Question 97 part 4](images/question23_96_97_4.jpg)
-![Question 97 part 5](images/question23_96_97_5.jpg)
-![Question 97 part 6](images/question23_96_97_6.jpg)
-![Question 97 part 7](images/question23_96_97_7.png)
-![Question 97 part 8](images/question23_96_97_8.jpg)
+![Question 97 part 1](images/question23_96_97_292_1.jpg)
+![Question 97 part 2](images/question23_96_97_292_2.jpg)
+![Question 97 part 3](images/question23_96_97_292_3.jpg)
+![Question 97 part 4](images/question23_96_97_292_4.jpg)
+![Question 97 part 5](images/question23_96_97_292_5.jpg)
+![Question 97 part 6](images/question23_96_97_292_6.jpg)
+![Question 97 part 7](images/question23_96_97_292_7.png)
+![Question 97 part 8](images/question23_96_97_292_8.jpg)
 ![Question 97 part 9](images/question97_9.jpg)
 
 - [ ] OU2: The Active Directory admin center. User1: Active Directory Users and Computers.
@@ -3475,5 +3480,62 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 - [x] Yes.
 - [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Fabrikam, Inc. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York. Fabrikam has IT, human resources (HR), and finance departments. Fabrikam has a Microsoft 365 subscription and an Azure subscription named subscription1. The network contains an on-premises Active Directory domain named Fabrikam.com. The domain contains two organizational units (OUs) named OU1 and OU2. Azure AD Connect cloud sync syncs only OU1. The Azure resources hierarchy is shown in the following exhibit. The Azure Active Directory (Azure AD) tenant contains the users shown in the following table. Azure AD contains the resources shown in the following table. Subscription1 contains the virtual networks shown in the following table. Subscription1 contains the network security groups (NSGs) shown in the following table. Subscription1 contains the virtual machines shown in the following table. Subscription1 contains the Azure Key Vaults shown in the following table. Subscription1 contains a storage account named storage1 in the West US Azure region. Fabrikam plans to implement the following changes: Create two application security groups as shown in the following table. Associate the network interface of VM1 to ASG1. Deploy SecPol1 by using Azure Security Center. Deploy a third-party app named App1. A version of App1 exists for all available operating systems. Create a resource group named RG2. Sync OU2 to Azure AD. Add User1 to Group1. Fabrikam identifies the following technical requirements: The finance department users must reauthenticate after three hours when they access SharePoint Online. Storage1 must be encrypted by using customer-managed keys and automatic key rotation. From Sentinel1, you must ensure that the following notebooks can be launched: Entity Explorer – Account. Entity Explorer – Windows Host. Guided Investigation Process Alerts. VM1, VM2, and VM3 must be encrypted by using Azure Disk Encryption. Just in time (JIT) VM access for VM1, VM2, and VM3 must be enabled. App1 must use a secure connection string stored in KeyVault1. KeyVault1 traffic must NOT travel over the internet. You need to encrypt storage1 to meet the technical requirements. Which key vaults can you use?
+
+![Question 292 part 1](images/question23_96_97_292_1.jpg)
+![Question 292 part 2](images/question23_96_97_292_2.jpg)
+![Question 292 part 3](images/question23_96_97_292_3.jpg)
+![Question 292 part 4](images/question23_96_97_292_4.jpg)
+![Question 292 part 5](images/question23_96_97_292_5.jpg)
+![Question 292 part 6](images/question23_96_97_292_6.jpg)
+![Question 292 part 7](images/question23_96_97_292_7.png)
+![Question 292 part 8](images/question23_96_97_292_8.jpg)
+
+- [ ] KeyVault1 only.
+- [ ] KeyVault1 and KeyVault3 only.
+- [x] KeyVault1, KeyVault2, and KeyVault3.
+- [ ] KeyVault2 and KeyVault3 only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription name Sub1 that contains an Azure Policy definition named Policy1. Policy1 has the following settings: Definition location: Tenant Root Group. Category: Monitoring. You need to ensure that resources that are noncompliant with Policy1 are listed in the Azure Security Center dashboard. What should you do first?
+
+- [ ] Change the Category of Policy1 to Security Center.
+- [x] Add Policy1 to a custom initiative.
+- [ ] Change the Definition location of Policy1 to Sub1.
+- [ ] Assign Policy1 to Sub1.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains the storage accounts shown in the following table. You need to configure authorization access. Which authorization types can you use for each storage account?
+
+![Question 294 part 1](images/question294_1.jpg)
+![Question 294 part 2](images/question294_2.jpg)
+
+- [ ] storage1: Shared Key only. storage2: Shared access signature (SAS) only. storage3: Azure Active Directory (Azure AD) only.
+- [x] storage1: Shared Key, shared access signature (SAS), and Azure Active Directory (Azure AD). storage2: Shared Key only. storage3: Shared Key, shared access signature (SAS), and Azure Active Directory (Azure AD).
+- [ ] storage1: Azure Active Directory (Azure AD) only. storage2: Shared Key only. storage3: Shared Key, shared access signature (SAS), and Azure Active Directory (Azure AD).
+- [ ] storage1: Shared Key, shared access signature (SAS), and Azure Active Directory (Azure AD). storage2: Shared Key only. storage3: Shared Key only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that uses Azure Active Directory (Azure AD) Privileged Identity Management (PIM). A PIM user that is assigned the User Access Administrator role reports receiving an authorization error when performing a role assignment or viewing the list of assignments. You need to resolve the issue by ensuring that the PIM service principal has the correct permissions for the subscription. The solution must use the principle of least privilege. Which role should you assign to the PIM service principle?
+
+- [ ] Contributor.
+- [x] User Access Administrator.
+- [ ] Managed Application Operator.
+- [ ] Resource Policy Contributor.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that uses Azure AD Privileged Identity Management (PIM). A user named User1 is eligible for the Billing administrator role. You need to ensure that the role can only be used for a maximum of two hours. What should you do?
+
+- [ ] Create a new access review.
+- [ ] Edit the role assignment settings.
+- [ ] Update the end date of the user assignment.
+- [x] Edit the role activation settings.
 
 **[⬆ Back to Top](#table-of-contents)**
