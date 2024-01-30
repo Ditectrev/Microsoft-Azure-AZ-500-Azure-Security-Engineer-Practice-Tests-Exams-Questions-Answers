@@ -824,7 +824,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You need to ensure that web11597200 is protected from malware by using Microsoft Antimalware for Virtual Machines and is scanned every Friday at 01:00. To complete this task, sign in to the Azure portal.
 
-- [x] 1. In the Azure portal, type Virtual Machines in the search box, select Virtual Machines from the search results then select web1234578. Alternatively, browse to Virtual Machines in the left navigation pane. 2. In the properties of web11597200, click on Extentions + Applications under Settings of VM. 3. Click the Add button to add an Extension. 4. Scroll down the list of extensions and select Microsoft Antimalware. 5. Click the Create button. This will open the settings pane for the Microsoft Antimalware Extension. 6. In the Scan day field, select Friday. 7. In the Scan time field, enter 60. The scan time is measured in minutes after midnight so 60 would be 01:00, 120 would be 02:00 etc. 8. Click the OK button to save the configuration and install the extension.
+- [x] 1. In the Azure portal, type Virtual Machines in the search box, select Virtual Machines from the search results then select web1234578. Alternatively, browse to Virtual Machines in the left navigation pane. 2. In the properties of web11597200, click on Extensions + Applications under Settings of VM. 3. Click the Add button to add an Extension. 4. Scroll down the list of extensions and select Microsoft Antimalware. 5. Click the Create button. This will open the settings panel for the Microsoft Antimalware Extension. 6. In the Scan day field, select Friday. 7. In the Scan time field, enter 60. The scan time is measured in minutes after midnight so 60 would be 01:00, 120 would be 02:00 etc. 8. Click the OK button to save the configuration and install the extension.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -894,6 +894,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 43 part 1](images/question43_1.jpg)
 ![Question 43 part 2](images/question43_2.jpg)
+![Question 43 part 3](images/question43_3.jpeg)
 
 - [ ] Storage accounts that can be used as the audit log destination: Storage1 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1 only.
 - [x] Storage accounts that can be used as the audit log destination: Storage1 and Storage2 only. Log Analytics workspaces that can be used as the audio log destination: Analytics1, Analytics2, and Analytics3.
@@ -2884,10 +2885,10 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 ![Question 232](images/question232.jpg)
 
-- [ ] Identify the user who deleted a virtual machine three weeks ago: Metrics. Query the security events of a vitual machine that runs Windows Server 2016: Activity log.
-- [x] Identify the user who deleted a virtual machine three weeks ago: Activity log. Query the security events of a vitual machine that runs Windows Server 2016: Logs.
-- [ ] Identify the user who deleted a virtual machine three weeks ago: Activity log. Query the security events of a vitual machine that runs Windows Server 2016: Logs.
-- [ ] Identify the user who deleted a virtual machine three weeks ago: Service Health. Query the security events of a vitual machine that runs Windows Server 2016: Metrics.
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Metrics. Query the security events of a virtual machine that runs Windows Server 2016: Activity log.
+- [x] Identify the user who deleted a virtual machine three weeks ago: Activity log. Query the security events of a virtual machine that runs Windows Server 2016: Logs.
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Logs. Query the security events of a virtual machine that runs Windows Server 2016: Logs.
+- [ ] Identify the user who deleted a virtual machine three weeks ago: Service Health. Query the security events of a virtual machine that runs Windows Server 2016: Metrics.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3325,7 +3326,7 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 
 - [ ] Automation account.
 - [ ] Managed identity.
-- [x] Azure logic app.
+- [x] Azure Logic App.
 - [ ] Azure function app.
 - [ ] Alert rule.
 
