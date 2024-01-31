@@ -357,6 +357,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 294 | [You have an Azure subscription that contains the storage accounts shown in the following table. You need to configure authorization access. Which authorization types can you use for each storage account?](#you-have-an-azure-subscription-that-contains-the-storage-accounts-shown-in-the-following-table-you-need-to-configure-authorization-access-which-authorization-types-can-you-use-for-each-storage-account)
 | 295 | [You have an Azure subscription that uses Azure Active Directory (Azure AD) Privileged Identity Management (PIM). A PIM user that is assigned the User Access Administrator role reports receiving an authorization error when performing a role assignment or viewing the list of assignments. You need to resolve the issue by ensuring that the PIM service principal has the correct permissions for the subscription. The solution must use the principle of least privilege. Which role should you assign to the PIM service principle?](#you-have-an-azure-subscription-that-uses-azure-active-directory-azure-ad-privileged-identity-management-pim-a-pim-user-that-is-assigned-the-user-access-administrator-role-reports-receiving-an-authorization-error-when-performing-a-role-assignment-or-viewing-the-list-of-assignments-you-need-to-resolve-the-issue-by-ensuring-that-the-pim-service-principal-has-the-correct-permissions-for-the-subscription-the-solution-must-use-the-principle-of-least-privilege-which-role-should-you-assign-to-the-pim-service-principle)
 | 296 | [You have an Azure subscription that uses Azure AD Privileged Identity Management (PIM). A user named User1 is eligible for the Billing administrator role. You need to ensure that the role can only be used for a maximum of two hours. What should you do?](#you-have-an-azure-subscription-that-uses-azure-ad-privileged-identity-management-pim-a-user-named-user1-is-eligible-for-the-billing-administrator-role-you-need-to-ensure-that-the-role-can-only-be-used-for-a-maximum-of-two-hours-what-should-you-do)
+| 297 | [You have an Azure subscription that contains the custom roles shown in the following table. In the Azure portal, you plan to create new custom roles by cloning existing roles. The new roles will be configured as shown in the following table. Which roles can you clone to create each new role?](#you-have-an-azure-subscription-that-contains-the-custom-roles-shown-in-the-following-table-in-the-azure-portal-you-plan-to-create-new-custom-roles-by-cloning-existing-roles-the-new-roles-will-be-configured-as-shown-in-the-following-table-which-roles-can-you-clone-to-create-each-new-role)
+| 298 | [You have an Azure subscription that contains an Azure SQL database named SQLDB1. SQLDB1 contains the columns shown in the following table. For the Email and Birthday columns, you implement dynamic data masking by using the default masking function. Which value will the users see in each column?](#you-have-an-azure-subscription-that-contains-an-azure-sql-database-named-sqldb1-sqldb1-contains-the-columns-shown-in-the-following-table-for-the-email-and-birthday-columns-you-implement-dynamic-data-masking-by-using-the-default-masking-function-which-value-will-the-users-see-in-each-column)
+| 299 | [You plan to create an Azure Kubernetes Service (AKS) cluster in an Azure subscription. The manifest of the registered server application is shown in the following exhibit. You need to ensure that the AKS cluster and Azure Active Directory (Azure AD) are integrated. Which property should you modify in the manifest?](#you-plan-to-create-an-azure-kubernetes-service-aks-cluster-in-an-azure-subscription-the-manifest-of-the-registered-server-application-is-shown-in-the-following-exhibit-you-need-to-ensure-that-the-aks-cluster-and-azure-active-directory-azure-ad-are-integrated-which-property-should-you-modify-in-the-manifest)
+| 300 | [You plan to implement JIT VM access. Which virtual machines will be supported?](#you-plan-to-implement-jit-vm-access-which-virtual-machines-will-be-supported)
+| 301 | [You have an Azure subscription that contains a virtual network. The virtual network contains the subnets shown in the following table. The subscription contains the virtual machines shown in the following table. You enable just in time (JIT) VM access for all the virtual machines. You need to identify which virtual machines are protected by JIT. Which virtual machines should you identify?](#you-have-an-azure-subscription-that-contains-a-virtual-network-the-virtual-network-contains-the-subnets-shown-in-the-following-table-the-subscription-contains-the-virtual-machines-shown-in-the-following-table-you-enable-just-in-time-jit-vm-access-for-all-the-virtual-machines-you-need-to-identify-which-virtual-machines-are-protected-by-jit-which-virtual-machines-should-you-identify)
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -3538,5 +3543,62 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 - [ ] Edit the role assignment settings.
 - [ ] Update the end date of the user assignment.
 - [x] Edit the role activation settings.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains the custom roles shown in the following table. In the Azure portal, you plan to create new custom roles by cloning existing roles. The new roles will be configured as shown in the following table. Which roles can you clone to create each new role?
+
+![Question 297 part 1](images/question297_1.jpg)
+![Question 297 part 2](images/question297_2.jpg)
+![Question 297 part 3](images/question297_3.jpg)
+
+- [x] Role3: Role1 only. Role4: Role2 and built-in Azure subscription roles only.
+- [ ] Role3: Built-in Azure AD roles only. Role4: Role2 only.
+- [ ] Role3: Built-in Azure AD roles only. Role4: Built-in Azure AD roles only.
+- [ ] Role3: Role1 and built-in Azure subscription roles only. Role4: Role2 and built-in Azure subscription roles only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains an Azure SQL database named SQLDB1. SQLDB1 contains the columns shown in the following table. For the Email and Birthday columns, you implement dynamic data masking by using the default masking function. Which value will the users see in each column?
+
+![Question 298 part 1](images/question298_1.jpg)
+![Question 298 part 2](images/question298_2.jpg)
+
+- [ ] Email: 1900-01-01. Birthday: 2010-XX-XX.
+- [ ] Email: XXXX. Birthday: XXXX.
+- [x] Email: XXXX. Birthday: 1900-01-01.
+- [ ] Email: 1900-01-01. Birthday: XXXX.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You plan to create an Azure Kubernetes Service (AKS) cluster in an Azure subscription. The manifest of the registered server application is shown in the following exhibit. You need to ensure that the AKS cluster and Azure Active Directory (Azure AD) are integrated. Which property should you modify in the manifest?
+
+![Question 299](images/question299.png)
+
+- [ ] accessTokenAcceptedVersion.
+- [ ] keyCredentials.
+- [x] groupMembershipClaims.
+- [ ] acceptMappedClaims.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You plan to implement JIT VM access. Which virtual machines will be supported?
+
+- [x] VM2, VM3, and VM4 only.
+- [ ] VM1, VM2, VM3, and VM4.
+- [ ] VM1 and VM3 only.
+- [ ] VM1 only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains a virtual network. The virtual network contains the subnets shown in the following table. The subscription contains the virtual machines shown in the following table. You enable just in time (JIT) VM access for all the virtual machines. You need to identify which virtual machines are protected by JIT. Which virtual machines should you identify?
+
+![Question 301 part 1](images/question301_1.png)
+![Question 301 part 2](images/question301_2.png)
+
+- [ ] VM4 only.
+- [ ] VM1 and VM3 only.
+- [x] VM1, VM3 and VM4 only.
+- [ ] VM1, VM2, VM3, and VM4.
 
 **[⬆ Back to Top](#table-of-contents)**
