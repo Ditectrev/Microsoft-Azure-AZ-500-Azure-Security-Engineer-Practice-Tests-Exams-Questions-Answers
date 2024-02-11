@@ -362,6 +362,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 299 | [You plan to create an Azure Kubernetes Service (AKS) cluster in an Azure subscription. The manifest of the registered server application is shown in the following exhibit. You need to ensure that the AKS cluster and Azure Active Directory (Azure AD) are integrated. Which property should you modify in the manifest?](#you-plan-to-create-an-azure-kubernetes-service-aks-cluster-in-an-azure-subscription-the-manifest-of-the-registered-server-application-is-shown-in-the-following-exhibit-you-need-to-ensure-that-the-aks-cluster-and-azure-active-directory-azure-ad-are-integrated-which-property-should-you-modify-in-the-manifest)
 | 300 | [You plan to implement JIT VM access. Which virtual machines will be supported?](#you-plan-to-implement-jit-vm-access-which-virtual-machines-will-be-supported)
 | 301 | [You have an Azure subscription that contains a virtual network. The virtual network contains the subnets shown in the following table. The subscription contains the virtual machines shown in the following table. You enable just in time (JIT) VM access for all the virtual machines. You need to identify which virtual machines are protected by JIT. Which virtual machines should you identify?](#you-have-an-azure-subscription-that-contains-a-virtual-network-the-virtual-network-contains-the-subnets-shown-in-the-following-table-the-subscription-contains-the-virtual-machines-shown-in-the-following-table-you-enable-just-in-time-jit-vm-access-for-all-the-virtual-machines-you-need-to-identify-which-virtual-machines-are-protected-by-jit-which-virtual-machines-should-you-identify)
+| 302 | [You have an Azure subscription that contains a virtual machine named VM1. You create an Azure key vault that has the following configurations: Name: Vault5. Region: West US. Resource group: RG1. You need to use Vault5 to enable Azure Disk Encryption on VM1. The solution must support backing up VM1 by using Azure Backup. Which key vault settings should you configure?](#you-have-an-azure-subscription-that-contains-a-virtual-machine-named-vm1-you-create-an-azure-key-vault-that-has-the-following-configurations-name-vault5-region-west-us-resource-group-rg1-you-need-to-use-vault5-to-enable-azure-disk-encryption-on-vm1-the-solution-must-support-backing-up-vm1-by-using-azure-backup-which-key-vault-settings-should-you-configure)
+| 303 | [You are configuring and securing a network environment. You deploy an Azure virtual machine named VM1 that is configured to analyze network traffic. You need to ensure that all network traffic is routed through VM1. What should you configure?](#you-are-configuring-and-securing-a-network-environment-you-deploy-an-azure-virtual-machine-named-vm1-that-is-configured-to-analyze-network-traffic-you-need-to-ensure-that-all-network-traffic-is-routed-through-vm1-what-should-you-configure)
+| 304 | [You have an Azure subscription named Sub1 that contains the resources shown in the following table. You need to ensure that you can provide VM1 with secure access to a database on SQL1 by using a contained database user. What should you do?](#you-have-an-azure-subscription-named-sub1-that-contains-the-resources-shown-in-the-following-table-you-need-to-ensure-that-you-can-provide-vm1-with-secure-access-to-a-database-on-sql1-by-using-a-contained-database-user-what-should-you-do)
+| 305 | [You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to implement an application that will consist of the resources shown in the following table. Users will authenticate by using their Azure AD user account and access the Cosmos DB account by using resource tokens. You need to identify which tasks will be implemented in CosmosDB1 and WebApp1. Which task should you identify for each resource?](#you-have-an-azure-subscription-named-sub1-that-is-associated-to-an-azure-active-directory-azure-ad-tenant-named-contosocom-you-plan-to-implement-an-application-that-will-consist-of-the-resources-shown-in-the-following-table-users-will-authenticate-by-using-their-azure-ad-user-account-and-access-the-cosmos-db-account-by-using-resource-tokens-you-need-to-identify-which-tasks-will-be-implemented-in-cosmosdb1-and-webapp1-which-task-should-you-identify-for-each-resource)
+
 
 ### Please wait while the virtual machine loads. Once loaded, you may proceed to the lab section. This may take a few minutes, and the wait time will not be deducted from your overall test time. Use the following login credentials as needed: To enter your username, place your cursor in the Sign in box and click on the username below. To enter your password, place your cursor in the Enter password box and click on the password below. Azure Username: <admin@abc.com>. Azure Password: XXXXXXXX. The following information is for technical support purposes only: Lab Instance: 12345678. You need to prevent administrative users from accidentally deleting a virtual network named VNET1. The administrative users must be allowed to modify the settings of VNET1. To complete this task, sign in to the Azure portal. This task might take several minutes to complete. You can perform other tasks while the task completes.
 
@@ -815,7 +820,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You have an Azure web app named webapp1. You need to configure continuous deployment for webapp1 by using an Azure Repo. What should you create first?
 
 - [ ] Azure Application Insights service.
-- [x] Azure DevOps organizations.
+- [x] Azure DevOps organization.
 - [ ] Azure Storage account.
 - [ ] Azure DevTest Labs lab.
 
@@ -3600,5 +3605,45 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 - [ ] VM1 and VM3 only.
 - [x] VM1, VM3 and VM4 only.
 - [ ] VM1, VM2, VM3, and VM4.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription that contains a virtual machine named VM1. You create an Azure key vault that has the following configurations: Name: Vault5. Region: West US. Resource group: RG1. You need to use Vault5 to enable Azure Disk Encryption on VM1. The solution must support backing up VM1 by using Azure Backup. Which key vault settings should you configure?
+
+- [x] Access policies.
+- [ ] Secrets.
+- [ ] Keys.
+- [ ] Locks.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You are configuring and securing a network environment. You deploy an Azure virtual machine named VM1 that is configured to analyze network traffic. You need to ensure that all network traffic is routed through VM1. What should you configure?
+
+- [ ] System route.
+- [ ] Network Security Group (NSG).
+- [x] User-defined route.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription named Sub1 that contains the resources shown in the following table. You need to ensure that you can provide VM1 with secure access to a database on SQL1 by using a contained database user. What should you do?
+
+![Question 304](images/question304.jpeg)
+
+- [x] Enable a managed service identity on VM1.
+- [ ] Create a secret in KV1.
+- [ ] Configure a service endpoint on SQL1.
+- [ ] Create a key in KV1.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You have an Azure subscription named Sub1 that is associated to an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to implement an application that will consist of the resources shown in the following table. Users will authenticate by using their Azure AD user account and access the Cosmos DB account by using resource tokens. You need to identify which tasks will be implemented in CosmosDB1 and WebApp1. Which task should you identify for each resource?
+
+![Question 305 part 1](images/question305_1.jpg)
+![Question 305 part 2](images/question305_2.jpg)
+
+- [ ] CosmosDB1: Authenticate Azure AD users and generate resource tokens. WebApp1: Authenticate Azure AD users and relay resource tokens.
+- [ ] CosmosDB1: Authenticate Azure AD users and relay resource tokens. WebApp1: Authenticate Azure AD users and generate resource tokens.
+- [x] CosmosDB1: Create database users and generate resource tokens. WebApp1: Authenticate Azure AD users and relay resource tokens.
+- [ ] CosmosDB1: Create database users and generate resource tokens. WebApp1: Authenticate Azure AD users and generate resource tokens.
 
 **[⬆ Back to Top](#table-of-contents)**
