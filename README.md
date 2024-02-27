@@ -20,20 +20,28 @@
 2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 3. Learn about topics, such as:
    - Access Control;
-   - Application Security Group (ASG);
+   - Application Security Groups (ASGs);
    - Authentication & Authorization;
    - Azure Active Directory (Azure AD);
+   - Azure Container Registry;
+   - Azure Kubernetes Service (AKS);
    - Azure Policy;
+   - Azure SQL Databases;
    - Azure Security Center;
    - Azure Storage;
-   - Azure Virtual Network (VNet);
+   - Azure Virtual Networks (VNets);
+   - Key Vaults;
    - Locks;
    - Log Analytics;
-   - Microsoft Malware for Azure;
+   - Microsoft Antimalware for Azure;
    - Microsoft Sentinel;
-   - Network Security Group (NSG);
+   - Multi-Factor Authentication (MFA);
+   - Network Security Groups (NSGs);
+   - Network Security Rules;
    - Privileged Identity Management (PIM);
-   - Virtual Machine (VM);
+   - Role Based Access Control (RBAC);
+   - Subnets;
+   - Virtual Machines (VMs);
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
