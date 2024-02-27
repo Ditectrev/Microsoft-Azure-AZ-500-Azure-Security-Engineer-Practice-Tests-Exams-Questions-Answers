@@ -19,16 +19,30 @@
 1. Always happy to answer your questions on Udemy's Q&A's and outside :)
 2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 3. Learn about topics, such as:
-   - ...;
+   - Access Control;
+   - Application Security Group (ASG);
+   - Authentication & Authorization;
+   - Azure Active Directory (Azure AD);
+   - Azure Policy;
+   - Azure Security Center;
+   - Azure Storage;
+   - Azure Virtual Network (VNet);
+   - Locks;
+   - Log Analytics;
+   - Microsoft Malware for Azure;
+   - Microsoft Sentinel;
+   - Network Security Group (NSG);
+   - Privileged Identity Management (PIM);
+   - Virtual Machine (VM);
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
 6. This course is **not** a Microsoft Azure AZ-500 (Azure Security Engineer) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
-7. 279 **unique** questions.
+7. 308 **unique** questions.
 
 ## ☝️ Course Updates
 
-**[v1.0.0](../../releases/tag/v1.0.0): February XY, 2024.**
+**[v1.0.0](../../releases/tag/v1.0.0): February 29, 2024.**
 
 - Launch of the course.
 
