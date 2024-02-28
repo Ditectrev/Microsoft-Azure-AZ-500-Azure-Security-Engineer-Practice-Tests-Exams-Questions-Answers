@@ -3312,7 +3312,7 @@ Virtual Networks in the left navigation pane. 2. In the properties of VNET1, cli
 ![Question 269 part 6](images/question23_96_97_269_281_292_6.jpg)
 ![Question 269 part 7](images/question23_96_97_269_281_292_7.png)
 ![Question 269 part 8](images/question23_96_97_269_281_292_8.jpg)
-![Question 269 part 9](images/question269.jpeg)
+![Question 269 part 9](images/question269_9.jpeg)
 
 - [ ] NSGs: NSG2 only. Virtual machines: VM1, VM2, and VM4 only.
 - [ ] NSGs: NSG2 and NSG4 only. Virtual machines: VM1, VM2, and VM4 only.
